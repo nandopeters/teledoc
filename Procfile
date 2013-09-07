@@ -1,1 +1,1 @@
-web: python teledoc.py
+web: gunicorn teledoc:app
