@@ -32,14 +32,14 @@ def handle_root_key():
 @app.route("/ems", methods=['GET', 'POST'])
 def ems():
   resp = twilio.twiml.Response()
-  resp.say("We're looking up local EMS services based on your location.",**default_ops)
+  resp.say("We're looking up local E M S services based on your location.",**default_ops)
   return str(resp)
 
 @app.route("/diagnose", methods=['GET', 'POST'])
 def diagnose():
   resp = twilio.twiml.Response()
   resp.say("We are diagnosing you.",**default_ops)
-  resp.pause(3)
+  resp.pause(length=3)
   resp.say("You are going to die.")
   return str(resp)
 
