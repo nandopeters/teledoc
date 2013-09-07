@@ -13,12 +13,13 @@ def root():
   print request.values.get('From')
   resp = twilio.twiml.Response()
   resp.say("Hello, welcome to teledoc.",**default_ops)
-  with resp.gather(numDigits=1, action="/handle-root-key", method="POST") as g:
-    g.say("If you're in need of immediate medical attention please press 0 to be connected to local medical services. Otherwise press 2 to be diagnosed.", **default_ops)
+  with resp.gather(numDigits=1, action="/handle-root-key", method="POST", **default_ops) as g:
+    g.say("If you're in need of immediate medical attention please press 0 to be connected to local medical services. Otherwise press 2 to be diagnosed.")
   return str(resp)
 
 @app.route("/handle-root-key", methods=['GET', 'POST'])
 def handle_root_key():
+  print request.values.get('Digits', None)
   digit_pressed = request.values.get('Digits', None)
   if digit_pressed == "0": #EMS
     return redirect("/ems")
