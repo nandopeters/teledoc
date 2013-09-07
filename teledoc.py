@@ -22,7 +22,7 @@ def handle_root_key():
   digit_pressed = request.values.get('Digits', None)
   if digit_pressed == "0": #EMS
     return redirect("/ems")
-  else if digit_pressed == "1": #Diagnose
+  elif digit_pressed == "1": #Diagnose
     return redirect("/diagnose")
   else:
     return redirect("/")
