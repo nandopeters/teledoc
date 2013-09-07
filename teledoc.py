@@ -9,6 +9,8 @@ default_ops = {
 
 @app.route("/", methods=['GET', 'POST'])
 def root():
+  print 'Caller:'
+  print request.values.get('From')
   resp = twilio.twiml.Response()
   resp.say("Hello, welcome to teledoc.",**default_ops)
   with resp.gather(numDigits=1, action="/handle-root-key", method="POST") as g:
