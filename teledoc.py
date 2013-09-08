@@ -51,8 +51,8 @@ def queue():
   resp.say("Please hold while we look up your location.",**default_ops)
   resp.enqueue("pending") #Put the user in the pending queue.
 
-  urllib.urlretrieve (request.values.get('RecordingUrl'), "{0}.wav".format(request.values.get('CallSid')))
-  print call_att_api("{0}.wav".format(request.values.get('CallSid'), "data/grammar.xml")
+  urllib.urlretrieve(request.values.get('RecordingUrl'), "{0}.wav".format(request.values.get('CallSid')))
+  print call_att_api("{0}.wav".format(request.values.get('CallSid')), "data/grammar.xml")
   return str(resp)
 
 @app.route("/transcription-callback", methods=['GET', 'POST'])
