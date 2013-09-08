@@ -1,6 +1,7 @@
 from flask import Flask, request
 import twilio.twiml
 from twilio.rest import TwilioRestClient
+from time import sleep
 
 import helpers
 
@@ -56,7 +57,7 @@ def handle_root_key():
 def ems():
   resp = twilio.twiml.Response()
   resp.say("Please say the country you are in and then press the pound key.", **default_ops)
-  resp.record(action="/ems-queue", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-transcription-callback?call_id={0}".format(request.values.get('CallSid')))
+  resp.record(action="/ems-queue", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-transcription-callback")
   return str(resp)
 
 @app.route("/ems-queue", methods=['GET', 'POST'])
@@ -68,22 +69,21 @@ def ems_queue():
 
 @app.route("/ems-transcription-callback", methods=['GET', 'POST'])
 def ems_country_transcription():
+  print "Looking up the phone number"
   number = helpers.get_phone_for_code(helpers.get_code_for_country(str(request.values.get('TranscriptionText'))))
   call_id = request.values.get('CallSid')
   print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
-  print "Looking up the phone number"
   print number
-  print call_id
-  Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number={0}".format(number),call_id, method="POST")
+  member = Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number={0}".format(number), call_id, method="POST")
   return ""
 
 @app.route("/ems-finish", methods=['GET', 'POST'])
-def ems_country_transcription():
+def ems_finish():
   number = request.args.get('ems_number')
   print "Showing number to user"
   print number
   resp = twilio.twiml.Response()
-  resp.say("To get emergency medical attention in your country hang up and dial {0}".format(number))
+  resp.say("To get emergency medical attention in your country hang up and dial {0}".format(" ".join(list(str(number)))))
   resp.hangup()
   return str(resp)
 
