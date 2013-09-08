@@ -59,8 +59,8 @@ def location_check():
     resp.say("We were unabled to look up your location.",**default_ops)
     resp.redirect("/")
     return str(resp)
+  location_name = helpers.get_country_for_code(sessions[request.values.get('CallSid')]['location'])
   with resp.gather(numDigits=1, action="/location_check_cb", method="POST") as g:
-    location_name = helpers.get_country_for_code(sessions[request.values.get('CallSid')]['location'])
     print location_name
     resp.say("You are in {0}. Is that correct? Press 1 for yes, 0 for no.".format(location_name),**default_ops)
   return str(resp)
