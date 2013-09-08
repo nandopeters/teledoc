@@ -11,7 +11,7 @@ def read_symptoms_file():
 def get_symptoms_for_disease(list, disease):
   for row in list:
     if row[0] == disease:
-      return row[2:]
+      return row[1:]
   return []
 
 def get_symptom_probabilities(list, symptom):
