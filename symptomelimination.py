@@ -4,10 +4,8 @@ from symptomProbability import read_symptoms_file, get_symptoms_for_disease, get
 def get_ordered_symptom_list(diseasesproblist, symptomlist, country, answers):
   diseases = get_diseases_for_country(diseasesproblist, country)
   symptoms = {}
-  print diseases
   for disease in diseases:
     tmp = get_symptoms_for_disease(symptomlist, disease['disease'])
-    print disease['disease'] + ': ' + str(tmp)
     for symptom in tmp:
       sprob = get_symptom_probabilities(symptomlist, symptom)
       if symptom not in symptoms:
