@@ -59,7 +59,8 @@ def queue():
     }
     set_session(redis, call_id, user_session)
     sleep(1)
-    return str(resp.redirect("/location_check"))
+    resp.redirect("/location_check")
+    return str(resp)
   resp.enqueue("pending") #Put the user in the pending queue.
   q = { 'call_id':request.values.get('CallSid'), 'file' : request.values.get('RecordingUrl')}
   requests.get('http://enigmatic-cliffs-8074.herokuapp.com/?{0}'.format(urllib.urlencode(q)))
