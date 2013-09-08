@@ -5,6 +5,7 @@ def readcsv(filename):
     csvreader = csv.reader(csvfile, delimiter=',', quotechar='#')
     headers = []
     content = []
+    i = 1
     for row in csvreader:
       if len(headers) == 0:
         headers = row
@@ -13,4 +14,5 @@ def readcsv(filename):
         for i in range(0, len(row)):
           data[headers[i]] = row[i]
         content.append(data)
+      i += 1
     return content
