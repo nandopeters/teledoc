@@ -183,6 +183,8 @@ def hello_monkey():
       symptoms.append(helpers.get_highst_score_symptom(result[i]))
     symptoms = list(set(symptoms))
     diseases = symptomelimination.calculate_probability_for_disease(location,symptoms)
+    for disease in diseases:
+      print helpers.get_name_for_disease(disease['disease']), disease['probability']
     message = "We have determined there is a high probability you have {0}".format(helpers.get_name_for_disease(diseases[0]['disease']))
   else:
     number = helpers.get_phone_for_country(helpers.get_code_for_country(body))
