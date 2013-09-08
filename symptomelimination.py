@@ -10,7 +10,7 @@ def calculate_probability_for_disease(country, user_symptom_list):
   for disease in diseases_in_country:
     prob = 0
     if len(user_symptom_list) == 0:
-      prob = helpers.get_probability_for_disease(disease['disease'],country)
+      prob = 0
     else:
       for symptom in user_symptom_list:
         if symptom in data.symptoms_for_disease[disease['disease']]:
