@@ -31,9 +31,9 @@ def handle_root_key():
 def ems():
   resp = twilio.twiml.Response()
   resp.say("We're looking up local E M S services based on your location.",**default_ops)
+  resp.say("Say your country", **default_ops)
   phonecountry = request.values.get('FromCountry')
-  with resp.record(action="/ems-country", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-country-transcription") as g:
-    g.say("Say your country", **default_ops)
+  resp.record(action="/ems-country", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-country-transcription")
   return str(resp)
 
 @app.route("/ems-country", methods=['GET', 'POST'])
