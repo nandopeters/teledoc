@@ -1,2 +1,14 @@
-japanese encephalitis; fever, headache, malaise
-malaria; headache, fever, fatigue, "back pain", chills, sweating, cough, nausea, vomiting
+cholera,diarrhea,vomiting,"low blood pressure","sunken eyes","rapid pusle"
+diphteria,fever,chills,fatigue,"bluish skin","sore throat","cough",headache,"difficulty swallowing","painful swallowing","difficulty breathing","rapid breathing"
+H5N1,diarrhea,coma,cough
+japanese encephalitis,fever,headache,malaise
+malaria,headache,fever,fatigue,"back pain",chills,sweating,cough,nausea,vomiting
+measles,fever,cough,"red eyes","head cold",rashes
+meningitis,headache,neck stiffness,confusion,vomiting,"sensitivity to light","sensitivity to noise"
+mumps,"swelled testicles",rashes,fever,headache,malaise
+pertussis,cough,fainting,vomiting
+plague,chills,fever,cramps,seizures,pain,"change of skin colour",bleeding,diarrhea,"low blood pressure",nausea,vomiting
+rubella,"swollen hands","swollen lymphnodes",fever,rashes,
+tetanus,spasms,sweating,fever
+tuberculosis,fever,chills,sweating,"loss of appetite",fatigue,"finger clubbing"
+"yellow fever",fever,headache,chills,"back pain","loss of appetite",nausea,vomiting
