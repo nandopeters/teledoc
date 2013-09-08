@@ -39,7 +39,7 @@ def handle_root_key():
 def ems():
   resp = twilio.twiml.Response()
   resp.say("Please say the country you are in and then press the pound key.", **default_ops)
-  resp.record(action="/ems-queue", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-transcription-callback"))
+  resp.record(action="/ems-queue", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-transcription-callback")
   return str(resp)
 
 @app.route("/ems-queue", methods=['GET', 'POST'])
