@@ -1,4 +1,4 @@
-from data import countries, phone_for_country
+import data
 
 def __levenshtein(a,b):
   "Calculates the Levenshtein distance between a and b."
@@ -23,7 +23,7 @@ def __levenshtein(a,b):
 def get_code_for_country(country):
   """Gets a country based on a user submitted search string"""
   codes = []
-  for code, names in countries.iteritems():
+  for code, names in data.countries.iteritems():
     min_lev = min([__levenshtein(country.lower(), name.lower()) for name in names])
     codes.append({"code": code, "distance": min_lev})
 
@@ -35,4 +35,23 @@ def get_code_for_country(country):
 
 def get_phone_for_code(code):
   """Gets the EMS phone for a country code"""
-  return phone_for_country[code]
+  if code in data.phone_for_country:
+    return data.phone_for_country[code]
+  else:
+    return "911"
+
+def get_name_for_disease(code):
+  if code in data.disease_name_map:
+    return data.disease_name_map[code]
+  else:
+    return "unknown disease"
+
+def get_probability_for_disease(disease, country=None):
+  if country:
+    diseases = data.disease_prob_for_country[country]
+    filtered_diseases = filter(lambda x: x['disease'] == disease.lower(), diseases)
+    return filtered_diseases[0]['probability']
+  else:
+    return data.background_disease_probability[disease.lower()]
+
+print get_probability_for_disease("TB_tot_newrel","USA")
