@@ -104,7 +104,7 @@ def diagnose_cb():
   diseases = sorted(diseases, cmp=lambda x, y: cmp(y['probability'],x['probability']))
   diseases = filter(lambda x: x['probability'] > 0,diseases)
   if len(diseases) == 1:
-    resp.say("We have determined there is a high probability you have {0}".format(diseases[0]['disease']),**default_ops)
+    resp.say("We have determined there is a high probability you have {0}".format(helpers.get_name_for_disease(diseases[0]['disease'])),**default_ops)
   else:
     resp.redirect('/diagnose')
   return str(resp)

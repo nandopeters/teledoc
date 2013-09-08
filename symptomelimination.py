@@ -26,7 +26,6 @@ def get_ordered_symptom_list(country, user_symptom_list, symptom_blacklist):
   diseases = data.disease_prob_for_country[country]
   disease_probabilities = {}
   tmp = calculate_probability_for_disease(country, user_symptom_list)
-  print tmp
   for d in tmp:
     disease_probabilities[d['disease']] = d['probability']
   symptoms = {}
