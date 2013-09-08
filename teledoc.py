@@ -51,17 +51,17 @@ def ems_queue():
 
 @app.route("/ems-transcription-callback", methods=['GET', 'POST'])
 def ems_country_transcription():
+  print "Looking up the phone number"
   number = helpers.get_phone_for_code(helpers.get_code_for_country(str(request.values.get('TranscriptionText'))))
   call_id = request.values.get('CallSid')
   print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
-  print "Looking up the phone number"
   print number
   print call_id
   Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number={0}".format(number),call_id, method="POST")
   return ""
 
 @app.route("/ems-finish", methods=['GET', 'POST'])
-def ems_country_transcription():
+def ems_finish():
   number = request.args.get('ems_number')
   print "Showing number to user"
   print number
