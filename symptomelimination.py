@@ -14,7 +14,6 @@ def get_ordered_symptom_list(diseasesproblist, symptomlist, country, answers):
         symptoms[symptom] = disease['prob'] * sprob
       else:
         symptoms[symptom] *= disease['prob']
-  print symptoms
   return sorted([{'disease': z[0], 'prob': z[1]} for z in symptoms.iteritems()], reverse=True, cmp=lambda x,y: cmp(x['prob'], y['prob']))
 
 if __name__ =='__main__':
