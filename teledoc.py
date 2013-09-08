@@ -9,8 +9,6 @@ default_ops = {
 
 @app.route("/", methods=['GET', 'POST'])
 def root():
-  print 'Caller:'
-  print request.values.get('From')
   resp = twilio.twiml.Response()
   resp.say("Hello, welcome to teledoc.",**default_ops)
   with resp.gather(numDigits=1, action="/handle-root-key", method="POST") as g:
@@ -33,6 +31,22 @@ def handle_root_key():
 def ems():
   resp = twilio.twiml.Response()
   resp.say("We're looking up local E M S services based on your location.",**default_ops)
+  phonecountry = request.values.get('FromCountry')
+  with resp.record(action="/ems-country", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-country-transcription") as g:
+    g.say("Say your country", **default_ops)
+  return str(resp)
+
+@app.route("/ems-country", methods=['GET', 'POST'])
+def ems_country():
+  resp = twilio.twiml.Response()
+  resp.hangup()
+  return str(resp)
+
+@app.route("/ems-country-transcription", methods=['GET', 'POST'])
+def ems_country_transcription():
+  print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
+  resp = twilio.twiml.Response()
+  resp.hangup()
   return str(resp)
 
 @app.route("/diagnose", methods=['GET', 'POST'])
