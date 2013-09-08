@@ -158,7 +158,7 @@ def diagnose_cb():
     resp.hangup()
     redis.delete(request.values.get('CallSid'))
   elif user_session['question_count'] >= 7:
-    resp.say("Sorry, we are unable to determine what you are sick with."**default_ops)
+    resp.say("Sorry, we are unable to determine what you are sick with.",**default_ops)
     resp.redirect('/ems')
   else:
     resp.redirect('/diagnose')
