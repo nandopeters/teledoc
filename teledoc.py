@@ -39,7 +39,7 @@ def handle_root_key():
 def ems():
   resp = twilio.twiml.Response()
   resp.say("Please say the country you are in and then press the pound key.", **default_ops)
-  resp.record(action="/ems-queue", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-transcription-callback?call_id={0}".format(request.values.get('CallSid')))
+  resp.record(action="/ems-queue", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-transcription-callback"))
   return str(resp)
 
 @app.route("/ems-queue", methods=['GET', 'POST'])
@@ -57,7 +57,9 @@ def ems_country_transcription():
   print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
   print number
   print call_id
-  Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number={0}".format(number),call_id, method="POST")
+  members = Tclient.members('***REMOVED***')
+  print members
+  members.dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number={0}".format(number),call_id, method="POST")
   return ""
 
 @app.route("/ems-finish", methods=['GET', 'POST'])
