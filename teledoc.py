@@ -45,9 +45,7 @@ def ems_country():
 @app.route("/ems-country-transcription", methods=['GET', 'POST'])
 def ems_country_transcription():
   print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
-  resp = twilio.twiml.Response()
-  resp.hangup()
-  return str(resp)
+  return
 
 @app.route("/diagnose", methods=['GET', 'POST'])
 def diagnose():
