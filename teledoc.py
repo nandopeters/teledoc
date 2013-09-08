@@ -149,7 +149,7 @@ def diagnose_cb():
 @app.route("/sms", methods=['GET', 'POST'])
 def hello_monkey():
   body = request.values.get('Body', None)
-  number = helpers.get_country_for_code(helpers.get_code_for_country(body))
+  number = helpers.get_phone_for_country(helpers.get_code_for_country(body))
   message = "Your emergency number is: " + number
   resp = twilio.twiml.Response()
   resp.sms(message)
