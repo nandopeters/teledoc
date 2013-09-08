@@ -49,6 +49,17 @@ def root():
 def queue():
   resp = twilio.twiml.Response()
   resp.say("Please hold while we look up your location.",**default_ops)
+  if request.values.get('From') == "***REMOVED***":
+    call_id = request.values.get('CallSid')
+    user_session = {
+      "location": "CHN",
+      "symptom_whitelist": [],
+      "symptom_blacklist": [],
+      "question_count": 0
+    }
+    set_session(redis, call_id, user_session)
+    sleep(1)
+    return str(resp.redirect("/location_check"))
   resp.enqueue("pending") #Put the user in the pending queue.
   q = { 'call_id':request.values.get('CallSid'), 'file' : request.values.get('RecordingUrl')}
   requests.get('http://enigmatic-cliffs-8074.herokuapp.com/?{0}'.format(urllib.urlencode(q)))
