@@ -34,7 +34,7 @@ def get_code_for_country(country):
   if sorted_codes[0]['code'] in data.supported_countries:
     return sorted_codes[0]['code']
   else:
-    return None
+    return ""
 
 def get_country_for_code(code):
   return data.countries[code][0]
