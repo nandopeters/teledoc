@@ -6,6 +6,7 @@ import symptomelimination
 import urllib
 import redis
 import os
+import pickle
 import helpers
 
 #redis
