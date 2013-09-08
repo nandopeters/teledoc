@@ -4,7 +4,7 @@ import twilio.twiml
 app = Flask(__name__)
 
 default_ops = {
-  "voice":"women"
+  "voice":"woman"
 }
 
 @app.route("/", methods=['GET', 'POST'])
@@ -40,7 +40,7 @@ def diagnose():
   resp = twilio.twiml.Response()
   resp.say("We are diagnosing you.",**default_ops)
   resp.pause(length=3)
-  resp.say("You are going to die.")
+  resp.say("You are going to die.".**default_ops)
   return str(resp)
 
 if __name__ == "__main__":
