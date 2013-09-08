@@ -1,6 +1,8 @@
 from flask import Flask, request
 import twilio.twiml
 
+import helpers
+
 app = Flask(__name__)
 
 default_ops = {
@@ -45,7 +47,9 @@ def ems_country():
 @app.route("/ems-country-transcription", methods=['GET', 'POST'])
 def ems_country_transcription():
   print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
-  return
+  print "Looking up the phone number"
+  print helpers.get_phone_for_code(helpers.get_code_for_country(str(request.values.get('TranscriptionText'))))
+  return ""
 
 @app.route("/diagnose", methods=['GET', 'POST'])
 def diagnose():
@@ -56,4 +60,4 @@ def diagnose():
   return str(resp)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+  app.run(debug=True)
