@@ -1,24 +1,39 @@
 import csv
 
+def __uniq(seq):
+  seen = set()
+  seen_add = seen.add
+  return [ x for x in seq if x not in seen and not seen_add(x)]
+
+supported_countries = []
+
 countries = {}
 reader = csv.reader(open('data/countries.csv', 'rb'))
 for row in reader:
-  countries[row[0].strip()] = filter(bool, set([v.strip() for v in row[1:]]))
-
+  supported_countries.append(row[0].strip())
+  countries[row[0].strip()] = filter(bool, __uniq([v.strip() for v in row[1:]]))
 
 phone_for_country = {}
+_temp = []
 reader = csv.reader(open('data/phone_for_country.csv', 'rb'))
 for row in reader:
+  _temp.append(row[0].strip())
   phone_for_country[row[0].strip()] = row[1].strip()
 
+supported_countries = set(supported_countries).intersection(set(_temp))
+
 disease_prob_for_country = {}
+_temp = []
 reader = csv.DictReader(open('data/disease_prob_for_country.csv', 'rb'))
 for row in reader:
   country = row['country'].upper()
+  _temp.append(country)
   if country in disease_prob_for_country:
     disease_prob_for_country[country].append({"disease": row['disease'].lower(), 'probability': float(row['prob'])})
   else:
     disease_prob_for_country[country] = [{"disease": row['disease'].lower(), 'probability': float(row['prob'])}]
+
+supported_countries = set(supported_countries).intersection(set(_temp))
 
 background_disease_probability = {}
 reader = csv.DictReader(open('data/background_prob_disease.csv', 'rb'))

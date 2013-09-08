@@ -31,7 +31,13 @@ def get_code_for_country(country):
     lambda x, y: cmp(
       x['distance'],
       y['distance']))
-  return sorted_codes[0]['code']
+  if sorted_codes[0]['code'] in data.supported_countries:
+    return sorted_codes[0]['code']
+  else:
+    return None
+
+def get_country_for_code(code):
+  return data.countries[code][0]
 
 def get_phone_for_country(code):
   """Gets the EMS phone for a country code"""

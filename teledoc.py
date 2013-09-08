@@ -23,7 +23,8 @@ default_ops = {
 @app.route("/", methods=['GET', 'POST'])
 def root():
   resp = twilio.twiml.Response()
-  resp.say("Hello, welcome to Tele-Doc.",**default_ops)
+  if not request.values.get('CallSid') in sessions:
+    resp.say("Hello, welcome to Tele-Doc.",**default_ops)
   resp.say("Please say the country you are in and then press the pound key.", **default_ops)
   resp.record(action="/queue", method="POST", maxLength=7, transcribe=True, transcribeCallback="/transcription-callback")
   return str(resp)
@@ -48,12 +49,34 @@ def transcription_cb():
     "symptom_blacklist": [],
     "question_count": 0
   }
-  member = Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/service_select", call_id, method="POST")
+  member = Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/location_check", call_id, method="POST")
   return ""
+
+@app.route("/location_check", methods=['GET', 'POST'])
+def location_check():
+  resp = twilio.twiml.Response()
+  if sessions[request.values.get('CallSid')]['location'] == None:
+    resp.say("We were unabled to look up your location.",**default_ops)
+    resp.redirect("/")
+    return str(resp)
+  with resp.gather(numDigits=1, action="/location_check_cb", method="POST") as g:
+    location_name = helpers.get_country_for_code(sessions[request.values.get('CallSid')]['location'])
+    print location_name
+    resp.say("You are in {0}. Is that correct? Press 1 for yes, 0 for no.".format(location_name),**default_ops)
+  return str(resp)
+
+@app.route("/location_check_cb", methods=['GET', 'POST'])
+def location_check_cb():
+  resp = twilio.twiml.Response()
+  digit_pressed = request.values.get('Digits', None)
+  if digit_pressed == "0":
+    resp.redirect("/")
+  else:
+    resp.redirect("/service_select")
+  return str(resp)
 
 @app.route("/service_select", methods=['GET', 'POST'])
 def service_select():
-  resp = twilio.twiml.Response()
   with resp.gather(numDigits=1, action="/service_select_cb", method="POST") as g:
     g.say("If you're in need of immediate medical attention please press 0 to get information about local medical services. Otherwise press 1 to be diagnosed.", **default_ops)
   return str(resp)
