@@ -162,6 +162,7 @@ def diagnose_cb():
     print helpers.get_name_for_disease(disease['disease']), disease['probability']
   if user_session['question_count'] >= 3 and diseases[0]['probability'] > 0.8:
     resp.say("We have determined there is a high probability you have {0}".format(helpers.get_name_for_disease(diseases[0]['disease'])),**default_ops)
+    resp.say("We suggest you seek medical attention as soon as possible",**default_ops)
     resp.hangup()
     redis.delete(request.values.get('CallSid'))
   elif user_session['question_count'] >= 7:
