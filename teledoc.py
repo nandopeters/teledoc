@@ -52,11 +52,26 @@ def ems_country_transcription():
 
 @app.route("/diagnose", methods=['GET', 'POST'])
 def diagnose():
+  #resp = twilio.twiml.Response()
+  #esp.say("We are diagnosing you.",**default_ops)
+  #resp.pause(length=3)
+  #resp.say("You are going to die.",**default_ops)
+  #return str(resp)
   resp = twilio.twiml.Response()
-  resp.say("We are diagnosing you.",**default_ops)
-  resp.pause(length=3)
-  resp.say("You are going to die.",**default_ops)
+  resp.say("Please list your diseases.", **default_ops)
+  resp.record(action="/ems-disease", method="POST", maxLength=30, transcribe=True, transcribeCallback="/disease-list-transcription")
   return str(resp)
+
+@app.route("/disease-list", methods=['GET', 'POST'])
+def disease_list():
+  resp = twilio.twiml.Response()
+  resp.hangup()
+  return str(resp)
+
+@app.route("/disease-list-transcription", methods=['GET', 'POST'])
+def disease_list_transcription():
+  print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
+  return ""
 
 if __name__ == "__main__":
   app.run(debug=True)
