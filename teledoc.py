@@ -1,6 +1,7 @@
 from flask import Flask, request
 import twilio.twiml
 from twilio.rest import TwilioRestClient
+from time import sleep
 
 import helpers
 
@@ -57,9 +58,8 @@ def ems_country_transcription():
   print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
   print number
   print call_id
-  members = Tclient.members('***REMOVED***')
-  print members
-  members.dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number={0}".format(number),call_id, method="POST")
+  sleep(5) #fml
+  client.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number=111", call_id, method="POST")
   return ""
 
 @app.route("/ems-finish", methods=['GET', 'POST'])
