@@ -33,7 +33,7 @@ def get_code_for_country(country):
       y['distance']))
   return sorted_codes[0]['code']
 
-def get_phone_for_code(code):
+def get_phone_for_country(code):
   """Gets the EMS phone for a country code"""
   if code in data.phone_for_country:
     return data.phone_for_country[code]
