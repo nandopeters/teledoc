@@ -1,6 +1,8 @@
 from flask import Flask, request
 import twilio.twiml
 
+import helpers
+
 app = Flask(__name__)
 
 default_ops = {
@@ -30,10 +32,9 @@ def handle_root_key():
 @app.route("/ems", methods=['GET', 'POST'])
 def ems():
   resp = twilio.twiml.Response()
-  resp.say("We're looking up local E M S services based on your location.",**default_ops)
-  resp.say("Say your country", **default_ops)
-  phonecountry = request.values.get('FromCountry')
+  resp.say("Please say the country you are in and then press the pound key.", **default_ops)
   resp.record(action="/ems-country", method="POST", maxLength=30, transcribe=True, transcribeCallback="/ems-country-transcription")
+  phonecountry = request.values.get('FromCountry')
   return str(resp)
 
 @app.route("/ems-country", methods=['GET', 'POST'])
@@ -45,7 +46,9 @@ def ems_country():
 @app.route("/ems-country-transcription", methods=['GET', 'POST'])
 def ems_country_transcription():
   print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
-  return
+  print "Looking up the phone number"
+  print helpers.get_phone_for_code(helpers.get_code_for_country(str(request.values.get('TranscriptionText'))))
+  return ""
 
 @app.route("/diagnose", methods=['GET', 'POST'])
 def diagnose():
@@ -56,4 +59,4 @@ def diagnose():
   return str(resp)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+  app.run(debug=True)
