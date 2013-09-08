@@ -87,7 +87,7 @@ def hello_monkey():
     body = request.values.get('Body', None)
     
     number = helpers.get_phone_for_code(helpers.get_code_for_country(body))
-    message = "Monkey, thanks for the message! " + number
+    message = "Your emergency number is: " + number
  
     resp = twilio.twiml.Response()
     resp.sms(message)
