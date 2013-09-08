@@ -151,9 +151,9 @@ def hello_monkey():
   body = request.values.get('Body', None)
   result = body.replace(' ',',').split(',')
   if( len(result) > 1 ):
-    location = helpers.get_code_for_country(result[1])
+    location = helpers.get_code_for_country(result[0])
     symptoms = []
-    for i in range(2, len(result)):
+    for i in range(1, len(result)):
       symptoms.append(helpers.get_highst_score_symptom(result[i]))
     symptoms = list(set(symptoms))
     diseases = symptomelimination.calculate_probability_for_disease(location,symptoms)
