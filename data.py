@@ -49,3 +49,10 @@ symptoms_for_disease = {}
 reader = csv.reader(open("data/symptoms.csv", 'r'), delimiter=',', quotechar='"')
 for row in reader:
   symptoms_for_disease[row[0].lower()] = row[1:]
+
+symptoms = []
+for disease, disease_symptoms in symptoms_for_disease.iteritems():
+  symptoms = symptoms+disease_symptoms
+
+symptoms = list(set(symptoms))
+

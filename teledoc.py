@@ -149,8 +149,18 @@ def diagnose_cb():
 @app.route("/sms", methods=['GET', 'POST'])
 def hello_monkey():
   body = request.values.get('Body', None)
-  number = helpers.get_phone_for_country(helpers.get_code_for_country(body))
-  message = "Your emergency number is: " + number
+  result = body.replace(' ',',').split(',')
+  if( len(result) > 1 ):
+    location = helpers.get_code_for_country(result[1])
+    symptoms = []
+    for i in range(2, len(result)):
+      symptoms.append(helpers.get_highst_score_symptom(result[i]))
+    symptoms = list(set(symptoms))
+    diseases = symptomelimination.calculate_probability_for_disease(location,symptoms)
+    message = "We have determined there is a high probability you have {0}".format(helpers.get_name_for_disease(diseases[0]['disease']))
+  else:
+    number = helpers.get_phone_for_country(helpers.get_code_for_country(body))
+    message = "Your emergency number is: " + number
   resp = twilio.twiml.Response()
   resp.sms(message)
   return str(resp)
