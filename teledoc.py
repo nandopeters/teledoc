@@ -8,7 +8,7 @@ import redis
 import os
 import pickle
 import helpers
-from attapi import call_att_api
+import requests
 
 #redis
 redis_url = os.getenv('REDISTOGO_URL', 'redis://localhost:6379')
@@ -50,15 +50,15 @@ def queue():
   resp = twilio.twiml.Response()
   resp.say("Please hold while we look up your location.",**default_ops)
   resp.enqueue("pending") #Put the user in the pending queue.
-
-  urllib.urlretrieve(request.values.get('RecordingUrl'), "{0}.wav".format(request.values.get('CallSid')))
-  print call_att_api("{0}.wav".format(request.values.get('CallSid')), "data/grammar.xml")
+  q = { 'call_id':request.values.get('CallSid') , 'file' : request.values.get('RecordingUrl')}
+  requests.get('http://teledoc2.herokuapp.com/?{1}'.format(urllib.urlencode(q)))
   return str(resp)
 
 @app.route("/transcription-callback", methods=['GET', 'POST'])
 def transcription_cb():
   print "Looking up location"
-  location = helpers.get_code_for_country(str(request.values.get('TranscriptionText')))
+  print str(request.args.get('location'))
+  location = helpers.get_code_for_country(str(request.args.get('location')))
   call_id = request.values.get('CallSid')
   print request.values.get('TranscriptionText')
   print location
