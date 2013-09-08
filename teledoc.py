@@ -8,6 +8,7 @@ import redis
 import os
 import pickle
 import helpers
+from attapi import call_att_api
 
 #redis
 redis_url = os.getenv('REDISTOGO_URL', 'redis://localhost:6379')
@@ -41,7 +42,7 @@ def root():
   if get_session(redis, request.values.get('CallSid')) is None:
     resp.say("Hello, welcome to Tele-Doc.",**default_ops)
   resp.say("Please say the country you are in and then press the pound key.", **default_ops)
-  resp.record(action="/queue", method="POST", maxLength=7, transcribe=True, transcribeCallback="/transcription-callback")
+  resp.record(action="/queue", method="POST", maxLength=7)
   return str(resp)
 
 @app.route("/queue", methods=['GET', 'POST'])
@@ -49,6 +50,9 @@ def queue():
   resp = twilio.twiml.Response()
   resp.say("Please hold while we look up your location.",**default_ops)
   resp.enqueue("pending") #Put the user in the pending queue.
+
+  urllib.urlretrieve (request.values.get('RecordingUrl'), "{0}.wav".format(request.values.get('CallSid')))
+  print call_att_api("{0}.wav".format(request.values.get('CallSid'), "data/grammar.xml")
   return str(resp)
 
 @app.route("/transcription-callback", methods=['GET', 'POST'])
