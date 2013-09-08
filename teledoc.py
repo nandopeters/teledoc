@@ -146,18 +146,14 @@ def diagnose_cb():
 
 ###### SMS stuff
 
-# @app.route("/sms", methods=['GET', 'POST'])
-# def hello_monkey():
-
-#     body = request.values.get('Body', None)
-
-#     number = helpers.get_phone_for_code(helpers.get_code_for_country(body))
-#     message = "Your emergency number is: " + number
-
-#     resp = twilio.twiml.Response()
-#     resp.sms(message)
-
-#     return str(resp)
+@app.route("/sms", methods=['GET', 'POST'])
+def hello_monkey():
+  body = request.values.get('Body', None)
+  number = helpers.get_code_for_country(body)
+  message = "Your emergency number is: " + number
+  resp = twilio.twiml.Response()
+  resp.sms(message)
+  return str(resp)
 
 if __name__ == "__main__":
   app.run(debug=True)
