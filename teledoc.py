@@ -55,7 +55,7 @@ def transcription_cb():
 @app.route("/location_check", methods=['GET', 'POST'])
 def location_check():
   resp = twilio.twiml.Response()
-  if sessions[request.values.get('CallSid')]['location'] == None:
+  if sessions[request.values.get('CallSid')]['location'] is None:
     resp.say("We were unabled to look up your location.",**default_ops)
     resp.redirect("/")
     return str(resp)
