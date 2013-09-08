@@ -65,6 +65,7 @@ def transcription_cb():
     "question_count": 0
   }
   set_session(redis, call_id, user_session)
+  sleep(2)
   member = Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/location_check", call_id, method="POST")
   return ""
 
