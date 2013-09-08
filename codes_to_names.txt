@@ -1,0 +1,19 @@
+code,name
+TB_tot_newrel,Tuberculosis
+WHS3_48,Malaria
+WHS3_62,Measles
+WHS3_47,Meningitis
+WHS3_53,Mumps
+WHS3_56,Neonatal tetanus
+WHS3_46,Total tetanus
+WHS3_43,Pertussis
+WHS3_52,Plague
+WHS3_49,Poliomyelitis
+WHS3_57,Rubella
+WHS3_40,Colera
+WHS3_55,Congenital Rubella Syndrome
+WHS3_41,Diphtheria
+WHS3_51,H5N1
+WHS3_42,Japanese encephalitis
+WHS3_45,Leprosy
+WHS3_50,Yellow fever
