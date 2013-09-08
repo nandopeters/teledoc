@@ -29,7 +29,7 @@ def root():
 @app.route("/queue", methods=['GET', 'POST'])
 def queue():
   resp = twilio.twiml.Response()
-  resp.say("Please hold while we look up your location.")
+  resp.say("Please hold while we look up your location.",**default_ops)
   resp.enqueue("pending") #Put the user in the pending queue.
   return str(resp)
 
@@ -73,7 +73,7 @@ def ems():
   number = helpers.get_phone_for_country(sessions[request.values.get('CallSid')]['location'])
   print number
   resp = twilio.twiml.Response()
-  resp.say("To get emergency medical attention in your country hang up and dial {0}".format(" ".join(list(str(number)))))
+  resp.say("To get emergency medical attention in your country hang up and dial {0}".format(" ".join(list(str(number)))),**default_ops)
   resp.hangup()
   return str(resp)
 
