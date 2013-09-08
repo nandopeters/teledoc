@@ -150,6 +150,7 @@ def diagnose_cb():
     user_session['symptom_blacklist'].append(symptom)
     set_session(redis,request.values.get('CallSid'), user_session)
   diseases = symptomelimination.calculate_probability_for_disease(user_session['location'], user_session['symptom_whitelist'])
+  # its for the case that no user input is made (so people will not have a disease without symptom)
   if len(user_session['symptom_whitelist']) == 0:
     for disease in diseases:
       disease['probability'] = 0
