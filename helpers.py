@@ -61,5 +61,3 @@ def get_symptom_probability(symptom_search):
       if symptom_search == symptom:
         count += 1
   return 1/float(count)
-
-print get_symptom_probability("cough")
