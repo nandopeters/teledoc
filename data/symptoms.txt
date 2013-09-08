@@ -8,7 +8,7 @@ whs3_47,meningitis,headache,neck stiffness,confusion,vomiting,sensitivity to lig
 whs3_53,mumps,swelled testicles,rashes,fever,headache,malaise
 whs3_43,pertussis,cough,fainting,vomiting
 whs3_52,plague,chills,fever,cramps,seizures,pain,change of skin colour,bleeding,diarrhea,low blood pressure,nausea,vomiting
-whs3_57,rubella,swollen hands,swollen lymphnodes,fever,rashes,
+whs3_57,rubella,swollen hands,swollen lymphnodes,fever,rashes
 whs3_56,tetanus,spasms,sweating,fever
 tb_tot_newrel,tuberculosis,fever,chills,sweating,loss of appetite,fatigue,finger clubbing
 whs3_50,yellow fever,fever,headache,chills,back pain,loss of appetite,nausea,vomiting
