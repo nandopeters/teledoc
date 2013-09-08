@@ -3,6 +3,7 @@
 
 import data
 import helpers
+import fileinput
 
 def calculate_probability_for_disease(country, user_symptom_list):
   """Returns diseases based on symptoms the user has"""
@@ -19,7 +20,7 @@ def calculate_probability_for_disease(country, user_symptom_list):
     disease_probabilty.append({ 'disease': disease["disease"], 'probability': prob })
   return disease_probabilty
 
-def get_ordered_symptom_list(country, user_symptom_list):
+def get_ordered_symptom_list(country, user_symptom_list, symptom_blacklist):
   """Returns symptoms to ask the user about based on existing symptoms and location"""
   diseases = data.disease_prob_for_country[country]
   disease_probabilities = {}
@@ -31,6 +32,8 @@ def get_ordered_symptom_list(country, user_symptom_list):
     tmp = data.symptoms_for_disease[disease['disease']]
     for symptom in tmp:
       if symptom in user_symptom_list:
+        continue
+      if symptom in symptom_blacklist:
         continue
       sprob = helpers.get_symptom_probability(symptom)
       sprob *= disease_probabilities[disease['disease']]
@@ -44,4 +47,19 @@ if __name__ =='__main__':
   # diseasesproblist = read_country_diseases_prob_file()
   # symptomlist = read_symptoms_file()
   # print get_ordered_symptom_list(diseasesproblist, symptomlist, 'chn', ['fever', 'headache', 'malaise'])
-  print get_ordered_symptom_list("CHN",["fever","headache","malaise"])
+  # print get_ordered_symptom_list("CHN",["fever","headache","malaise"])
+  country = "USA"
+  user_symptoms = []
+  symptom_blacklist = []
+
+  while True:
+    symptoms = get_ordered_symptom_list(country, user_symptoms, symptom_blacklist)
+    print "Do you have {0}?".format(symptoms[0]['symptom'])
+    if raw_input() == 'y':
+      user_symptoms.append(symptoms[0]['symptom'])
+    else:
+      symptom_blacklist.append(symptoms[0]['symptom'])
+    diseases = calculate_probability_for_disease(country, user_symptoms)
+    diseases = sorted(diseases, cmp=lambda x, y: cmp(y['probability'],x['probability']))
+    diseases = filter(lambda x: x['probability'] > 0,diseases)
+    print len(diseases), diseases
