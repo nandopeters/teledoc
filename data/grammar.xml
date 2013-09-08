@@ -1,0 +1,728 @@
+<grammar root="top" xml:lang="en-US">
+  <rule id="top" scope="public">
+    <item>
+      <one-of>
+        <item>Algeria</item>
+        <item>Argelia</item>
+        <item>Repubblica algerina democratica e popolare</item>
+        <item>Qatar</item>
+        <item>the State of Qatar</item>
+        <item>el Estado de Qatar</item>
+        <item>Stato del Qatar</item>
+        <item>State of Qatar</item>
+        <item>Dawlat Qatar</item>
+        <item>Egypt</item>
+        <item>Egipto</item>
+        <item>the Arab Republic of Egypt</item>
+        <item>Egitto</item>
+        <item>Arab Republic of Egypt</item>
+        <item>Misr</item>
+        <item>Bulgaria</item>
+        <item>Bulgarie</item>
+        <item>the Republic of Bulgaria</item>
+        <item>Repubblica di Bulgaria</item>
+        <item>Republic of Bulgaria</item>
+        <item>Balgariya</item>
+        <item>Republika Balgariya</item>
+        <item>Plurinational State of Bolivia</item>
+        <item>Bolivia</item>
+        <item>Stato plurinazionale della Bolivia</item>
+        <item>Estado Plurinacional de Bolivia</item>
+        <item>Ghana</item>
+        <item>the Republic of Ghana</item>
+        <item>Repubblica del Ghana</item>
+        <item>Republic of Ghana</item>
+        <item>Pakistan</item>
+        <item>the Islamic Republic of Pakistan</item>
+        <item>Repubblica islamica del Pakistan</item>
+        <item>Islamic Republic of Pakistan</item>
+        <item>Jamhuryat Islami Pakistan</item>
+        <item>Panama</item>
+        <item>the Republic of Panama</item>
+        <item>Repubblica del Panama</item>
+        <item>Republic of Panama</item>
+        <item>Republica de Panama</item>
+        <item>Jordan</item>
+        <item>Jordanie</item>
+        <item>Jordania</item>
+        <item>the Hashemite Kingdom of Jordan</item>
+        <item>el Reino Hachemita de Jordania</item>
+        <item>Al Urdun</item>
+        <item>Giordania</item>
+        <item>Regno hascemita di Giordania</item>
+        <item>Hashemite Kingdom of Jordan</item>
+        <item>Al Mamlakah al Urduniyah al Hashimiyah</item>
+        <item>Malaysia</item>
+        <item>Malaisie</item>
+        <item>Malasia</item>
+        <item>la Malaisie</item>
+        <item>Malesia</item>
+        <item>Repubblica popolare democratica di Corea</item>
+        <item>North Korea</item>
+        <item>Choson</item>
+        <item>Portugal</item>
+        <item>the Portuguese Republic</item>
+        <item>Portogallo</item>
+        <item>Repubblica portoghese</item>
+        <item>Portuguese Republic</item>
+        <item>Republica Portuguesa</item>
+        <item>Cambodia</item>
+        <item>Cambodge</item>
+        <item>Camboya</item>
+        <item>the Kingdom of Cambodia</item>
+        <item>le Royaume du Cambodge</item>
+        <item>el Reino de Camboya</item>
+        <item>Cambogia</item>
+        <item>Regno di Cambogia</item>
+        <item>Kingdom of Cambodia</item>
+        <item>Kampuchea</item>
+        <item>Preahreacheanachakr Kampuchea</item>
+        <item>Paraguay</item>
+        <item>the Republic of Paraguay</item>
+        <item>Repubblica del Paraguay</item>
+        <item>Republic of Paraguay</item>
+        <item>Republica del Paraguay</item>
+        <item>Saudi Arabia</item>
+        <item>Arabie Saoudite</item>
+        <item>Arabia Saudita</item>
+        <item>the Kingdom of Saudi Arabia</item>
+        <item>el Reino de la Arabia Saudita</item>
+        <item>Kingdom of Saudi Arabia</item>
+        <item>Al Arabiyah as Suudiyah</item>
+        <item>Al Mamlakah al Arabiyah as Suudiyah</item>
+        <item>Lebanon</item>
+        <item>Liban</item>
+        <item>the Lebanese Republic</item>
+        <item>Libano</item>
+        <item>Repubblica libanese</item>
+        <item>Lebanese Republic</item>
+        <item>Lubnan</item>
+        <item>Al Jumhuriyah al Lubnaniyah</item>
+        <item>Slovenia</item>
+        <item>Eslovenia</item>
+        <item>the Republic of Slovenia</item>
+        <item>Slovenija</item>
+        <item>Republika Slovenija</item>
+        <item>Repubblica di Slovenia</item>
+        <item>Republic of Slovenia</item>
+        <item>Slovakia</item>
+        <item>Slovaquie</item>
+        <item>the Slovenska Republika</item>
+        <item>Slovensko</item>
+        <item>Slovacchia</item>
+        <item>Repubblica slovacca</item>
+        <item>Republic of Slovakia</item>
+        <item>Slovenska Republika</item>
+        <item>Slovak Republic</item>
+        <item>Croatia</item>
+        <item>Croatie</item>
+        <item>Croacia</item>
+        <item>the Republic of Crotia</item>
+        <item>Hrvatska</item>
+        <item>Republika Hrvatska</item>
+        <item>Croazia</item>
+        <item>Repubblica di Croazia</item>
+        <item>Republic of Crotia</item>
+        <item>Republic of Croatia</item>
+        <item>Chile</item>
+        <item>Chili</item>
+        <item>the Republica de Chile</item>
+        <item>Cile</item>
+        <item>Repubblica del Cile</item>
+        <item>Republica de Chile</item>
+        <item>Republic of Chile</item>
+        <item>China</item>
+        <item>Chine</item>
+        <item>Zhongguo</item>
+        <item>Zhonghua Renmin Gongheguo</item>
+        <item>Cina</item>
+        <item>Repubblica popolare cinese</item>
+        <item>Jamaica</item>
+        <item>Giamaica</item>
+        <item>Finland</item>
+        <item>Finlande</item>
+        <item>Finlandia</item>
+        <item>the Republic of Finland</item>
+        <item>Repubblica di Finlandia</item>
+        <item>Republic of Finland</item>
+        <item>Uruguay</item>
+        <item>the Eastern Republic of Uruguay</item>
+        <item>Oriental Republic of Uruguay</item>
+        <item>Republica Oriental del Uruguay</item>
+        <item>Thailand</item>
+        <item>Tailandia</item>
+        <item>the Kingdom of Thailand</item>
+        <item>el Reino de Tailandia</item>
+        <item>Prathet Thai</item>
+        <item>Ratcha Anachak Thai</item>
+        <item>Thailandia</item>
+        <item>Regno di Thailandia</item>
+        <item>Kingdom of Thailand</item>
+        <item>Nepal</item>
+        <item>the Federal Democratic Republic of Nepal</item>
+        <item>Repubblica Democratica Federale di Nepal</item>
+        <item>Federal Democratic Republic of Nepal</item>
+        <item>Sanghiya Loktantrik Ganatantra Nepal</item>
+        <item>Morocco</item>
+        <item>Maroc</item>
+        <item>Marruecos</item>
+        <item>the Kingdom of Morocco</item>
+        <item>le Royaume du Maroc</item>
+        <item>el Reino de Marruecos</item>
+        <item>Al Maghrib</item>
+        <item>Marocco</item>
+        <item>Regno del Marocco</item>
+        <item>Kingdom of Morocco</item>
+        <item>Al Mamlakah al Maghribiyah</item>
+        <item>Philippines</item>
+        <item>Filipinas</item>
+        <item>the Republic of the Philippines</item>
+        <item>Filippine</item>
+        <item>Repubblica delle Filippine</item>
+        <item>Republic of the Philippines</item>
+        <item>Pilipinas</item>
+        <item>Republika ng Pilipinas</item>
+        <item>South Africa</item>
+        <item>Afrique du Sud</item>
+        <item>Sudafrica</item>
+        <item>Repubblica del Sudafrica</item>
+        <item>Republic of South Africa</item>
+        <item>Nicaragua</item>
+        <item>the Republic of Nicaragua</item>
+        <item>Repubblica di Nicaragua</item>
+        <item>Republic of Nicaragua</item>
+        <item>Republica de Nicaragua</item>
+        <item>Romania</item>
+        <item>Roumanie</item>
+        <item>Rumania</item>
+        <item>la Roumanie</item>
+        <item>Syrian Arab Republic</item>
+        <item>the Syrian Arab Republic</item>
+        <item>Siria</item>
+        <item>Repubblica araba siriana</item>
+        <item>Syria</item>
+        <item>Suriyah</item>
+        <item>Al Jumhuriyah al Arabiyah as Suriyah</item>
+        <item>Malta</item>
+        <item>Malte</item>
+        <item>the Republic of Malta</item>
+        <item>Repubblica di Malta</item>
+        <item>Republic of Malta</item>
+        <item>Kazakhstan</item>
+        <item>the Republic of Kazakhstan</item>
+        <item>Kazakistan</item>
+        <item>Repubblica del Kazakistan</item>
+        <item>Republic of Kazakhstan</item>
+        <item>Qazaqstan</item>
+        <item>Qazaqstan Respublikasy</item>
+        <item>Nigeria</item>
+        <item>the Federal Republic of Nigeria</item>
+        <item>Repubblica federale della Nigeria</item>
+        <item>Federal Republic of Nigeria</item>
+        <item>Belgium</item>
+        <item>Belgique</item>
+        <item>the Kingdom of Belgium</item>
+        <item>le Royaume de Belgique</item>
+        <item>Belgio</item>
+        <item>Regno del Belgio</item>
+        <item>Kingdom of Belgium</item>
+        <item>Zimbabwe</item>
+        <item>the Republic of Zimbabwe</item>
+        <item>Repubblica dello Zimbabwe</item>
+        <item>Republic of Zimbabwe</item>
+        <item>Sri Lanka</item>
+        <item>the Democratic Socialist Republic of Sri Lanka</item>
+        <item>Repubblica democratica socialista di Sri Lanka</item>
+        <item>Democratic Socialist Republic of Sri Lanka</item>
+        <item>United Kingdom</item>
+        <item>the United Kingdom of Great Britain and Northern Ireland</item>
+        <item>United Kingdom of Great Britain and Northern Ireland</item>
+        <item>Regno Unito</item>
+        <item>Regno Unito di Gran Bretagna e Irlanda del Nord</item>
+        <item>Guyana</item>
+        <item>the Republic of Guyana</item>
+        <item>Repubblica della Guyana</item>
+        <item>Cooperative Republic of Guyana</item>
+        <item>Costa Rica</item>
+        <item>the Republic of Costa Rica</item>
+        <item>Repubblica di Costa Rica</item>
+        <item>Republic of Costa Rica</item>
+        <item>Republica de Costa Rica</item>
+        <item>Cameroon</item>
+        <item>Cameroun</item>
+        <item>the Republic of Cameroon</item>
+        <item>Camerun</item>
+        <item>Repubblica del Camerun</item>
+        <item>Republic of Cameroon</item>
+        <item>Hungary</item>
+        <item>Hongrie</item>
+        <item>the Republic of Hungary</item>
+        <item>Ungheria</item>
+        <item>Repubblica di Ungheria</item>
+        <item>Republic of Hungary</item>
+        <item>Magyarorszag</item>
+        <item>Magyar Koztarsasag</item>
+        <item>Trinidad and Tobago</item>
+        <item>Trinidad y Tabago</item>
+        <item>the Republic of Trinidad and Tobago</item>
+        <item>Trinidad e Tobago</item>
+        <item>Repubblica di Trinidad e Tobago</item>
+        <item>Republic of Trinidad and Tobago</item>
+        <item>Netherlands</item>
+        <item>the Kingdom of the Netherlands</item>
+        <item>Nederlan</item>
+        <item>Paesi Bassi</item>
+        <item>Regno dei Paesi Bassi</item>
+        <item>Kingdom of the Netherlands</item>
+        <item>Koninkrijk der Nederlanden</item>
+        <item>Georgia</item>
+        <item>Montenegro</item>
+        <item>Crna Gora</item>
+        <item>la Montenegro</item>
+        <item>Mongolia</item>
+        <item>Mongolie</item>
+        <item>la Mongolie</item>
+        <item>Mongol</item>
+        <item>Mongol Uls</item>
+        <item>Afghanistan</item>
+        <item>the Islamic Republic of Afghanistan</item>
+        <item>Islamic Republic of Afghanistan</item>
+        <item>Afghanestan</item>
+        <item>Belarus</item>
+        <item>the Republic of Belarus</item>
+        <item>Bielorussia</item>
+        <item>Repubblica di Bielorussia</item>
+        <item>Republic of Belarus</item>
+        <item>Greece</item>
+        <item>Grecia</item>
+        <item>the Hellenic Republic</item>
+        <item>Repubblica ellenica</item>
+        <item>Hellenic Republic</item>
+        <item>Elliniki Dhimokratia</item>
+        <item>Tajikistan</item>
+        <item>Tadjikistan</item>
+        <item>the Republic of Tajikistan</item>
+        <item>Tagikistan</item>
+        <item>Repubblica del Tagikistan</item>
+        <item>Republic of Tajikistan</item>
+        <item>Tojikiston</item>
+        <item>Jumhurii Tojikiston</item>
+        <item>Haiti</item>
+        <item>the Republic of Haiti</item>
+        <item>Repubblica di Haiti</item>
+        <item>Republic of Haiti</item>
+        <item>Mexico</item>
+        <item>Mexique</item>
+        <item>the United Mexican States</item>
+        <item>Messico</item>
+        <item>Stati Uniti messicani</item>
+        <item>United Mexican States</item>
+        <item>Estados Unidos Mexicanos</item>
+        <item>India</item>
+        <item>Inde</item>
+        <item>the Republic of India</item>
+        <item>Republic of India</item>
+        <item>Bharat</item>
+        <item>Bharatiya Ganarajya</item>
+        <item>Latvia</item>
+        <item>Lettonie</item>
+        <item>Letonia</item>
+        <item>the Republic of Latvia</item>
+        <item>Latvija</item>
+        <item>Latvijas Republika</item>
+        <item>Lettonia</item>
+        <item>Repubblica di Lettonia</item>
+        <item>Republic of Latvia</item>
+        <item>Viet Nam</item>
+        <item>the Socialist Republic of Vietnam</item>
+        <item>Vietnam</item>
+        <item>Repubblica socialista del Vietnam</item>
+        <item>Socialist Republic of Vietnam</item>
+        <item>Cong Hoa Xa Hoi Chu Nghia Viet Nam</item>
+        <item>Norway</item>
+        <item>Noruega</item>
+        <item>the Kingdom of Norway</item>
+        <item>el Reino de Noruega</item>
+        <item>Norvegia</item>
+        <item>Regno di Norvegia</item>
+        <item>Kingdom of Norway</item>
+        <item>Norge</item>
+        <item>Kongeriket Norge</item>
+        <item>Czech Republic</item>
+        <item>the Czech Republic</item>
+        <item>Ceska</item>
+        <item>Ceska Republika</item>
+        <item>Fiji</item>
+        <item>Fidji</item>
+        <item>the Republic of Fiji</item>
+        <item>Isole Figi</item>
+        <item>Repubblica delle Isole Figi</item>
+        <item>Republic of the Fiji Islands</item>
+        <item>Honduras</item>
+        <item>the Republic of Honduras</item>
+        <item>Repubblica di Honduras</item>
+        <item>Republic of Honduras</item>
+        <item>Republica de Honduras</item>
+        <item>Mauritius</item>
+        <item>Maurice</item>
+        <item>Mauricio</item>
+        <item>The Republic of Mauritius</item>
+        <item>Maurizio</item>
+        <item>Repubblica di Maurizio</item>
+        <item>Republic of Mauritius</item>
+        <item>Dominican Republic</item>
+        <item>the Dominican Republic</item>
+        <item>Repubblica dominicana</item>
+        <item>The Dominican</item>
+        <item>La Dominican</item>
+        <item>Republica Dominicana</item>
+        <item>Luxembourg</item>
+        <item>Luxemburgo</item>
+        <item>the Grand Duche de Luxembourg</item>
+        <item>el Gran Ducado de Luxemburgo</item>
+        <item>Lussemburgo</item>
+        <item>Granducato di Lussemburgo</item>
+        <item>Grand Duchy of Luxembourg</item>
+        <item>Grand Duche de Luxembourg</item>
+        <item>Israel</item>
+        <item>the State of Israel</item>
+        <item>el Estado de Israel</item>
+        <item>Israele</item>
+        <item>State of Israel</item>
+        <item>San Marino</item>
+        <item>the Republic of San Marino</item>
+        <item>Repubblica di San Marino</item>
+        <item>Republic of San Marino</item>
+        <item>Peru</item>
+        <item>the Republic of Peru</item>
+        <item>Republic of Peru</item>
+        <item>Republica del Peru</item>
+        <item>Indonesia</item>
+        <item>the Republic of Indonesia</item>
+        <item>Republik Indonesia</item>
+        <item>Repubblica di Indonesia</item>
+        <item>Republic of Indonesia</item>
+        <item>Vanuatu</item>
+        <item>the Republic of Vanuatu</item>
+        <item>Repubblica di Vanuatu</item>
+        <item>Republic of Vanuatu</item>
+        <item>Ripablik blong Vanuatu</item>
+        <item>Suriname</item>
+        <item>the Republic of Suriname</item>
+        <item>Repubblica di Suriname</item>
+        <item>Republic of Suriname</item>
+        <item>Republiek Suriname</item>
+        <item>Surinam</item>
+        <item>Iceland</item>
+        <item>Islande</item>
+        <item>Islandia</item>
+        <item>the Republic of Iceland</item>
+        <item>Islanda</item>
+        <item>Republic of Iceland</item>
+        <item>Island</item>
+        <item>Lydveldid Island</item>
+        <item>Colombia</item>
+        <item>Colombie</item>
+        <item>the Republic of Columbia</item>
+        <item>Repubblica di Colombia</item>
+        <item>Republic of Columbia</item>
+        <item>Republica de Colombia</item>
+        <item>Republic of Colombia</item>
+        <item>Republic of Moldova</item>
+        <item>the Republic of Moldova</item>
+        <item>Moldova</item>
+        <item>Republica Moldova</item>
+        <item>Moldavia</item>
+        <item>Repubblica di Moldova</item>
+        <item>Ecuador</item>
+        <item>the Republic of Ecuador</item>
+        <item>Republic of Ecuador</item>
+        <item>Republica del Ecuador</item>
+        <item>Maldives</item>
+        <item>Maldivas</item>
+        <item>the Republic of Maldives</item>
+        <item>Dhivehi Raajje</item>
+        <item>Dhivehi Raajjeyge Jumhooriyyaa</item>
+        <item>Repubblica delle Maldive</item>
+        <item>Republic of Maldives</item>
+        <item>East Timor</item>
+        <item>France</item>
+        <item>Francia</item>
+        <item>the French Republic</item>
+        <item>Repubblica francese</item>
+        <item>French Republic</item>
+        <item>Republique Francaise</item>
+        <item>Lithuania</item>
+        <item>Lituanie</item>
+        <item>Lituania</item>
+        <item>the Republic of Lithuania</item>
+        <item>Lietuva</item>
+        <item>Lietuvos Respublika</item>
+        <item>Repubblica di Lituania</item>
+        <item>Republic of Lithuania</item>
+        <item>Zambia</item>
+        <item>Zambie</item>
+        <item>the Republic of Zambia</item>
+        <item>Repubblica dello Zambia</item>
+        <item>Republic of Zambia</item>
+        <item>Guatemala</item>
+        <item>the Republic of Guatemala</item>
+        <item>Repubblica del Guatemala</item>
+        <item>Republic of Guatemala</item>
+        <item>Republica de Guatemala</item>
+        <item>Denmark</item>
+        <item>Danemark</item>
+        <item>Dinamarca</item>
+        <item>the Kingdom of Denmark</item>
+        <item>le Royaume du Danemark</item>
+        <item>el Reino de Dinamarca</item>
+        <item>Danmark</item>
+        <item>Kongeriget Danmark</item>
+        <item>Danimarca</item>
+        <item>Regno di Danimarca</item>
+        <item>Kingdom of Denmark</item>
+        <item>Germany</item>
+        <item>Allemagne</item>
+        <item>Alemania</item>
+        <item>the Federal Republic of Germany</item>
+        <item>Deutschland</item>
+        <item>Germania</item>
+        <item>Repubblica federale di Germania</item>
+        <item>Federal Republic of Germany</item>
+        <item>Bundesrepublik Deutschland</item>
+        <item>Australia</item>
+        <item>Australie</item>
+        <item>Commonwealth of Australia</item>
+        <item>Austria</item>
+        <item>Autriche</item>
+        <item>the Republic of Austria</item>
+        <item>Republic of Austria</item>
+        <item>Oesterreich</item>
+        <item>Republik Oesterreich</item>
+        <item>Bolivarian Republic of Venezuela</item>
+        <item>Venezuela</item>
+        <item>the Bolivarian Republic of Venezuela</item>
+        <item>Repubblica bolivariana di Venezuela</item>
+        <item>Republica Bolivariana de Venezuela</item>
+        <item>Turkey</item>
+        <item>Turquie</item>
+        <item>the Republic of Turkey</item>
+        <item>Turchia</item>
+        <item>Repubblica di Turchia</item>
+        <item>Republic of Turkey</item>
+        <item>Turkiye</item>
+        <item>Turkiye Cumhuriyeti</item>
+        <item>Albania</item>
+        <item>Albanie</item>
+        <item>the Republic of Albania</item>
+        <item>Republic of Albania</item>
+        <item>Shqiperia</item>
+        <item>Republika e Shqiperise</item>
+        <item>Oman</item>
+        <item>the Sultanate of Oman</item>
+        <item>Sultanate of Oman</item>
+        <item>Uman</item>
+        <item>Saltanat Uman</item>
+        <item>Myanmar</item>
+        <item>the Republic of the Union of Myanmar</item>
+        <item>Myanma</item>
+        <item>Pyidaungzu Myanma Naingngandaw</item>
+        <item>Burma</item>
+        <item>Union of Burma</item>
+        <item>Myanma Naingngandaw</item>
+        <item>Republic of the Union of Myanmar</item>
+        <item>Tunisia</item>
+        <item>Tunisie</item>
+        <item>the Republic of Tunisia</item>
+        <item>Repubblica tunisina</item>
+        <item>Tunisian Republic</item>
+        <item>Tunis</item>
+        <item>Al Jumhuriyah at Tunisiyah</item>
+        <item>Russian Federation</item>
+        <item>the Russian Federation</item>
+        <item>Rossija</item>
+        <item>Rossiyskaya Federatsiya</item>
+        <item>Russia</item>
+        <item>Federazione russa</item>
+        <item>Rossiya</item>
+        <item>Barbados</item>
+        <item>Barbade</item>
+        <item>la Barbade</item>
+        <item>Brazil</item>
+        <item>Brasil</item>
+        <item>the Federative Republic of Brazil</item>
+        <item>Brasile</item>
+        <item>Repubblica federativa del Brasile</item>
+        <item>Federative Republic of Brazil</item>
+        <item>Republica Federativa do Brasil</item>
+        <item>Serbia</item>
+        <item>Serbie</item>
+        <item>the Republic of Serbia</item>
+        <item>Srbija</item>
+        <item>Republika Srbija</item>
+        <item>la Serbia</item>
+        <item>la Repubblica di Serbia</item>
+        <item>Republic of Serbia</item>
+        <item>The Former Yugoslav Republic of Macedonia</item>
+        <item>The former Yugoslav Republic of Macedonia</item>
+        <item>Macedonia</item>
+        <item>Republic of Macedonia</item>
+        <item>Makedonija</item>
+        <item>Republika Makedonija</item>
+        <item>United States</item>
+        <item>the United States of America</item>
+        <item>United States of America</item>
+        <item>Sweden</item>
+        <item>Suecia</item>
+        <item>the Kingdom of Sweden</item>
+        <item>el Reino de Suecia</item>
+        <item>Sverige</item>
+        <item>Konungariket Sverige</item>
+        <item>Svezia</item>
+        <item>Regno di Svezia</item>
+        <item>Kingdom of Sweden</item>
+        <item>Azerbaijan</item>
+        <item>the Republic of Azerbaijan</item>
+        <item>Azerbaigian</item>
+        <item>Republic of Azerbaijan</item>
+        <item>Azarbaycan</item>
+        <item>Azarbaycan Respublikasi</item>
+        <item>Canada</item>
+        <item>le Canada</item>
+        <item>Ukraine</item>
+        <item>Ucrania</item>
+        <item>Ukraina</item>
+        <item>Ucraina</item>
+        <item>Ukrayina</item>
+        <item>Republic of Korea</item>
+        <item>the Republic of Korea</item>
+        <item>Repubblica di Corea</item>
+        <item>South Korea</item>
+        <item>Switzerland</item>
+        <item>Suisse</item>
+        <item>Suiza</item>
+        <item>the Confederation of Switzerland</item>
+        <item>Svizzera</item>
+        <item>Confederazione svizzera</item>
+        <item>Confederation of Switzerland</item>
+        <item>Swiss Confederation</item>
+        <item>Cyprus</item>
+        <item>Chypre</item>
+        <item>Chipre</item>
+        <item>the Republic of Cyprus</item>
+        <item>Cipro</item>
+        <item>Repubblica di Cipro</item>
+        <item>Republic of Cyprus</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Bosnia y Herzegovina</item>
+        <item>Bosna i Hercegovina</item>
+        <item>Singapore</item>
+        <item>Singapour</item>
+        <item>Singapur</item>
+        <item>the Republic of Singapore</item>
+        <item>Repubblica di Singapore</item>
+        <item>Republic of Singapore</item>
+        <item>Poland</item>
+        <item>Pologne</item>
+        <item>Polonia</item>
+        <item>the Republic of Poland</item>
+        <item>Polska</item>
+        <item>Rzeczpospolita Polska</item>
+        <item>Repubblica di Polonia</item>
+        <item>Republic of Poland</item>
+        <item>Kuwait</item>
+        <item>the State of Kuwait</item>
+        <item>el Estado de Kuwait</item>
+        <item>Al Kuwayt</item>
+        <item>Dawlat al Kuwayt</item>
+        <item>Stato del Kuwait</item>
+        <item>State of Kuwait</item>
+        <item>Estonia</item>
+        <item>Estonie</item>
+        <item>the Republic of Estonia</item>
+        <item>Eesti</item>
+        <item>Eesti Vabariik</item>
+        <item>Repubblica di Estonia</item>
+        <item>Republic of Estonia</item>
+        <item>Spain</item>
+        <item>Espagne</item>
+        <item>the Kingdom of Spain</item>
+        <item>Spagna</item>
+        <item>Regno di Spagna</item>
+        <item>Kingdom of Spain</item>
+        <item>Espana</item>
+        <item>Reino de Espana</item>
+        <item>El Salvador</item>
+        <item>the Republic of El Salvador</item>
+        <item>Repubblica di El Salvador</item>
+        <item>Republic of El Salvador</item>
+        <item>Republica de El Salvador</item>
+        <item>Mali</item>
+        <item>the Republic of Mali</item>
+        <item>Repubblica del Mali</item>
+        <item>Republic of Mali</item>
+        <item>Republique de Mali</item>
+        <item>Ireland</item>
+        <item>Irlande</item>
+        <item>Irlanda</item>
+        <item>Islamic Republic of Iran</item>
+        <item>the Islamic Republic of Iran</item>
+        <item>Iran</item>
+        <item>Sierra Leone</item>
+        <item>Sierra Leona</item>
+        <item>the Republic of Sierra Leone</item>
+        <item>Repubblica di Sierra Leone</item>
+        <item>Republic of Sierra Leone</item>
+        <item>Solomon Islands</item>
+        <item>Isole Salomone</item>
+        <item>New Zealand</item>
+        <item>Nueva Zelandia</item>
+        <item>Nuova Zelanda</item>
+        <item>Monaco</item>
+        <item>the Principality of Monaco</item>
+        <item>Principato di Monaco</item>
+        <item>Principality of Monaco</item>
+        <item>Principaute de Monaco</item>
+        <item>Italy</item>
+        <item>Italie</item>
+        <item>Italia</item>
+        <item>the Italian Republic</item>
+        <item>Repubblica Italiana</item>
+        <item>Repubblica italiana</item>
+        <item>Italian Republic</item>
+        <item>Japan</item>
+        <item>Japon</item>
+        <item>le Japon</item>
+        <item>Giappone</item>
+        <item>United Arab Emirates</item>
+        <item>the United Arab Emirates</item>
+        <item>Emirati arabi uniti</item>
+        <item>Al Imarat al Arabiyah al Muttahidah</item>
+        <item>Argentina</item>
+        <item>Argentine</item>
+        <item>the Argentine Republic</item>
+        <item>Repubblica argentina</item>
+        <item>Argentine Republic</item>
+        <item>Republica Argentina</item>
+        <item>Sudan</item>
+        <item>Soudan</item>
+        <item>the Republic of the Sudan</item>
+        <item>Repubblica del Sudan</item>
+        <item>Republic of the Sudan</item>
+        <item>Bahrain</item>
+        <item>Bahrein</item>
+        <item>The Kingdom of Bahrain</item>
+        <item>el Reino de Bahrein</item>
+        <item>Regno del Bahrein</item>
+        <item>Kingdom of Bahrain</item>
+        <item>Al Bahrayn</item>
+        <item>Mamlakat al Bahrayn</item>
+        <item>Armenia</item>
+        <item>the Republic of Armenia</item>
+        <item>Hayastan</item>
+        <item>Republic of Armenia</item>
+        <item>Hayastani</item>
+      </one-of>
+    </item>
+  </rule>
+</grammar>
