@@ -5,7 +5,7 @@ def __levenshtein(a,b):
     # Make sure n <= m, to use O(min(n,m)) space
     a,b = b,a
     n,m = m,n
-      
+
   current = range(n+1)
   for i in range(1,m+1):
     previous, current = current, [i]+[0]*n
@@ -15,7 +15,7 @@ def __levenshtein(a,b):
       if a[j-1] != b[i-1]:
         change = change + 1
       current[j] = min(add, delete, change)
-          
+
   return current[n]
 
 def __get_nearest_distance(names, search_name):
@@ -46,4 +46,4 @@ def retrieve_emergency_number(number_list, country_name):
 
 if __name__ == '__main__':
   number_list = get_emergency_number_list()
-  print retrieve_emergency_number(number_list, 'United States')
+  print retrieve_emergency_number(number_list, 'Morcaco')
