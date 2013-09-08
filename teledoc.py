@@ -58,7 +58,7 @@ def queue():
 def transcription_cb():
   print "Looking up location"
   print str(request.args.get('location'))
-  location = helpers.get_code_for_country(str(request.args.get('location')))
+  location = helpers.get_code_for_country(str(request.values.get('location')))
   call_id = request.values.get('CallSid')
   print request.values.get('TranscriptionText')
   print location
