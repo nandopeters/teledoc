@@ -1,5 +1,5 @@
-probs <- read.table('who_data_set.txt', header = TRUE,sep=",")
-codes_to_names <- read.table('codes_to_names.txt', header = TRUE,sep=",")
+probs <- read.table('data/who_data_set.txt', header = TRUE,sep=",")
+codes_to_names <- read.table('data/disease_code_to_name.txt', header = TRUE,sep=",")
 
 probs
 # Probability for a dease by country P(D|C)
@@ -11,6 +11,6 @@ as.numeric(pe1[,4])/pe1[,5]
 
 result <- sqldf("select * from  pe1 inner join codes_to_names cn on (cn.code == pe1.GHO) order by REGION,COUNTRY,GHO ")
 result
-write.table(result,file="country_background.txt")
+write.table(result,file="data/disease_prob_for_country.txt")
 pe1<-sqldf("select  REGION,sum(Numeric)  from probs group by REGION")
 max(pe1)
