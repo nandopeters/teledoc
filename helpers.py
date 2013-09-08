@@ -1,5 +1,5 @@
 import data
-
+import string
 def __levenshtein(a,b):
   "Calculates the Levenshtein distance between a and b."
   n, m = len(a), len(b)
@@ -67,3 +67,24 @@ def get_symptom_probability(symptom_search):
       if symptom_search == symptom:
         count += 1
   return 1/float(count)
+
+def get_highst_score_symptom(symptom):
+  """Gets a symptom based on a user submitted search string"""
+  symptoms = []
+  symptom = str(symptom)
+  for symptom_name in data.symptoms:
+    symptom_name=str(symptom_name)
+    min_lev = __levenshtein(symptom.lower(), symptom_name.lower()) 
+    symptoms.append({"symptom_name": symptom_name, "distance": min_lev})
+
+  sorted_symptoms = sorted(symptoms,
+    lambda x, y: cmp(
+      x['distance'],
+      y['distance']))
+  return sorted_symptoms[0]['symptom_name']
+
+if __name__ == "__main__":
+  result = "Germany fivir blood".replace(' ',',').split(',')
+  if( len(result) > 1 ):
+    print get_highst_score_symptom('deasd')
+
