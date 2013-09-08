@@ -8,6 +8,7 @@ def calculate_probability_for_disease(country, user_symptom_list):
   """Returns diseases based on symptoms the user has"""
   disease_probabilty = []
   diseases_in_country = data.disease_prob_for_country[country]
+  normalizing_term = 0
   for disease in diseases_in_country:
     prob = 0
     if len(user_symptom_list) == 0:
@@ -16,7 +17,10 @@ def calculate_probability_for_disease(country, user_symptom_list):
       for symptom in user_symptom_list:
         if symptom in data.symptoms_for_disease[disease['disease']]:
           prob += disease["probability"] * helpers.get_symptom_probability(symptom)
+    normalizing_term += prob
     disease_probabilty.append({ 'disease': disease["disease"], 'probability': prob })
+  for disease in disease_probabilty:
+    disease["probability"] /= normalizing_term
   return disease_probabilty
 
 def get_ordered_symptom_list(country, user_symptom_list):
@@ -24,6 +28,7 @@ def get_ordered_symptom_list(country, user_symptom_list):
   diseases = data.disease_prob_for_country[country]
   disease_probabilities = {}
   tmp = calculate_probability_for_disease(country, user_symptom_list)
+  print tmp
   for d in tmp:
     disease_probabilities[d['disease']] = d['probability']
   symptoms = {}
@@ -44,4 +49,4 @@ if __name__ =='__main__':
   # diseasesproblist = read_country_diseases_prob_file()
   # symptomlist = read_symptoms_file()
   # print get_ordered_symptom_list(diseasesproblist, symptomlist, 'chn', ['fever', 'headache', 'malaise'])
-  print get_ordered_symptom_list("CHN",["fever","headache","malaise"])
+  print get_ordered_symptom_list("EGY",["diarrhea","coma","cough"])
