@@ -24,23 +24,6 @@ def root():
     g.say("If you're in need of immediate medical attention please press 0 to be connected to local medical services. Otherwise press 1 to be diagnosed.", **default_ops)
   return str(resp)
 
-@app.route("/sms", methods=['GET', 'POST'])
-def hello_monkey():
-
-    message = "Monkey, thanks for the message!"
- 
-    resp = twilio.twiml.Response()
-    resp.sms(message)
- 
-    return str(resp)
-
-def root():
-  resp = twilio.twiml.Response()
-  resp.say("Hello, welcome to Tele-Doc.",**default_ops)
-  with resp.gather(numDigits=1, action="/handle-root-key", method="POST") as g:
-    g.say("If you're in need of immediate medical attention please press 0 to be connected to local medical services. Otherwise press 1 to be diagnosed.", **default_ops)
-  return str(resp)
-
 @app.route("/handle-root-key", methods=['GET', 'POST'])
 def handle_root_key():
   resp = twilio.twiml.Response()
@@ -94,6 +77,22 @@ def diagnose():
   resp.pause(length=3)
   resp.say("You are going to die.",**default_ops)
   return str(resp)
+
+
+###### SMS stuff
+
+@app.route("/sms", methods=['GET', 'POST'])
+def hello_monkey():
+
+    body = request.values.get('Body', None)
+    
+    number = helpers.get_phone_for_code(helpers.get_code_for_country(body))
+    message = "Monkey, thanks for the message! " + number
+ 
+    resp = twilio.twiml.Response()
+    resp.sms(message)
+ 
+    return str(resp)
 
 if __name__ == "__main__":
   app.run(debug=True)
