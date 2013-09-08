@@ -1,0 +1,2479 @@
+region,country,disease,prob,unknown1,unknown2,disease2,diseasename
+afr,ago,tb_tot_newrel,0.00768493099201458,133116,17321691,TB_tot_newrel,Tuberculosis
+afr,ago,whs3_40,0.0047208660058194,3829,811080,WHS3_40,Colera
+afr,ago,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,ago,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,ago,whs3_43,0.0131314478050106,5220,397519,WHS3_43,Pertussis
+afr,ago,whs3_45,0.0036136685831581,2521,697629,WHS3_45,Leprosy
+afr,ago,whs3_46,0.0605177438710783,2118,34998,WHS3_46,Total tetanus
+afr,ago,whs3_48,0.0745251110302157,4888574,65596333,WHS3_48,Malaria
+afr,ago,whs3_49,0.0221822541966427,37,1668,WHS3_49,Poliomyelitis
+afr,ago,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,ago,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,ago,whs3_56,0.0111175281547791,154,13852,WHS3_56,Neonatal tetanus
+afr,ago,whs3_57,0.000230878750176366,72,311852,WHS3_57,Rubella
+afr,ago,whs3_62,0.00602138553783931,5446,904443,WHS3_62,Measles
+afr,bdi,tb_tot_newrel,0.00124872334923882,21630,17321691,TB_tot_newrel,Tuberculosis
+afr,bdi,whs3_40,0.00175938255165952,1427,811080,WHS3_40,Colera
+afr,bdi,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,bdi,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,bdi,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,bdi,whs3_45,0.00182188527139783,1271,697629,WHS3_45,Leprosy
+afr,bdi,whs3_46,0.000428595919766844,15,34998,WHS3_46,Total tetanus
+afr,bdi,whs3_48,0.0689206666476311,4520943,65596333,WHS3_48,Malaria
+afr,bdi,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,bdi,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,bdi,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,bdi,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,bdi,whs3_56,0.00108287611897199,15,13852,WHS3_56,Neonatal tetanus
+afr,bdi,whs3_57,0.00198491592165514,619,311852,WHS3_57,Rubella
+afr,bdi,whs3_62,0.00102715151756385,929,904443,WHS3_62,Measles
+afr,ben,tb_tot_newrel,0.00068388242233394,11846,17321691,TB_tot_newrel,Tuberculosis
+afr,ben,whs3_40,0.00102209399812596,829,811080,WHS3_40,Colera
+afr,ben,whs3_43,0.00013332696047233,53,397519,WHS3_43,Pertussis
+afr,ben,whs3_45,0.00103350061422332,721,697629,WHS3_45,Leprosy
+afr,ben,whs3_46,0.00262872164123664,92,34998,WHS3_46,Total tetanus
+afr,ben,whs3_47,0.0128479786976519,2123,165240,WHS3_47,Meningitis
+afr,ben,whs3_48,0.0200097313366587,1312565,65596333,WHS3_48,Malaria
+afr,ben,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,ben,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,ben,whs3_56,0.000938492636442391,13,13852,WHS3_56,Neonatal tetanus
+afr,ben,whs3_57,0.000115439375088183,36,311852,WHS3_57,Rubella
+afr,ben,whs3_62,0.00251978289400216,2279,904443,WHS3_62,Measles
+afr,bfa,tb_tot_newrel,0.000854535506954835,14802,17321691,TB_tot_newrel,Tuberculosis
+afr,bfa,whs3_40,2.46584800512896e-05,20,811080,WHS3_40,Colera
+afr,bfa,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,bfa,whs3_43,0.000218857463416843,87,397519,WHS3_43,Pertussis
+afr,bfa,whs3_45,0.00104926830736681,732,697629,WHS3_45,Leprosy
+afr,bfa,whs3_46,0.00240013715069433,84,34998,WHS3_46,Total tetanus
+afr,bfa,whs3_47,0.131893004115226,21794,165240,WHS3_47,Meningitis
+afr,bfa,whs3_48,0.0215740565863644,1415179,65596333,WHS3_48,Malaria
+afr,bfa,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,bfa,whs3_50,0.297921478060046,1032,3464,WHS3_50,Yellow fever
+afr,bfa,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,bfa,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,bfa,whs3_56,0.000721917412647993,10,13852,WHS3_56,Neonatal tetanus
+afr,bfa,whs3_62,0.0635628779259721,57489,904443,WHS3_62,Measles
+afr,bwa,tb_tot_newrel,0.00126881376650813,21978,17321691,TB_tot_newrel,Tuberculosis
+afr,bwa,whs3_40,1.84938600384672e-05,15,811080,WHS3_40,Colera
+afr,bwa,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,bwa,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,bwa,whs3_45,5.73370659763284e-06,4,697629,WHS3_45,Leprosy
+afr,bwa,whs3_46,0,0,34998,WHS3_46,Total tetanus
+afr,bwa,whs3_48,3.8142376038002e-05,2502,65596333,WHS3_48,Malaria
+afr,bwa,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,bwa,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,bwa,whs3_57,0.000731116042225158,228,311852,WHS3_57,Rubella
+afr,bwa,whs3_62,0.0011554072506504,1045,904443,WHS3_62,Measles
+afr,caf,tb_tot_newrel,0.00121217957299896,20997,17321691,TB_tot_newrel,Tuberculosis
+afr,caf,whs3_40,0.000144252108300044,117,811080,WHS3_40,Colera
+afr,caf,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,caf,whs3_43,0.000412558896555888,164,397519,WHS3_43,Pertussis
+afr,caf,whs3_45,0.000805585776967414,562,697629,WHS3_45,Leprosy
+afr,caf,whs3_46,0.00240013715069433,84,34998,WHS3_46,Total tetanus
+afr,caf,whs3_47,0.00841805858145727,1391,165240,WHS3_47,Meningitis
+afr,caf,whs3_49,0.00239808153477218,4,1668,WHS3_49,Poliomyelitis
+afr,caf,whs3_50,0.0121247113163972,42,3464,WHS3_50,Yellow fever
+afr,caf,whs3_56,0.00606410626624314,84,13852,WHS3_56,Neonatal tetanus
+afr,caf,whs3_57,0.000198812257096315,62,311852,WHS3_57,Rubella
+afr,caf,whs3_62,0.000765111787033567,692,904443,WHS3_62,Measles
+afr,civ,tb_tot_newrel,0.00391156960368361,67755,17321691,TB_tot_newrel,Tuberculosis
+afr,civ,whs3_40,0.00156088178724663,1266,811080,WHS3_40,Colera
+afr,civ,whs3_45,0.00237088767812118,1654,697629,WHS3_45,Leprosy
+afr,civ,whs3_46,0.000228584490542317,8,34998,WHS3_46,Total tetanus
+afr,civ,whs3_47,0.00639070442992012,1056,165240,WHS3_47,Meningitis
+afr,civ,whs3_48,0.0015258474890662,100090,65596333,WHS3_48,Malaria
+afr,civ,whs3_49,0.0215827338129496,36,1668,WHS3_49,Poliomyelitis
+afr,civ,whs3_50,0.0233833718244804,81,3464,WHS3_50,Yellow fever
+afr,civ,whs3_56,0.00101068437770719,14,13852,WHS3_56,Neonatal tetanus
+afr,civ,whs3_57,0.000400831163500635,125,311852,WHS3_57,Rubella
+afr,civ,whs3_62,0.00138427739503761,1252,904443,WHS3_62,Measles
+afr,cmr,tb_tot_newrel,0.00422984107036663,73268,17321691,TB_tot_newrel,Tuberculosis
+afr,cmr,whs3_40,0.0286494550475909,23237,811080,WHS3_40,Colera
+afr,cmr,whs3_45,0.00220317676014042,1537,697629,WHS3_45,Leprosy
+afr,cmr,whs3_46,0.00708611920681182,248,34998,WHS3_46,Total tetanus
+afr,cmr,whs3_47,0.0294238683127572,4862,165240,WHS3_47,Meningitis
+afr,cmr,whs3_48,0,0,65596333,WHS3_48,Malaria
+afr,cmr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,cmr,whs3_50,0.0153002309468822,53,3464,WHS3_50,Yellow fever
+afr,cmr,whs3_56,0.00714698238521513,99,13852,WHS3_56,Neonatal tetanus
+afr,cmr,whs3_57,0.00059964342059695,187,311852,WHS3_57,Rubella
+afr,cmr,whs3_62,0.00110012460707861,995,904443,WHS3_62,Measles
+afr,cod,tb_tot_newrel,0.0193982793019458,336011,17321691,TB_tot_newrel,Tuberculosis
+afr,cod,whs3_40,0.0549871775903733,44599,811080,WHS3_40,Colera
+afr,cod,whs3_43,0.0136823648680944,5439,397519,WHS3_43,Pertussis
+afr,cod,whs3_45,0.0201539786906794,14060,697629,WHS3_45,Leprosy
+afr,cod,whs3_46,0.0956911823532773,3349,34998,WHS3_46,Total tetanus
+afr,cod,whs3_47,0.16562575647543,27368,165240,WHS3_47,Meningitis
+afr,cod,whs3_48,0.135045140404419,8858466,65596333,WHS3_48,Malaria
+afr,cod,whs3_49,0.0725419664268585,121,1668,WHS3_49,Poliomyelitis
+afr,cod,whs3_50,0.139722863741339,484,3464,WHS3_50,Yellow fever
+afr,cod,whs3_52,0.311331133113311,283,909,WHS3_52,Plague
+afr,cod,whs3_55,0.0024390243902439,1,410,WHS3_55,Congenital Rubella Syndrome
+afr,cod,whs3_56,0.188348252959861,2609,13852,WHS3_56,Neonatal tetanus
+afr,cod,whs3_57,0.00178931031386683,558,311852,WHS3_57,Rubella
+afr,cod,whs3_62,0.153979852793377,139266,904443,WHS3_62,Measles
+afr,cog,tb_tot_newrel,0.00178331318807153,30890,17321691,TB_tot_newrel,Tuberculosis
+afr,cog,whs3_40,0.00105415002219263,855,811080,WHS3_40,Colera
+afr,cog,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,cog,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,cog,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,cog,whs3_45,0.000417127154977789,291,697629,WHS3_45,Leprosy
+afr,cog,whs3_46,0.000114292245271158,4,34998,WHS3_46,Total tetanus
+afr,cog,whs3_48,0.00249866101509058,163903,65596333,WHS3_48,Malaria
+afr,cog,whs3_49,0.0239808153477218,40,1668,WHS3_49,Poliomyelitis
+afr,cog,whs3_50,0.0545612009237875,189,3464,WHS3_50,Yellow fever
+afr,cog,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,cog,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,cog,whs3_56,0.000288766965059197,4,13852,WHS3_56,Neonatal tetanus
+afr,cog,whs3_57,6.73396354681067e-05,21,311852,WHS3_57,Rubella
+afr,cog,whs3_62,0.000353808918859453,320,904443,WHS3_62,Measles
+afr,com,tb_tot_newrel,1.36822669334074e-05,237,17321691,TB_tot_newrel,Tuberculosis
+afr,com,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,com,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,com,whs3_45,0.00117540985251473,820,697629,WHS3_45,Leprosy
+afr,com,whs3_46,0.000142865306588948,5,34998,WHS3_46,Total tetanus
+afr,com,whs3_48,0.00102713058670521,67376,65596333,WHS3_48,Malaria
+afr,com,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,com,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,com,whs3_53,5.80089929904913e-05,109,1879019,WHS3_53,Mumps
+afr,com,whs3_56,0.000360958706323997,5,13852,WHS3_56,Neonatal tetanus
+afr,com,whs3_57,3.20664930800508e-06,1,311852,WHS3_57,Rubella
+afr,com,whs3_62,4.42261148574316e-06,4,904443,WHS3_62,Measles
+afr,cpv,tb_tot_newrel,6.1656797826494e-05,1068,17321691,TB_tot_newrel,Tuberculosis
+afr,cpv,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,cpv,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,cpv,whs3_43,1.76092211944586e-05,7,397519,WHS3_43,Pertussis
+afr,cpv,whs3_45,1.14674131952657e-05,8,697629,WHS3_45,Leprosy
+afr,cpv,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+afr,cpv,whs3_48,1.81412579876988e-06,119,65596333,WHS3_48,Malaria
+afr,cpv,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,cpv,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,cpv,whs3_53,0.000129322800887059,243,1879019,WHS3_53,Mumps
+afr,cpv,whs3_55,0.151219512195122,62,410,WHS3_55,Congenital Rubella Syndrome
+afr,cpv,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,cpv,whs3_57,0.0364499826840937,11367,311852,WHS3_57,Rubella
+afr,cpv,whs3_62,0,0,904443,WHS3_62,Measles
+afr,dza,tb_tot_newrel,0.00377942315216222,65466,17321691,TB_tot_newrel,Tuberculosis
+afr,dza,whs3_41,0.000100765820233777,1,9924,WHS3_41,Diphtheria
+afr,dza,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,dza,whs3_43,5.03120605555961e-06,2,397519,WHS3_43,Pertussis
+afr,dza,whs3_45,0,0,697629,WHS3_45,Leprosy
+afr,dza,whs3_46,8.57191839533688e-05,3,34998,WHS3_46,Total tetanus
+afr,dza,whs3_48,2.43916073784185e-07,16,65596333,WHS3_48,Malaria
+afr,dza,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,dza,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,dza,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,dza,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,dza,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,dza,whs3_57,0.00129869296974206,405,311852,WHS3_57,Rubella
+afr,dza,whs3_62,0.000356020224602324,322,904443,WHS3_62,Measles
+afr,eri,tb_tot_newrel,0.000509361355077862,8823,17321691,TB_tot_newrel,Tuberculosis
+afr,eri,whs3_41,0.00120918984280532,12,9924,WHS3_41,Diphtheria
+afr,eri,whs3_43,0.00025659150883354,102,397519,WHS3_43,Pertussis
+afr,eri,whs3_45,1.57676931434903e-05,11,697629,WHS3_45,Leprosy
+afr,eri,whs3_46,0.00234299102805875,82,34998,WHS3_46,Total tetanus
+afr,eri,whs3_48,0.00125904903861013,82589,65596333,WHS3_48,Malaria
+afr,eri,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,eri,whs3_53,0.00416174610262057,7820,1879019,WHS3_53,Mumps
+afr,eri,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,eri,whs3_57,0.00187909649449098,586,311852,WHS3_57,Rubella
+afr,eri,whs3_62,0.000200123169729878,181,904443,WHS3_62,Measles
+afr,eth,tb_tot_newrel,0.026566055242528,460169,17321691,TB_tot_newrel,Tuberculosis
+afr,eth,whs3_40,0.0388482023968043,31509,811080,WHS3_40,Colera
+afr,eth,whs3_45,0.0202500182761898,14127,697629,WHS3_45,Leprosy
+afr,eth,whs3_46,0.00451454368821076,158,34998,WHS3_46,Total tetanus
+afr,eth,whs3_47,0.00301379811183733,498,165240,WHS3_47,Meningitis
+afr,eth,whs3_48,0.0560217138967204,3674819,65596333,WHS3_48,Malaria
+afr,eth,whs3_49,0.00299760191846523,5,1668,WHS3_49,Poliomyelitis
+afr,eth,whs3_56,0.0114062951198383,158,13852,WHS3_56,Neonatal tetanus
+afr,eth,whs3_57,0.000974821389633544,304,311852,WHS3_57,Rubella
+afr,eth,whs3_62,0.00958158778386255,8666,904443,WHS3_62,Measles
+afr,gab,tb_tot_newrel,0.000632155370973885,10950,17321691,TB_tot_newrel,Tuberculosis
+afr,gab,whs3_45,0.000140475811642005,98,697629,WHS3_45,Leprosy
+afr,gab,whs3_46,0.000228584490542317,8,34998,WHS3_46,Total tetanus
+afr,gab,whs3_48,0.000140648106045806,9226,65596333,WHS3_48,Malaria
+afr,gab,whs3_49,0.000599520383693046,1,1668,WHS3_49,Poliomyelitis
+afr,gab,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,gab,whs3_56,0.000577533930118394,8,13852,WHS3_56,Neonatal tetanus
+afr,gab,whs3_57,0.000147505868168234,46,311852,WHS3_57,Rubella
+afr,gab,whs3_62,3.31695861430737e-06,3,904443,WHS3_62,Measles
+afr,gha,tb_tot_newrel,0.00259143290340418,44888,17321691,TB_tot_newrel,Tuberculosis
+afr,gha,whs3_40,0.0146989199585738,11922,811080,WHS3_40,Colera
+afr,gha,whs3_41,0.0047359935509875,47,9924,WHS3_41,Diphtheria
+afr,gha,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,gha,whs3_43,0.000158482990750128,63,397519,WHS3_43,Pertussis
+afr,gha,whs3_45,0.000893024802581315,623,697629,WHS3_45,Leprosy
+afr,gha,whs3_46,0.00957197554145951,335,34998,WHS3_46,Total tetanus
+afr,gha,whs3_47,0.0173505204550956,2867,165240,WHS3_47,Meningitis
+afr,gha,whs3_48,0.0490464459347141,3217267,65596333,WHS3_48,Malaria
+afr,gha,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,gha,whs3_50,0.0534064665127021,185,3464,WHS3_50,Yellow fever
+afr,gha,whs3_53,0.00201168801379869,3780,1879019,WHS3_53,Mumps
+afr,gha,whs3_56,0.00101068437770719,14,13852,WHS3_56,Neonatal tetanus
+afr,gha,whs3_57,0.00270961866526429,845,311852,WHS3_57,Rubella
+afr,gha,whs3_62,0.000953072775177651,862,904443,WHS3_62,Measles
+afr,gin,tb_tot_newrel,0.00177546176063295,30754,17321691,TB_tot_newrel,Tuberculosis
+afr,gin,whs3_40,5.54815801154017e-05,45,811080,WHS3_40,Colera
+afr,gin,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,gin,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,gin,whs3_43,6.28900756944951e-05,25,397519,WHS3_43,Pertussis
+afr,gin,whs3_45,0.00241245705095402,1683,697629,WHS3_45,Leprosy
+afr,gin,whs3_46,0.00337162123549917,118,34998,WHS3_46,Total tetanus
+afr,gin,whs3_47,0.00218470104091019,361,165240,WHS3_47,Meningitis
+afr,gin,whs3_48,0.0020033894272718,131415,65596333,WHS3_48,Malaria
+afr,gin,whs3_49,0.00179856115107914,3,1668,WHS3_49,Poliomyelitis
+afr,gin,whs3_50,0.00173210161662818,6,3464,WHS3_50,Yellow fever
+afr,gin,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,gin,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,gin,whs3_56,0.00736355760900953,102,13852,WHS3_56,Neonatal tetanus
+afr,gin,whs3_57,0.000141092569552223,44,311852,WHS3_57,Rubella
+afr,gin,whs3_62,0.000353808918859453,320,904443,WHS3_62,Measles
+afr,gmb,tb_tot_newrel,0.00037311599658486,6463,17321691,TB_tot_newrel,Tuberculosis
+afr,gmb,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,gmb,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,gmb,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,gmb,whs3_45,0.00015194322483727,106,697629,WHS3_45,Leprosy
+afr,gmb,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+afr,gmb,whs3_47,0.00121036068748487,200,165240,WHS3_47,Meningitis
+afr,gmb,whs3_48,0.0065353958124458,428698,65596333,WHS3_48,Malaria
+afr,gmb,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,gmb,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,gmb,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,gmb,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,gmb,whs3_56,0.000144383482529599,2,13852,WHS3_56,Neonatal tetanus
+afr,gmb,whs3_57,0.000179572361248284,56,311852,WHS3_57,Rubella
+afr,gmb,whs3_62,2.21130574287158e-06,2,904443,WHS3_62,Measles
+afr,gnb,tb_tot_newrel,0.000370460366715929,6417,17321691,TB_tot_newrel,Tuberculosis
+afr,gnb,whs3_40,6.16462001282241e-06,5,811080,WHS3_40,Colera
+afr,gnb,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,gnb,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,gnb,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,gnb,whs3_45,0.000172011197928985,120,697629,WHS3_45,Leprosy
+afr,gnb,whs3_46,0.000171438367906738,6,34998,WHS3_46,Total tetanus
+afr,gnb,whs3_48,0.00204477893604205,134130,65596333,WHS3_48,Malaria
+afr,gnb,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,gnb,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,gnb,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,gnb,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,gnb,whs3_56,7.21917412647993e-05,1,13852,WHS3_56,Neonatal tetanus
+afr,gnb,whs3_57,9.61994792401524e-06,3,311852,WHS3_57,Rubella
+afr,gnb,whs3_62,2.87469746573305e-05,26,904443,WHS3_62,Measles
+afr,gnq,tb_tot_newrel,0.000139131912698362,2410,17321691,TB_tot_newrel,Tuberculosis
+afr,gnq,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,gnq,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,gnq,whs3_45,7.16713324704105e-05,50,697629,WHS3_45,Leprosy
+afr,gnq,whs3_46,0.000142865306588948,5,34998,WHS3_46,Total tetanus
+afr,gnq,whs3_48,0.00137908623642117,90463,65596333,WHS3_48,Malaria
+afr,gnq,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,gnq,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,gnq,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,gnq,whs3_56,0.000360958706323997,5,13852,WHS3_56,Neonatal tetanus
+afr,gnq,whs3_62,8.62409239719916e-05,78,904443,WHS3_62,Measles
+afr,ken,tb_tot_newrel,0.0172955977565932,299589,17321691,TB_tot_newrel,Tuberculosis
+afr,ken,whs3_40,0.014177393105489,11499,811080,WHS3_40,Colera
+afr,ken,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,ken,whs3_45,0.000556169539970385,388,697629,WHS3_45,Leprosy
+afr,ken,whs3_46,0.000457168981084633,16,34998,WHS3_46,Total tetanus
+afr,ken,whs3_48,0.028985400754033,1901336,65596333,WHS3_48,Malaria
+afr,ken,whs3_49,0.00239808153477218,4,1668,WHS3_49,Poliomyelitis
+afr,ken,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,ken,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,ken,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,ken,whs3_56,0.00115506786023679,16,13852,WHS3_56,Neonatal tetanus
+afr,ken,whs3_57,0.00765747854751613,2388,311852,WHS3_57,Rubella
+afr,ken,whs3_62,0.00409976084728391,3708,904443,WHS3_62,Measles
+afr,lbr,tb_tot_newrel,0.00117892646855321,20421,17321691,TB_tot_newrel,Tuberculosis
+afr,lbr,whs3_40,0.00273215958968289,2216,811080,WHS3_40,Colera
+afr,lbr,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,lbr,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,lbr,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,lbr,whs3_45,0.0022347121464274,1559,697629,WHS3_45,Leprosy
+afr,lbr,whs3_46,0.000314303674495685,11,34998,WHS3_46,Total tetanus
+afr,lbr,whs3_48,0.0560628289999077,3677516,65596333,WHS3_48,Malaria
+afr,lbr,whs3_49,0.00119904076738609,2,1668,WHS3_49,Poliomyelitis
+afr,lbr,whs3_50,0.000577367205542725,2,3464,WHS3_50,Yellow fever
+afr,lbr,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,lbr,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,lbr,whs3_56,0.000794109153912792,11,13852,WHS3_56,Neonatal tetanus
+afr,lbr,whs3_57,9.61994792401524e-05,30,311852,WHS3_57,Rubella
+afr,lbr,whs3_62,0.00274754738551794,2485,904443,WHS3_62,Measles
+afr,lso,tb_tot_newrel,0.00203900415958234,35319,17321691,TB_tot_newrel,Tuberculosis
+afr,lso,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,lso,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,lso,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,lso,whs3_45,2.58016796893478e-05,18,697629,WHS3_45,Leprosy
+afr,lso,whs3_46,0,0,34998,WHS3_46,Total tetanus
+afr,lso,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,lso,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,lso,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,lso,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,lso,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,lso,whs3_57,0.000551543680976874,172,311852,WHS3_57,Rubella
+afr,lso,whs3_62,0.0029410366380192,2660,904443,WHS3_62,Measles
+afr,mdg,tb_tot_newrel,0.0042264349364043,73209,17321691,TB_tot_newrel,Tuberculosis
+afr,mdg,whs3_41,0.000503829101168884,5,9924,WHS3_41,Diphtheria
+afr,mdg,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,mdg,whs3_43,0.0015697362893346,624,397519,WHS3_43,Pertussis
+afr,mdg,whs3_45,0.00669266902608693,4669,697629,WHS3_45,Leprosy
+afr,mdg,whs3_46,0.027030116006629,946,34998,WHS3_46,Total tetanus
+afr,mdg,whs3_48,0.00978801665635791,642058,65596333,WHS3_48,Malaria
+afr,mdg,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,mdg,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,mdg,whs3_52,0.625962596259626,569,909,WHS3_52,Plague
+afr,mdg,whs3_53,6.38631115491648e-06,12,1879019,WHS3_53,Mumps
+afr,mdg,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,mdg,whs3_56,0.00397054576956396,55,13852,WHS3_56,Neonatal tetanus
+afr,mdg,whs3_57,0.00175083052217077,546,311852,WHS3_57,Rubella
+afr,mdg,whs3_62,1.10565287143579e-06,1,904443,WHS3_62,Measles
+afr,mli,tb_tot_newrel,0.00100047968757785,17330,17321691,TB_tot_newrel,Tuberculosis
+afr,mli,whs3_40,0.00273709128569315,2220,811080,WHS3_40,Colera
+afr,mli,whs3_45,0.00134025391719668,935,697629,WHS3_45,Leprosy
+afr,mli,whs3_46,0.00454311674952854,159,34998,WHS3_46,Total tetanus
+afr,mli,whs3_47,0.0113834422657952,1881,165240,WHS3_47,Meningitis
+afr,mli,whs3_48,0.00814858050068134,534517,65596333,WHS3_48,Malaria
+afr,mli,whs3_49,0.0065947242206235,11,1668,WHS3_49,Poliomyelitis
+afr,mli,whs3_50,0.00202078521939954,7,3464,WHS3_50,Yellow fever
+afr,mli,whs3_56,0.00223794397920878,31,13852,WHS3_56,Neonatal tetanus
+afr,mli,whs3_57,0.000631709913677001,197,311852,WHS3_57,Rubella
+afr,mli,whs3_62,0.00517666674406237,4682,904443,WHS3_62,Measles
+afr,moz,tb_tot_newrel,0.00758621083819126,131406,17321691,TB_tot_newrel,Tuberculosis
+afr,moz,whs3_40,0.0258396212457464,20958,811080,WHS3_40,Colera
+afr,moz,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,moz,whs3_45,0.00500982613968169,3495,697629,WHS3_45,Leprosy
+afr,moz,whs3_46,0.00288587919309675,101,34998,WHS3_46,Total tetanus
+afr,moz,whs3_48,0.0514255118498773,3373325,65596333,WHS3_48,Malaria
+afr,moz,whs3_49,0.00119904076738609,2,1668,WHS3_49,Poliomyelitis
+afr,moz,whs3_56,0.0115506786023679,160,13852,WHS3_56,Neonatal tetanus
+afr,moz,whs3_57,0.000904275104857432,282,311852,WHS3_57,Rubella
+afr,moz,whs3_62,0.00282826004513275,2558,904443,WHS3_62,Measles
+afr,mrt,tb_tot_newrel,0.000397016665405242,6877,17321691,TB_tot_newrel,Tuberculosis
+afr,mrt,whs3_40,5.67145041179662e-05,46,811080,WHS3_40,Colera
+afr,mrt,whs3_45,4.87365060798791e-05,34,697629,WHS3_45,Leprosy
+afr,mrt,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+afr,mrt,whs3_47,0.000248123940934398,41,165240,WHS3_47,Meningitis
+afr,mrt,whs3_48,8.93342620234579e-05,5860,65596333,WHS3_48,Malaria
+afr,mrt,whs3_49,0.00299760191846523,5,1668,WHS3_49,Poliomyelitis
+afr,mrt,whs3_56,0.000144383482529599,2,13852,WHS3_56,Neonatal tetanus
+afr,mrt,whs3_62,0.00204324650641334,1848,904443,WHS3_62,Measles
+afr,mus,tb_tot_newrel,2.02636105216286e-05,351,17321691,TB_tot_newrel,Tuberculosis
+afr,mus,whs3_41,0.000503829101168884,5,9924,WHS3_41,Diphtheria
+afr,mus,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,mus,whs3_43,5.03120605555961e-06,2,397519,WHS3_43,Pertussis
+afr,mus,whs3_45,4.30027994822463e-06,3,697629,WHS3_45,Leprosy
+afr,mus,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+afr,mus,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,mus,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,mus,whs3_53,1.59657778872912e-06,3,1879019,WHS3_53,Mumps
+afr,mus,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,mus,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,mus,whs3_57,2.56531944640406e-05,8,311852,WHS3_57,Rubella
+afr,mus,whs3_62,3.20639332716379e-05,29,904443,WHS3_62,Measles
+afr,mwi,tb_tot_newrel,0.00364439014643547,63127,17321691,TB_tot_newrel,Tuberculosis
+afr,mwi,whs3_40,0.00723849681905607,5871,811080,WHS3_40,Colera
+afr,mwi,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,mwi,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,mwi,whs3_45,0.00154810078136087,1080,697629,WHS3_45,Leprosy
+afr,mwi,whs3_46,0.000542888165038002,19,34998,WHS3_46,Total tetanus
+afr,mwi,whs3_48,0.00464201253445067,304499,65596333,WHS3_48,Malaria
+afr,mwi,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,mwi,whs3_56,0.00137164308403119,19,13852,WHS3_56,Neonatal tetanus
+afr,mwi,whs3_57,0.00111591395918577,348,311852,WHS3_57,Rubella
+afr,mwi,whs3_62,0.131306229358843,118759,904443,WHS3_62,Measles
+afr,nam,tb_tot_newrel,0.00196672484228012,34067,17321691,TB_tot_newrel,Tuberculosis
+afr,nam,whs3_40,0.000196034916407753,159,811080,WHS3_40,Colera
+afr,nam,whs3_41,0.000201531640467553,2,9924,WHS3_41,Diphtheria
+afr,nam,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,nam,whs3_43,4.02496484444769e-05,16,397519,WHS3_43,Pertussis
+afr,nam,whs3_45,7.45381857692269e-05,52,697629,WHS3_45,Leprosy
+afr,nam,whs3_46,0.000857191839533688,30,34998,WHS3_46,Total tetanus
+afr,nam,whs3_48,4.45299282202254e-05,2921,65596333,WHS3_48,Malaria
+afr,nam,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,nam,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,nam,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,nam,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,nam,whs3_56,0.00158821830782558,22,13852,WHS3_56,Neonatal tetanus
+afr,nam,whs3_57,0.00060605671921296,189,311852,WHS3_57,Rubella
+afr,nam,whs3_62,0.00806352639138122,7293,904443,WHS3_62,Measles
+afr,ner,tb_tot_newrel,0.00175265798241061,30359,17321691,TB_tot_newrel,Tuberculosis
+afr,ner,whs3_40,0.00286531538195986,2324,811080,WHS3_40,Colera
+afr,ner,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,ner,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,ner,whs3_43,0.0059544323667548,2367,397519,WHS3_43,Pertussis
+afr,ner,whs3_45,0.00195806080309161,1366,697629,WHS3_45,Leprosy
+afr,ner,whs3_46,0.0124007086119207,434,34998,WHS3_46,Total tetanus
+afr,ner,whs3_47,0.107970225127088,17841,165240,WHS3_47,Meningitis
+afr,ner,whs3_48,0.0260778144412432,1710609,65596333,WHS3_48,Malaria
+afr,ner,whs3_49,0.00599520383693046,10,1668,WHS3_49,Poliomyelitis
+afr,ner,whs3_50,0.00577367205542725,20,3464,WHS3_50,Yellow fever
+afr,ner,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,ner,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,ner,whs3_56,0.00274328616806237,38,13852,WHS3_56,Neonatal tetanus
+afr,ner,whs3_57,0.000112232725780178,35,311852,WHS3_57,Rubella
+afr,ner,whs3_62,0.00214938918207118,1944,904443,WHS3_62,Measles
+afr,nga,tb_tot_newrel,0.0149805235528102,259488,17321691,TB_tot_newrel,Tuberculosis
+afr,nga,whs3_40,0.0457020269270602,37068,811080,WHS3_40,Colera
+afr,nga,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,nga,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,nga,whs3_43,0.028378517756384,11281,397519,WHS3_43,Pertussis
+afr,nga,whs3_45,0.0116566255129876,8132,697629,WHS3_45,Leprosy
+afr,nga,whs3_46,0.00894336819246814,313,34998,WHS3_46,Total tetanus
+afr,nga,whs3_47,0.383750907770516,63411,165240,WHS3_47,Meningitis
+afr,nga,whs3_48,0.015717829836616,1031032,65596333,WHS3_48,Malaria
+afr,nga,whs3_49,0.101318944844125,169,1668,WHS3_49,Poliomyelitis
+afr,nga,whs3_50,0.111720554272517,387,3464,WHS3_50,Yellow fever
+afr,nga,whs3_51,0,0,142,WHS3_51,H5N1
+afr,nga,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,nga,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,nga,whs3_56,0.0251227259601502,348,13852,WHS3_56,Neonatal tetanus
+afr,nga,whs3_57,0.0140290907225222,4375,311852,WHS3_57,Rubella
+afr,nga,whs3_62,0.0316283060402922,28606,904443,WHS3_62,Measles
+afr,rwa,tb_tot_newrel,0.00118793251767394,20577,17321691,TB_tot_newrel,Tuberculosis
+afr,rwa,whs3_40,8.26059081718203e-05,67,811080,WHS3_40,Colera
+afr,rwa,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,rwa,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,rwa,whs3_45,0.000153376651486678,107,697629,WHS3_45,Leprosy
+afr,rwa,whs3_46,0,0,34998,WHS3_46,Total tetanus
+afr,rwa,whs3_48,0.0235725372026513,1546272,65596333,WHS3_48,Malaria
+afr,rwa,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,rwa,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,rwa,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,rwa,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,rwa,whs3_57,0.00042327770865667,132,311852,WHS3_57,Rubella
+afr,rwa,whs3_62,0.000173587500815419,157,904443,WHS3_62,Measles
+afr,sen,tb_tot_newrel,0.00191794207620953,33222,17321691,TB_tot_newrel,Tuberculosis
+afr,sen,whs3_40,1.10963160230803e-05,9,811080,WHS3_40,Colera
+afr,sen,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,sen,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,sen,whs3_45,0.000388458621989625,271,697629,WHS3_45,Leprosy
+afr,sen,whs3_46,0.00517172409851992,181,34998,WHS3_46,Total tetanus
+afr,sen,whs3_47,0.00541031227305737,894,165240,WHS3_47,Meningitis
+afr,sen,whs3_48,0.00252960786695195,165933,65596333,WHS3_48,Malaria
+afr,sen,whs3_49,0.0107913669064748,18,1668,WHS3_49,Poliomyelitis
+afr,sen,whs3_50,0.0023094688221709,8,3464,WHS3_50,Yellow fever
+afr,sen,whs3_56,0.00353739532197517,49,13852,WHS3_56,Neonatal tetanus
+afr,sen,whs3_57,0.000788835729769249,246,311852,WHS3_57,Rubella
+afr,sen,whs3_62,0.00158108360615318,1430,904443,WHS3_62,Measles
+afr,sle,tb_tot_newrel,0.00214280464880709,37117,17321691,TB_tot_newrel,Tuberculosis
+afr,sle,whs3_43,5.78588696389355e-05,23,397519,WHS3_43,Pertussis
+afr,sle,whs3_45,0.00120981209210053,844,697629,WHS3_45,Leprosy
+afr,sle,whs3_46,0.00354305960340591,124,34998,WHS3_46,Total tetanus
+afr,sle,whs3_48,0.0338387055873992,2219695,65596333,WHS3_48,Malaria
+afr,sle,whs3_49,0.000599520383693046,1,1668,WHS3_49,Poliomyelitis
+afr,sle,whs3_50,0.105080831408776,364,3464,WHS3_50,Yellow fever
+afr,sle,whs3_56,0.00526999711233035,73,13852,WHS3_56,Neonatal tetanus
+afr,sle,whs3_57,0.000179572361248284,56,311852,WHS3_57,Rubella
+afr,sle,whs3_62,0.00330037382123583,2985,904443,WHS3_62,Measles
+afr,stp,tb_tot_newrel,1.93399131759134e-05,335,17321691,TB_tot_newrel,Tuberculosis
+afr,stp,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,stp,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,stp,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,stp,whs3_45,0,0,697629,WHS3_45,Leprosy
+afr,stp,whs3_46,0,0,34998,WHS3_46,Total tetanus
+afr,stp,whs3_48,0.000264709919074287,17364,65596333,WHS3_48,Malaria
+afr,stp,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,stp,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,stp,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,stp,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,stp,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,stp,whs3_57,0,0,311852,WHS3_57,Rubella
+afr,stp,whs3_62,0,0,904443,WHS3_62,Measles
+afr,swz,tb_tot_newrel,0.00164395035103674,28476,17321691,TB_tot_newrel,Tuberculosis
+afr,swz,whs3_40,2.34255560487252e-05,19,811080,WHS3_40,Colera
+afr,swz,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,swz,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,swz,whs3_43,1.50936181666788e-05,6,397519,WHS3_43,Pertussis
+afr,swz,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+afr,swz,whs3_48,1.40709085064252e-05,923,65596333,WHS3_48,Malaria
+afr,swz,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,swz,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,swz,whs3_53,0.00765026857099369,14375,1879019,WHS3_53,Mumps
+afr,swz,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,swz,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,swz,whs3_57,0.000804868976309275,251,311852,WHS3_57,Rubella
+afr,swz,whs3_62,0.000374816323416733,339,904443,WHS3_62,Measles
+afr,syc,tb_tot_newrel,3.05974745768182e-06,53,17321691,TB_tot_newrel,Tuberculosis
+afr,syc,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,syc,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,syc,whs3_43,1.76092211944586e-05,7,397519,WHS3_43,Pertussis
+afr,syc,whs3_45,2.86685329881642e-06,2,697629,WHS3_45,Leprosy
+afr,syc,whs3_46,0,0,34998,WHS3_46,Total tetanus
+afr,syc,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,syc,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,syc,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,syc,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,syc,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,syc,whs3_57,0,0,311852,WHS3_57,Rubella
+afr,syc,whs3_62,0,0,904443,WHS3_62,Measles
+afr,tcd,tb_tot_newrel,0.00163771539395317,28368,17321691,TB_tot_newrel,Tuberculosis
+afr,tcd,whs3_40,0.0213715046604527,17334,811080,WHS3_40,Colera
+afr,tcd,whs3_45,0.00125138146493337,873,697629,WHS3_45,Leprosy
+afr,tcd,whs3_46,0.010314875135722,361,34998,WHS3_46,Total tetanus
+afr,tcd,whs3_47,0.0868070685064149,14344,165240,WHS3_47,Meningitis
+afr,tcd,whs3_48,0.00581700199613292,381574,65596333,WHS3_48,Malaria
+afr,tcd,whs3_49,0.0995203836930456,166,1668,WHS3_49,Poliomyelitis
+afr,tcd,whs3_50,0.058891454965358,204,3464,WHS3_50,Yellow fever
+afr,tcd,whs3_56,0.0462027144094716,640,13852,WHS3_56,Neonatal tetanus
+afr,tcd,whs3_57,1.92398958480305e-05,6,311852,WHS3_57,Rubella
+afr,tcd,whs3_62,0.00996082671876503,9009,904443,WHS3_62,Measles
+afr,tgo,tb_tot_newrel,0.000500239843788923,8665,17321691,TB_tot_newrel,Tuberculosis
+afr,tgo,whs3_40,0.000273709128569315,222,811080,WHS3_40,Colera
+afr,tgo,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,tgo,whs3_43,0.000399980881416989,159,397519,WHS3_43,Pertussis
+afr,tgo,whs3_45,0.00023221511720413,162,697629,WHS3_45,Leprosy
+afr,tgo,whs3_46,0.00208583347619864,73,34998,WHS3_46,Total tetanus
+afr,tgo,whs3_47,0.0093439845073832,1544,165240,WHS3_47,Meningitis
+afr,tgo,whs3_48,0.0232922928786278,1527889,65596333,WHS3_48,Malaria
+afr,tgo,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,tgo,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,tgo,whs3_56,0.00526999711233035,73,13852,WHS3_56,Neonatal tetanus
+afr,tgo,whs3_57,0.000756769236689199,236,311852,WHS3_57,Rubella
+afr,tgo,whs3_62,0.000809337901890998,732,904443,WHS3_62,Measles
+afr,tza,tb_tot_newrel,0.0105065954588383,181992,17321691,TB_tot_newrel,Tuberculosis
+afr,tza,whs3_40,0.0106549292301623,8642,811080,WHS3_40,Colera
+afr,tza,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,tza,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,tza,whs3_45,0.00717143352698927,5003,697629,WHS3_45,Leprosy
+afr,tza,whs3_46,0.000314303674495685,11,34998,WHS3_46,Total tetanus
+afr,tza,whs3_48,6.09790184460464e-07,40,65596333,WHS3_48,Malaria
+afr,tza,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,tza,whs3_52,0.0176017601760176,16,909,WHS3_52,Plague
+afr,tza,whs3_56,0.000794109153912792,11,13852,WHS3_56,Neonatal tetanus
+afr,tza,whs3_57,0.000445724253812706,139,311852,WHS3_57,Rubella
+afr,tza,whs3_62,0.00371831060663856,3363,904443,WHS3_62,Measles
+afr,uga,tb_tot_newrel,0.00755665252312837,130894,17321691,TB_tot_newrel,Tuberculosis
+afr,uga,whs3_40,0.00135005178280811,1095,811080,WHS3_40,Colera
+afr,uga,whs3_45,0.00147642944889046,1030,697629,WHS3_45,Leprosy
+afr,uga,whs3_46,0.107120406880393,3749,34998,WHS3_46,Total tetanus
+afr,uga,whs3_48,0.0474778064194534,3114370,65596333,WHS3_48,Malaria
+afr,uga,whs3_49,0.00119904076738609,2,1668,WHS3_49,Poliomyelitis
+afr,uga,whs3_50,0.0496535796766744,172,3464,WHS3_50,Yellow fever
+afr,uga,whs3_56,0.0329194340167485,456,13852,WHS3_56,Neonatal tetanus
+afr,uga,whs3_57,0.0106204225081128,3312,311852,WHS3_57,Rubella
+afr,uga,whs3_62,0.00688379477755923,6226,904443,WHS3_62,Measles
+afr,zaf,tb_tot_newrel,0.0611189750469512,1058684,17321691,TB_tot_newrel,Tuberculosis
+afr,zaf,whs3_40,0.0129703605069784,10520,811080,WHS3_40,Colera
+afr,zaf,whs3_41,0.000100765820233777,1,9924,WHS3_41,Diphtheria
+afr,zaf,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,zaf,whs3_43,0.000465386560139264,185,397519,WHS3_43,Pertussis
+afr,zaf,whs3_46,2.85730613177896e-05,1,34998,WHS3_46,Total tetanus
+afr,zaf,whs3_48,0.000251538451089941,16500,65596333,WHS3_48,Malaria
+afr,zaf,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,zaf,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,zaf,whs3_56,0.000288766965059197,4,13852,WHS3_56,Neonatal tetanus
+afr,zaf,whs3_57,0.0200126983312597,6241,311852,WHS3_57,Rubella
+afr,zaf,whs3_62,0.00657752893217151,5949,904443,WHS3_62,Measles
+afr,zmb,tb_tot_newrel,0.00765606544996098,132616,17321691,TB_tot_newrel,Tuberculosis
+afr,zmb,whs3_40,0.00621640282093012,5042,811080,WHS3_40,Colera
+afr,zmb,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,zmb,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,zmb,whs3_43,0.00171312566191805,681,397519,WHS3_43,Pertussis
+afr,zmb,whs3_45,0.00171437827269222,1196,697629,WHS3_45,Leprosy
+afr,zmb,whs3_46,0,0,34998,WHS3_46,Total tetanus
+afr,zmb,whs3_48,0,0,65596333,WHS3_48,Malaria
+afr,zmb,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,zmb,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,zmb,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,zmb,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,zmb,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+afr,zmb,whs3_57,0.00364596026320178,1137,311852,WHS3_57,Rubella
+afr,zmb,whs3_62,0.032079412411838,29014,904443,WHS3_62,Measles
+afr,zwe,tb_tot_newrel,0.00725010046651912,125584,17321691,TB_tot_newrel,Tuberculosis
+afr,zwe,whs3_40,0.0855316368299058,69373,811080,WHS3_40,Colera
+afr,zwe,whs3_41,0,0,9924,WHS3_41,Diphtheria
+afr,zwe,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+afr,zwe,whs3_43,0,0,397519,WHS3_43,Pertussis
+afr,zwe,whs3_45,2.15013997411231e-05,15,697629,WHS3_45,Leprosy
+afr,zwe,whs3_46,0.000342876735813475,12,34998,WHS3_46,Total tetanus
+afr,zwe,whs3_48,0.0104173811057396,683342,65596333,WHS3_48,Malaria
+afr,zwe,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+afr,zwe,whs3_50,0,0,3464,WHS3_50,Yellow fever
+afr,zwe,whs3_53,0,0,1879019,WHS3_53,Mumps
+afr,zwe,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+afr,zwe,whs3_56,0.000866300895177592,12,13852,WHS3_56,Neonatal tetanus
+afr,zwe,whs3_57,0.00152315842130241,475,311852,WHS3_57,Rubella
+afr,zwe,whs3_62,0.0116635321407761,10549,904443,WHS3_62,Measles
+amr,arg,tb_tot_newrel,0.00142006920686901,24598,17321691,TB_tot_newrel,Tuberculosis
+amr,arg,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,arg,whs3_43,0.0104171121380362,4141,397519,WHS3_43,Pertussis
+amr,arg,whs3_45,0.00147212916894223,1027,697629,WHS3_45,Leprosy
+amr,arg,whs3_46,0.000600034287673581,21,34998,WHS3_46,Total tetanus
+amr,arg,whs3_48,2.95748239463325e-06,194,65596333,WHS3_48,Malaria
+amr,arg,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,arg,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,arg,whs3_53,0.00876893740829656,16477,1879019,WHS3_53,Mumps
+amr,arg,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,arg,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,arg,whs3_57,1.60332465400254e-05,5,311852,WHS3_57,Rubella
+amr,arg,whs3_62,2.54300160430232e-05,23,904443,WHS3_62,Measles
+amr,atg,tb_tot_newrel,8.65966261608061e-07,15,17321691,TB_tot_newrel,Tuberculosis
+amr,atg,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,atg,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,atg,whs3_45,0,0,697629,WHS3_45,Leprosy
+amr,atg,whs3_46,0,0,34998,WHS3_46,Total tetanus
+amr,atg,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,atg,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,atg,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,atg,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,atg,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,atg,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,atg,whs3_62,0,0,904443,WHS3_62,Measles
+amr,bhs,tb_tot_newrel,6.75453684054288e-06,117,17321691,TB_tot_newrel,Tuberculosis
+amr,bhs,whs3_40,1.23292400256448e-06,1,811080,WHS3_40,Colera
+amr,bhs,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,bhs,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,bhs,whs3_45,0,0,697629,WHS3_45,Leprosy
+amr,bhs,whs3_46,0,0,34998,WHS3_46,Total tetanus
+amr,bhs,whs3_48,0,0,65596333,WHS3_48,Malaria
+amr,bhs,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,bhs,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,bhs,whs3_53,1.59657778872912e-06,3,1879019,WHS3_53,Mumps
+amr,bhs,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,bhs,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,bhs,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,bhs,whs3_62,0,0,904443,WHS3_62,Measles
+amr,blz,tb_tot_newrel,1.77234428209117e-05,307,17321691,TB_tot_newrel,Tuberculosis
+amr,blz,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,blz,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,blz,whs3_45,0,0,697629,WHS3_45,Leprosy
+amr,blz,whs3_46,0,0,34998,WHS3_46,Total tetanus
+amr,blz,whs3_48,7.39370598658312e-06,485,65596333,WHS3_48,Malaria
+amr,blz,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,blz,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,blz,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,blz,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,blz,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,blz,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,blz,whs3_62,0,0,904443,WHS3_62,Measles
+amr,bol,tb_tot_newrel,0.00148443936564854,25713,17321691,TB_tot_newrel,Tuberculosis
+amr,bol,whs3_41,0.000503829101168884,5,9924,WHS3_41,Diphtheria
+amr,bol,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,bol,whs3_45,0.000379858062093176,265,697629,WHS3_45,Leprosy
+amr,bol,whs3_46,0.000285730613177896,10,34998,WHS3_46,Total tetanus
+amr,bol,whs3_48,0.000467327952615888,30655,65596333,WHS3_48,Malaria
+amr,bol,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,bol,whs3_50,0.00144341801385681,5,3464,WHS3_50,Yellow fever
+amr,bol,whs3_53,0.0034981019351055,6573,1879019,WHS3_53,Mumps
+amr,bol,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,bol,whs3_56,0.000144383482529599,2,13852,WHS3_56,Neonatal tetanus
+amr,bol,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,bol,whs3_62,0,0,904443,WHS3_62,Measles
+amr,bra,tb_tot_newrel,0.0129506409045168,224327,17321691,TB_tot_newrel,Tuberculosis
+amr,bra,whs3_40,1.23292400256448e-06,1,811080,WHS3_40,Colera
+amr,bra,whs3_41,0.00423216444981862,42,9924,WHS3_41,Diphtheria
+amr,bra,whs3_43,0.00827130275534,3288,397519,WHS3_43,Pertussis
+amr,bra,whs3_45,0.152601167669349,106459,697629,WHS3_45,Leprosy
+amr,bra,whs3_46,0.0255157437567861,893,34998,WHS3_46,Total tetanus
+amr,bra,whs3_48,0.0138876513112402,910979,65596333,WHS3_48,Malaria
+amr,bra,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,bra,whs3_50,0.0138568129330254,48,3464,WHS3_50,Yellow fever
+amr,bra,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,bra,whs3_55,0.0463414634146341,19,410,WHS3_55,Congenital Rubella Syndrome
+amr,bra,whs3_56,0.00108287611897199,15,13852,WHS3_56,Neonatal tetanus
+amr,bra,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,bra,whs3_62,0.000122727468729373,111,904443,WHS3_62,Measles
+amr,brb,tb_tot_newrel,4.61848672857633e-07,8,17321691,TB_tot_newrel,Tuberculosis
+amr,brb,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,brb,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,brb,whs3_45,1.43342664940821e-06,1,697629,WHS3_45,Leprosy
+amr,brb,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+amr,brb,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,brb,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,brb,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,brb,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,brb,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,brb,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,brb,whs3_62,0,0,904443,WHS3_62,Measles
+amr,can,tb_tot_newrel,0.000243509712764187,4218,17321691,TB_tot_newrel,Tuberculosis
+amr,can,whs3_40,1.35621640282093e-05,11,811080,WHS3_40,Colera
+amr,can,whs3_41,0.00030229746070133,3,9924,WHS3_41,Diphtheria
+amr,can,whs3_43,0.00780340059217295,3102,397519,WHS3_43,Pertussis
+amr,can,whs3_46,0.000200011429224527,7,34998,WHS3_46,Total tetanus
+amr,can,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,can,whs3_50,0.000577367205542725,2,3464,WHS3_50,Yellow fever
+amr,can,whs3_53,0.000689189412134736,1295,1879019,WHS3_53,Mumps
+amr,can,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+amr,can,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,can,whs3_57,6.73396354681067e-05,21,311852,WHS3_57,Rubella
+amr,can,whs3_62,0.000965234956763444,873,904443,WHS3_62,Measles
+amr,chl,tb_tot_newrel,0.000417049351590442,7224,17321691,TB_tot_newrel,Tuberculosis
+amr,chl,whs3_40,1.23292400256448e-06,1,811080,WHS3_40,Colera
+amr,chl,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,chl,whs3_43,0.0102334731170082,4068,397519,WHS3_43,Pertussis
+amr,chl,whs3_45,0,0,697629,WHS3_45,Leprosy
+amr,chl,whs3_46,0.000885764900851477,31,34998,WHS3_46,Total tetanus
+amr,chl,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,chl,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,chl,whs3_53,0.00141882546158394,2666,1879019,WHS3_53,Mumps
+amr,chl,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,chl,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,chl,whs3_57,3.20664930800508e-06,1,311852,WHS3_57,Rubella
+amr,chl,whs3_62,7.73957010005053e-06,7,904443,WHS3_62,Measles
+amr,col,tb_tot_newrel,0.00197827105910156,34267,17321691,TB_tot_newrel,Tuberculosis
+amr,col,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,col,whs3_43,0.00442997693192023,1761,397519,WHS3_43,Pertussis
+amr,col,whs3_45,0.00171581169934163,1197,697629,WHS3_45,Leprosy
+amr,col,whs3_46,0.00422881307503286,148,34998,WHS3_46,Total tetanus
+amr,col,whs3_48,0.00398354584851565,261306,65596333,WHS3_48,Malaria
+amr,col,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,col,whs3_50,0.00144341801385681,5,3464,WHS3_50,Yellow fever
+amr,col,whs3_53,0.0190306750490549,35759,1879019,WHS3_53,Mumps
+amr,col,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,col,whs3_56,0.000577533930118394,8,13852,WHS3_56,Neonatal tetanus
+amr,col,whs3_57,1.60332465400254e-05,5,311852,WHS3_57,Rubella
+amr,col,whs3_62,6.63391722861474e-06,6,904443,WHS3_62,Measles
+amr,cri,tb_tot_newrel,8.35368787031243e-05,1447,17321691,TB_tot_newrel,Tuberculosis
+amr,cri,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,cri,whs3_43,0.00204770086461276,814,397519,WHS3_43,Pertussis
+amr,cri,whs3_45,4.30027994822463e-05,30,697629,WHS3_45,Leprosy
+amr,cri,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+amr,cri,whs3_48,5.99118856232406e-06,393,65596333,WHS3_48,Malaria
+amr,cri,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,cri,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,cri,whs3_53,2.28842816384507e-05,43,1879019,WHS3_53,Mumps
+amr,cri,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,cri,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,cri,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,cri,whs3_62,0,0,904443,WHS3_62,Measles
+amr,cub,tb_tot_newrel,0.000135321661147286,2344,17321691,TB_tot_newrel,Tuberculosis
+amr,cub,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,cub,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,cub,whs3_45,0.00109800481344669,766,697629,WHS3_45,Leprosy
+amr,cub,whs3_46,0.000142865306588948,5,34998,WHS3_46,Total tetanus
+amr,cub,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,cub,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,cub,whs3_53,2.6609629812152e-06,5,1879019,WHS3_53,Mumps
+amr,cub,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,cub,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,cub,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,cub,whs3_62,0,0,904443,WHS3_62,Measles
+amr,dma,tb_tot_newrel,8.08235177500857e-07,14,17321691,TB_tot_newrel,Tuberculosis
+amr,dma,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,dma,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,dma,whs3_45,1.43342664940821e-06,1,697629,WHS3_45,Leprosy
+amr,dma,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+amr,dma,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,dma,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,dma,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,dma,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,dma,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,dma,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,dma,whs3_62,0,0,904443,WHS3_62,Measles
+amr,dom,tb_tot_newrel,0.00072331275277916,12529,17321691,TB_tot_newrel,Tuberculosis
+amr,dom,whs3_40,0.025707698377472,20851,811080,WHS3_40,Colera
+amr,dom,whs3_41,0.00110842402257154,11,9924,WHS3_41,Diphtheria
+amr,dom,whs3_43,0.000145904975611229,58,397519,WHS3_43,Pertussis
+amr,dom,whs3_45,0.000666543391974818,465,697629,WHS3_45,Leprosy
+amr,dom,whs3_46,0.0044002514429396,154,34998,WHS3_46,Total tetanus
+amr,dom,whs3_48,0.000101728247522617,6673,65596333,WHS3_48,Malaria
+amr,dom,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,dom,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,dom,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,dom,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,dom,whs3_56,0.000216575223794398,3,13852,WHS3_56,Neonatal tetanus
+amr,dom,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,dom,whs3_62,2.21130574287158e-06,2,904443,WHS3_62,Measles
+amr,ecu,tb_tot_newrel,0.000845240802413575,14641,17321691,TB_tot_newrel,Tuberculosis
+amr,ecu,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,ecu,whs3_43,0.000110686533222311,44,397519,WHS3_43,Pertussis
+amr,ecu,whs3_45,0.000468730514356485,327,697629,WHS3_45,Leprosy
+amr,ecu,whs3_46,0.000228584490542317,8,34998,WHS3_46,Total tetanus
+amr,ecu,whs3_48,0.000110387268141955,7241,65596333,WHS3_48,Malaria
+amr,ecu,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,ecu,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,ecu,whs3_53,0.00154389072170106,2901,1879019,WHS3_53,Mumps
+amr,ecu,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,ecu,whs3_56,0.000649725671383194,9,13852,WHS3_56,Neonatal tetanus
+amr,ecu,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,ecu,whs3_62,0.000222236227158594,201,904443,WHS3_62,Measles
+amr,grd,tb_tot_newrel,6.35041925179245e-07,11,17321691,TB_tot_newrel,Tuberculosis
+amr,grd,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,grd,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,grd,whs3_45,0,0,697629,WHS3_45,Leprosy
+amr,grd,whs3_46,0,0,34998,WHS3_46,Total tetanus
+amr,grd,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,grd,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,grd,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,grd,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,grd,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,grd,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,grd,whs3_62,0,0,904443,WHS3_62,Measles
+amr,gtm,tb_tot_newrel,0.000534820763169139,9264,17321691,TB_tot_newrel,Tuberculosis
+amr,gtm,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,gtm,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,gtm,whs3_45,1.00339865458575e-05,7,697629,WHS3_45,Leprosy
+amr,gtm,whs3_46,0.000228584490542317,8,34998,WHS3_46,Total tetanus
+amr,gtm,whs3_48,0.000324499846660636,21286,65596333,WHS3_48,Malaria
+amr,gtm,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,gtm,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,gtm,whs3_53,5.3219259624304e-07,1,1879019,WHS3_53,Mumps
+amr,gtm,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,gtm,whs3_56,0.000144383482529599,2,13852,WHS3_56,Neonatal tetanus
+amr,gtm,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,gtm,whs3_62,0,0,904443,WHS3_62,Measles
+amr,guy,tb_tot_newrel,0.000126142418774241,2185,17321691,TB_tot_newrel,Tuberculosis
+amr,guy,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,guy,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,guy,whs3_45,0.00011180727865384,78,697629,WHS3_45,Leprosy
+amr,guy,whs3_46,0,0,34998,WHS3_46,Total tetanus
+amr,guy,whs3_48,0.00100735813997407,66079,65596333,WHS3_48,Malaria
+amr,guy,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,guy,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,guy,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,guy,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,guy,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,guy,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,guy,whs3_62,0,0,904443,WHS3_62,Measles
+amr,hnd,tb_tot_newrel,0.000521484882740375,9033,17321691,TB_tot_newrel,Tuberculosis
+amr,hnd,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,hnd,whs3_43,0.000943351135417427,375,397519,WHS3_43,Pertussis
+amr,hnd,whs3_45,7.16713324704105e-06,5,697629,WHS3_45,Leprosy
+amr,hnd,whs3_46,0.00145722612720727,51,34998,WHS3_46,Total tetanus
+amr,hnd,whs3_48,0.000405662920212323,26610,65596333,WHS3_48,Malaria
+amr,hnd,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,hnd,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,hnd,whs3_53,0.000267160683314006,502,1879019,WHS3_53,Mumps
+amr,hnd,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,hnd,whs3_56,0.000288766965059197,4,13852,WHS3_56,Neonatal tetanus
+amr,hnd,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,hnd,whs3_62,0,0,904443,WHS3_62,Measles
+amr,hti,tb_tot_newrel,0.00164747194716728,28537,17321691,TB_tot_newrel,Tuberculosis
+amr,hti,whs3_40,0.419577600236721,340311,811080,WHS3_40,Colera
+amr,hti,whs3_41,0.00392986698911729,39,9924,WHS3_41,Diphtheria
+amr,hti,whs3_43,1.00624121111192e-05,4,397519,WHS3_43,Pertussis
+amr,hti,whs3_45,3.72690928846135e-05,26,697629,WHS3_45,Leprosy
+amr,hti,whs3_46,8.57191839533688e-05,3,34998,WHS3_46,Total tetanus
+amr,hti,whs3_48,0.00252660465029349,165736,65596333,WHS3_48,Malaria
+amr,hti,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,hti,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,hti,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,hti,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,hti,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,hti,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,hti,whs3_62,2.6535668914459e-05,24,904443,WHS3_62,Measles
+amr,jam,tb_tot_newrel,2.15914254560943e-05,374,17321691,TB_tot_newrel,Tuberculosis
+amr,jam,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,jam,whs3_43,2.5156030277798e-06,1,397519,WHS3_43,Pertussis
+amr,jam,whs3_45,1.00339865458575e-05,7,697629,WHS3_45,Leprosy
+amr,jam,whs3_46,0.000285730613177896,10,34998,WHS3_46,Total tetanus
+amr,jam,whs3_48,2.28671319172674e-07,15,65596333,WHS3_48,Malaria
+amr,jam,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,jam,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,jam,whs3_53,2.6609629812152e-06,5,1879019,WHS3_53,Mumps
+amr,jam,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,jam,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,jam,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,jam,whs3_62,0,0,904443,WHS3_62,Measles
+amr,kna,tb_tot_newrel,4.04117588750429e-07,7,17321691,TB_tot_newrel,Tuberculosis
+amr,kna,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,kna,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,kna,whs3_45,1.43342664940821e-06,1,697629,WHS3_45,Leprosy
+amr,kna,whs3_46,0,0,34998,WHS3_46,Total tetanus
+amr,kna,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,kna,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,kna,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,kna,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,kna,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,kna,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,kna,whs3_62,0,0,904443,WHS3_62,Measles
+amr,lca,tb_tot_newrel,1.50100818678731e-06,26,17321691,TB_tot_newrel,Tuberculosis
+amr,lca,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,lca,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,lca,whs3_45,2.7235106338756e-05,19,697629,WHS3_45,Leprosy
+amr,lca,whs3_46,2.85730613177896e-05,1,34998,WHS3_46,Total tetanus
+amr,lca,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,lca,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,lca,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,lca,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,lca,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,lca,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,lca,whs3_62,0,0,904443,WHS3_62,Measles
+amr,mex,tb_tot_newrel,0.0033641634641791,58273,17321691,TB_tot_newrel,Tuberculosis
+amr,mex,whs3_40,1.23292400256448e-06,1,811080,WHS3_40,Colera
+amr,mex,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,mex,whs3_43,0.00204015405552942,811,397519,WHS3_43,Pertussis
+amr,mex,whs3_45,0.000774050390680433,540,697629,WHS3_45,Leprosy
+amr,mex,whs3_46,0.00177152980170295,62,34998,WHS3_46,Total tetanus
+amr,mex,whs3_48,7.70317450519681e-05,5053,65596333,WHS3_48,Malaria
+amr,mex,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,mex,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,mex,whs3_53,0.00142893712091256,2685,1879019,WHS3_53,Mumps
+amr,mex,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,mex,whs3_56,7.21917412647993e-05,1,13852,WHS3_56,Neonatal tetanus
+amr,mex,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,mex,whs3_62,3.31695861430737e-06,3,904443,WHS3_62,Measles
+amr,nic,tb_tot_newrel,0.000428595568411883,7424,17321691,TB_tot_newrel,Tuberculosis
+amr,nic,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,nic,whs3_43,0.000306903569389136,122,397519,WHS3_43,Pertussis
+amr,nic,whs3_45,1.72011197928985e-05,12,697629,WHS3_45,Leprosy
+amr,nic,whs3_46,2.85730613177896e-05,1,34998,WHS3_46,Total tetanus
+amr,nic,whs3_48,3.39500685198363e-05,2227,65596333,WHS3_48,Malaria
+amr,nic,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,nic,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,nic,whs3_53,8.30220450139142e-05,156,1879019,WHS3_53,Mumps
+amr,nic,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,nic,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,nic,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,nic,whs3_62,0,0,904443,WHS3_62,Measles
+amr,pan,tb_tot_newrel,0.000264870213883852,4588,17321691,TB_tot_newrel,Tuberculosis
+amr,pan,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,pan,whs3_43,0.000399980881416989,159,397519,WHS3_43,Pertussis
+amr,pan,whs3_45,4.30027994822463e-06,3,697629,WHS3_45,Leprosy
+amr,pan,whs3_46,0.000114292245271158,4,34998,WHS3_46,Total tetanus
+amr,pan,whs3_48,2.35074116109509e-05,1542,65596333,WHS3_48,Malaria
+amr,pan,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,pan,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,pan,whs3_53,0.000184138638300092,346,1879019,WHS3_53,Mumps
+amr,pan,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,pan,whs3_56,7.21917412647993e-05,1,13852,WHS3_56,Neonatal tetanus
+amr,pan,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,pan,whs3_62,4.42261148574316e-06,4,904443,WHS3_62,Measles
+amr,per,tb_tot_newrel,0.00543584341736612,94158,17321691,TB_tot_newrel,Tuberculosis
+amr,per,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,per,whs3_43,0.000940835532389647,374,397519,WHS3_43,Pertussis
+amr,per,whs3_45,8.74390256139008e-05,61,697629,WHS3_45,Leprosy
+amr,per,whs3_46,0.00297159837705012,104,34998,WHS3_46,Total tetanus
+amr,per,whs3_48,0.00135583798563862,88938,65596333,WHS3_48,Malaria
+amr,per,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,per,whs3_50,0.0112586605080831,39,3464,WHS3_50,Yellow fever
+amr,per,whs3_52,0.0352035203520352,32,909,WHS3_52,Plague
+amr,per,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,per,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,per,whs3_56,0.000505342188853595,7,13852,WHS3_56,Neonatal tetanus
+amr,per,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,per,whs3_62,0,0,904443,WHS3_62,Measles
+amr,pry,tb_tot_newrel,0.000403828933329893,6995,17321691,TB_tot_newrel,Tuberculosis
+amr,pry,whs3_40,6.16462001282241e-06,5,811080,WHS3_40,Colera
+amr,pry,whs3_41,0.000201531640467553,2,9924,WHS3_41,Diphtheria
+amr,pry,whs3_43,3.27028393611375e-05,13,397519,WHS3_43,Pertussis
+amr,pry,whs3_45,0.00181185128485198,1264,697629,WHS3_45,Leprosy
+amr,pry,whs3_46,0.000857191839533688,30,34998,WHS3_46,Total tetanus
+amr,pry,whs3_48,1.95132859027348e-06,128,65596333,WHS3_48,Malaria
+amr,pry,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,pry,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,pry,whs3_53,0.000265031912929034,498,1879019,WHS3_53,Mumps
+amr,pry,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,pry,whs3_56,0.000216575223794398,3,13852,WHS3_56,Neonatal tetanus
+amr,pry,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,pry,whs3_62,0,0,904443,WHS3_62,Measles
+amr,slv,tb_tot_newrel,0.000304935586254252,5282,17321691,TB_tot_newrel,Tuberculosis
+amr,slv,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,slv,whs3_43,3.77340454166971e-05,15,397519,WHS3_43,Pertussis
+amr,slv,whs3_45,8.60055989644926e-06,6,697629,WHS3_45,Leprosy
+amr,slv,whs3_46,0.000600034287673581,21,34998,WHS3_46,Total tetanus
+amr,slv,whs3_48,7.6223773057558e-07,50,65596333,WHS3_48,Malaria
+amr,slv,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,slv,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,slv,whs3_53,0.000599781055965906,1127,1879019,WHS3_53,Mumps
+amr,slv,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,slv,whs3_56,0.000144383482529599,2,13852,WHS3_56,Neonatal tetanus
+amr,slv,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,slv,whs3_62,0,0,904443,WHS3_62,Measles
+amr,sur,tb_tot_newrel,2.8576886633066e-05,495,17321691,TB_tot_newrel,Tuberculosis
+amr,sur,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,sur,whs3_43,2.5156030277798e-06,1,397519,WHS3_43,Pertussis
+amr,sur,whs3_45,0.000153376651486678,107,697629,WHS3_45,Leprosy
+amr,sur,whs3_46,8.57191839533688e-05,3,34998,WHS3_46,Total tetanus
+amr,sur,whs3_48,5.81892283521397e-05,3817,65596333,WHS3_48,Malaria
+amr,sur,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,sur,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,sur,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,sur,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,sur,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,sur,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,sur,whs3_62,0,0,904443,WHS3_62,Measles
+amr,tto,tb_tot_newrel,4.12777251366509e-05,715,17321691,TB_tot_newrel,Tuberculosis
+amr,tto,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,tto,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,tto,whs3_45,6.1637345924553e-05,43,697629,WHS3_45,Leprosy
+amr,tto,whs3_46,0,0,34998,WHS3_46,Total tetanus
+amr,tto,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,tto,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,tto,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,tto,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,tto,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,tto,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,tto,whs3_62,0,0,904443,WHS3_62,Measles
+amr,ury,tb_tot_newrel,0.000128163006717993,2220,17321691,TB_tot_newrel,Tuberculosis
+amr,ury,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,ury,whs3_43,0.000113202136250091,45,397519,WHS3_43,Pertussis
+amr,ury,whs3_45,4.44362261316545e-05,31,697629,WHS3_45,Leprosy
+amr,ury,whs3_46,0.000114292245271158,4,34998,WHS3_46,Total tetanus
+amr,ury,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,ury,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,ury,whs3_53,0.000226181853403292,425,1879019,WHS3_53,Mumps
+amr,ury,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,ury,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,ury,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,ury,whs3_62,0,0,904443,WHS3_62,Measles
+amr,usa,tb_tot_newrel,0.00191938535331221,33247,17321691,TB_tot_newrel,Tuberculosis
+amr,usa,whs3_40,6.41120481333531e-05,52,811080,WHS3_40,Colera
+amr,usa,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,usa,whs3_43,0.0468153723469822,18610,397519,WHS3_43,Pertussis
+amr,usa,whs3_45,0.00072101360465233,503,697629,WHS3_45,Leprosy
+amr,usa,whs3_46,0.00105720326875821,37,34998,WHS3_46,Total tetanus
+amr,usa,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,usa,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,usa,whs3_52,0.0022002200220022,2,909,WHS3_52,Plague
+amr,usa,whs3_53,0.00127460126800208,2395,1879019,WHS3_53,Mumps
+amr,usa,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,usa,whs3_56,7.21917412647993e-05,1,13852,WHS3_56,Neonatal tetanus
+amr,usa,whs3_57,2.24465451560356e-05,7,311852,WHS3_57,Rubella
+amr,usa,whs3_62,0.000323956291330686,293,904443,WHS3_62,Measles
+amr,vct,tb_tot_newrel,2.36697444839537e-06,41,17321691,TB_tot_newrel,Tuberculosis
+amr,vct,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,vct,whs3_43,0,0,397519,WHS3_43,Pertussis
+amr,vct,whs3_45,0,0,697629,WHS3_45,Leprosy
+amr,vct,whs3_46,0,0,34998,WHS3_46,Total tetanus
+amr,vct,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,vct,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,vct,whs3_53,0,0,1879019,WHS3_53,Mumps
+amr,vct,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,vct,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+amr,vct,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,vct,whs3_62,1.10565287143579e-06,1,904443,WHS3_62,Measles
+amr,ven,tb_tot_newrel,0.00110214412669063,19091,17321691,TB_tot_newrel,Tuberculosis
+amr,ven,whs3_40,6.04132761256596e-05,49,811080,WHS3_40,Colera
+amr,ven,whs3_41,0,0,9924,WHS3_41,Diphtheria
+amr,ven,whs3_43,7.54680908333941e-06,3,397519,WHS3_43,Pertussis
+amr,ven,whs3_45,0.00255149943594661,1780,697629,WHS3_45,Leprosy
+amr,ven,whs3_46,0.00160009143379622,56,34998,WHS3_46,Total tetanus
+amr,ven,whs3_48,0.00192204341666477,126079,65596333,WHS3_48,Malaria
+amr,ven,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+amr,ven,whs3_50,0,0,3464,WHS3_50,Yellow fever
+amr,ven,whs3_53,0.00723888369409782,13602,1879019,WHS3_53,Mumps
+amr,ven,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+amr,ven,whs3_56,0.000433150447588796,6,13852,WHS3_56,Neonatal tetanus
+amr,ven,whs3_57,0,0,311852,WHS3_57,Rubella
+amr,ven,whs3_62,0,0,904443,WHS3_62,Measles
+emr,afg,tb_tot_newrel,0.00470098444776552,81429,17321691,TB_tot_newrel,Tuberculosis
+emr,afg,whs3_40,0.0054187009912709,4395,811080,WHS3_40,Colera
+emr,afg,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,afg,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,afg,whs3_43,0,0,397519,WHS3_43,Pertussis
+emr,afg,whs3_45,0.000219314277359456,153,697629,WHS3_45,Leprosy
+emr,afg,whs3_46,0.00177152980170295,62,34998,WHS3_46,Total tetanus
+emr,afg,whs3_48,0.00322923539033805,211826,65596333,WHS3_48,Malaria
+emr,afg,whs3_49,0.0413669064748201,69,1668,WHS3_49,Poliomyelitis
+emr,afg,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,afg,whs3_53,0,0,1879019,WHS3_53,Mumps
+emr,afg,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+emr,afg,whs3_56,0.00310424487438637,43,13852,WHS3_56,Neonatal tetanus
+emr,afg,whs3_57,0.00415902415248259,1297,311852,WHS3_57,Rubella
+emr,afg,whs3_62,0.00869374852809962,7863,904443,WHS3_62,Measles
+emr,are,tb_tot_newrel,2.02058794375214e-05,350,17321691,TB_tot_newrel,Tuberculosis
+emr,are,whs3_41,0.000100765820233777,1,9924,WHS3_41,Diphtheria
+emr,are,whs3_43,0.000198732639194605,79,397519,WHS3_43,Pertussis
+emr,are,whs3_45,1.43342664940821e-05,10,697629,WHS3_45,Leprosy
+emr,are,whs3_46,0.000114292245271158,4,34998,WHS3_46,Total tetanus
+emr,are,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,are,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,are,whs3_53,0.000210748268112244,396,1879019,WHS3_53,Mumps
+emr,are,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+emr,are,whs3_57,0.000109026076472173,34,311852,WHS3_57,Rubella
+emr,are,whs3_62,9.61917998149137e-05,87,904443,WHS3_62,Measles
+emr,bhr,tb_tot_newrel,4.60116740334417e-05,797,17321691,TB_tot_newrel,Tuberculosis
+emr,bhr,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,bhr,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,bhr,whs3_43,2.5156030277798e-06,1,397519,WHS3_43,Pertussis
+emr,bhr,whs3_45,1.14674131952657e-05,8,697629,WHS3_45,Leprosy
+emr,bhr,whs3_46,0,0,34998,WHS3_46,Total tetanus
+emr,bhr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,bhr,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,bhr,whs3_53,4.25754076994432e-05,80,1879019,WHS3_53,Mumps
+emr,bhr,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+emr,bhr,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+emr,bhr,whs3_57,5.77196875440914e-05,18,311852,WHS3_57,Rubella
+emr,bhr,whs3_62,3.31695861430737e-06,3,904443,WHS3_62,Measles
+emr,dji,tb_tot_newrel,0.000672047550091963,11641,17321691,TB_tot_newrel,Tuberculosis
+emr,dji,whs3_40,0.000156581348325689,127,811080,WHS3_40,Colera
+emr,dji,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,dji,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,dji,whs3_43,0,0,397519,WHS3_43,Pertussis
+emr,dji,whs3_45,1.29008398446739e-05,9,697629,WHS3_45,Leprosy
+emr,dji,whs3_46,0,0,34998,WHS3_46,Total tetanus
+emr,dji,whs3_48,5.64818158356505e-05,3705,65596333,WHS3_48,Malaria
+emr,dji,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,dji,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,dji,whs3_51,0,0,142,WHS3_51,H5N1
+emr,dji,whs3_55,0.0512195121951219,21,410,WHS3_55,Congenital Rubella Syndrome
+emr,dji,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+emr,dji,whs3_57,4.80997396200762e-05,15,311852,WHS3_57,Rubella
+emr,dji,whs3_62,0.000114987898629322,104,904443,WHS3_62,Measles
+emr,egy,tb_tot_newrel,0.00161179413718903,27919,17321691,TB_tot_newrel,Tuberculosis
+emr,egy,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,egy,whs3_43,0,0,397519,WHS3_43,Pertussis
+emr,egy,whs3_45,0.00290842267164926,2029,697629,WHS3_45,Leprosy
+emr,egy,whs3_46,0.00785759186239214,275,34998,WHS3_46,Total tetanus
+emr,egy,whs3_48,0,0,65596333,WHS3_48,Malaria
+emr,egy,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,egy,whs3_51,0.556338028169014,79,142,WHS3_51,H5N1
+emr,egy,whs3_53,0.000313993631783393,590,1879019,WHS3_53,Mumps
+emr,egy,whs3_56,0.00368177880450476,51,13852,WHS3_56,Neonatal tetanus
+emr,egy,whs3_57,0.00352410758949758,1099,311852,WHS3_57,Rubella
+emr,egy,whs3_62,0.000718674366433263,650,904443,WHS3_62,Measles
+emr,irn,tb_tot_newrel,0.00181500755324639,31439,17321691,TB_tot_newrel,Tuberculosis
+emr,irn,whs3_40,0.00146348079104404,1187,811080,WHS3_40,Colera
+emr,irn,whs3_41,0.0298266827891979,296,9924,WHS3_41,Diphtheria
+emr,irn,whs3_43,0.00428658755933679,1704,397519,WHS3_43,Pertussis
+emr,irn,whs3_45,0.000163410638032536,114,697629,WHS3_45,Leprosy
+emr,irn,whs3_46,0.00114292245271158,40,34998,WHS3_46,Total tetanus
+emr,irn,whs3_48,0.000122476358548884,8034,65596333,WHS3_48,Malaria
+emr,irn,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,irn,whs3_55,0.119512195121951,49,410,WHS3_55,Congenital Rubella Syndrome
+emr,irn,whs3_56,0.000577533930118394,8,13852,WHS3_56,Neonatal tetanus
+emr,irn,whs3_57,0.000176365711940279,55,311852,WHS3_57,Rubella
+emr,irn,whs3_62,0.000965234956763444,873,904443,WHS3_62,Measles
+emr,irq,tb_tot_newrel,0.0016123714480301,27929,17321691,TB_tot_newrel,Tuberculosis
+emr,irq,whs3_40,7.39754401538689e-06,6,811080,WHS3_40,Colera
+emr,irq,whs3_41,0.00151148730350665,15,9924,WHS3_41,Diphtheria
+emr,irq,whs3_43,0.0239586032365749,9524,397519,WHS3_43,Pertussis
+emr,irq,whs3_45,2.86685329881642e-06,2,697629,WHS3_45,Leprosy
+emr,irq,whs3_46,0.00280016000914338,98,34998,WHS3_46,Total tetanus
+emr,irq,whs3_48,0,0,65596333,WHS3_48,Malaria
+emr,irq,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,irq,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,irq,whs3_51,0,0,142,WHS3_51,H5N1
+emr,irq,whs3_53,0.00323094125179149,6071,1879019,WHS3_53,Mumps
+emr,irq,whs3_55,0.0024390243902439,1,410,WHS3_55,Congenital Rubella Syndrome
+emr,irq,whs3_56,0.00274328616806237,38,13852,WHS3_56,Neonatal tetanus
+emr,irq,whs3_57,0.000641329861601016,200,311852,WHS3_57,Rubella
+emr,irq,whs3_62,0.0340928062907226,30835,904443,WHS3_62,Measles
+emr,jor,tb_tot_newrel,5.8827974705241e-05,1019,17321691,TB_tot_newrel,Tuberculosis
+emr,jor,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,jor,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,jor,whs3_43,1.50936181666788e-05,6,397519,WHS3_43,Pertussis
+emr,jor,whs3_45,0,0,697629,WHS3_45,Leprosy
+emr,jor,whs3_46,0,0,34998,WHS3_46,Total tetanus
+emr,jor,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,jor,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,jor,whs3_53,0.00025917779437036,487,1879019,WHS3_53,Mumps
+emr,jor,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+emr,jor,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+emr,jor,whs3_57,9.61994792401524e-06,3,311852,WHS3_57,Rubella
+emr,jor,whs3_62,0,0,904443,WHS3_62,Measles
+emr,kwt,tb_tot_newrel,0.000147907037482657,2562,17321691,TB_tot_newrel,Tuberculosis
+emr,kwt,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,kwt,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,kwt,whs3_43,0.000143389372583449,57,397519,WHS3_43,Pertussis
+emr,kwt,whs3_45,5.4470212677512e-05,38,697629,WHS3_45,Leprosy
+emr,kwt,whs3_46,0,0,34998,WHS3_46,Total tetanus
+emr,kwt,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,kwt,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,kwt,whs3_53,8.14254672251851e-05,153,1879019,WHS3_53,Mumps
+emr,kwt,whs3_55,0.0024390243902439,1,410,WHS3_55,Congenital Rubella Syndrome
+emr,kwt,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+emr,kwt,whs3_57,0.000205225555712325,64,311852,WHS3_57,Rubella
+emr,kwt,whs3_62,4.97543792146105e-05,45,904443,WHS3_62,Measles
+emr,lbn,tb_tot_newrel,8.70584748336638e-05,1508,17321691,TB_tot_newrel,Tuberculosis
+emr,lbn,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,lbn,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,lbn,whs3_43,0.000228919875527962,91,397519,WHS3_43,Pertussis
+emr,lbn,whs3_45,8.60055989644926e-06,6,697629,WHS3_45,Leprosy
+emr,lbn,whs3_46,0.000142865306588948,5,34998,WHS3_46,Total tetanus
+emr,lbn,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,lbn,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,lbn,whs3_53,9.31337043425319e-05,175,1879019,WHS3_53,Mumps
+emr,lbn,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+emr,lbn,whs3_56,7.21917412647993e-05,1,13852,WHS3_56,Neonatal tetanus
+emr,lbn,whs3_57,9.61994792401524e-05,30,311852,WHS3_57,Rubella
+emr,lbn,whs3_62,4.7543073471739e-05,43,904443,WHS3_62,Measles
+emr,lby,tb_tot_newrel,0.000208640137963436,3614,17321691,TB_tot_newrel,Tuberculosis
+emr,lby,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,lby,whs3_43,4.02496484444769e-05,16,397519,WHS3_43,Pertussis
+emr,lby,whs3_45,2.15013997411231e-05,15,697629,WHS3_45,Leprosy
+emr,lby,whs3_46,0,0,34998,WHS3_46,Total tetanus
+emr,lby,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,lby,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,lby,whs3_53,0.000397015676797308,746,1879019,WHS3_53,Mumps
+emr,lby,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+emr,lby,whs3_57,9.61994792401524e-06,3,311852,WHS3_57,Rubella
+emr,lby,whs3_62,0.000363759794702375,329,904443,WHS3_62,Measles
+emr,mar,tb_tot_newrel,0.00486944375119034,84347,17321691,TB_tot_newrel,Tuberculosis
+emr,mar,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,mar,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,mar,whs3_43,0.000309419172416916,123,397519,WHS3_43,Pertussis
+emr,mar,whs3_45,0.000189212317721884,132,697629,WHS3_45,Leprosy
+emr,mar,whs3_46,0.0022001257214698,77,34998,WHS3_46,Total tetanus
+emr,mar,whs3_48,6.09790184460464e-08,4,65596333,WHS3_48,Malaria
+emr,mar,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,mar,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,mar,whs3_56,0.000866300895177592,12,13852,WHS3_56,Neonatal tetanus
+emr,mar,whs3_57,4.1686441004066e-05,13,311852,WHS3_57,Rubella
+emr,mar,whs3_62,0.00270774388214625,2449,904443,WHS3_62,Measles
+emr,omn,tb_tot_newrel,5.64032691727384e-05,977,17321691,TB_tot_newrel,Tuberculosis
+emr,omn,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,omn,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,omn,whs3_43,0.000397465278389209,158,397519,WHS3_43,Pertussis
+emr,omn,whs3_45,1.00339865458575e-05,7,697629,WHS3_45,Leprosy
+emr,omn,whs3_46,0.000171438367906738,6,34998,WHS3_46,Total tetanus
+emr,omn,whs3_48,5.64055920625929e-07,37,65596333,WHS3_48,Malaria
+emr,omn,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,omn,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,omn,whs3_53,0.000708348345599486,1331,1879019,WHS3_53,Mumps
+emr,omn,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+emr,omn,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+emr,omn,whs3_57,7.05462847761117e-05,22,311852,WHS3_57,Rubella
+emr,omn,whs3_62,2.98526275287663e-05,27,904443,WHS3_62,Measles
+emr,pak,tb_tot_newrel,0.0454048048773067,786488,17321691,TB_tot_newrel,Tuberculosis
+emr,pak,whs3_40,0.000649750949351482,527,811080,WHS3_40,Colera
+emr,pak,whs3_41,0.00937122128174123,93,9924,WHS3_41,Diphtheria
+emr,pak,whs3_43,0.00107919369891754,429,397519,WHS3_43,Pertussis
+emr,pak,whs3_45,0.0019379928299999,1352,697629,WHS3_45,Leprosy
+emr,pak,whs3_46,0.0540316589519401,1891,34998,WHS3_46,Total tetanus
+emr,pak,whs3_48,0.0109966970257316,721343,65596333,WHS3_48,Malaria
+emr,pak,whs3_49,0.242805755395683,405,1668,WHS3_49,Poliomyelitis
+emr,pak,whs3_51,0,0,142,WHS3_51,H5N1
+emr,pak,whs3_56,0.12951198382905,1794,13852,WHS3_56,Neonatal tetanus
+emr,pak,whs3_57,0.00060605671921296,189,311852,WHS3_57,Rubella
+emr,pak,whs3_62,0.0105810979796405,9570,904443,WHS3_62,Measles
+emr,qat,tb_tot_newrel,0.000101144859355822,1752,17321691,TB_tot_newrel,Tuberculosis
+emr,qat,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,qat,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,qat,whs3_43,5.03120605555961e-05,20,397519,WHS3_43,Pertussis
+emr,qat,whs3_45,0.00015194322483727,106,697629,WHS3_45,Leprosy
+emr,qat,whs3_46,0,0,34998,WHS3_46,Total tetanus
+emr,qat,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,qat,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,qat,whs3_53,0.000492810344121055,926,1879019,WHS3_53,Mumps
+emr,qat,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+emr,qat,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+emr,qat,whs3_57,0.000169952413324269,53,311852,WHS3_57,Rubella
+emr,qat,whs3_62,0.000561671658689381,508,904443,WHS3_62,Measles
+emr,sau,tb_tot_newrel,0.000715692249677009,12397,17321691,TB_tot_newrel,Tuberculosis
+emr,sau,whs3_41,0.00030229746070133,3,9924,WHS3_41,Diphtheria
+emr,sau,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,sau,whs3_43,3.52184423889173e-05,14,397519,WHS3_43,Pertussis
+emr,sau,whs3_45,3.72690928846135e-05,26,697629,WHS3_45,Leprosy
+emr,sau,whs3_46,0.00145722612720727,51,34998,WHS3_46,Total tetanus
+emr,sau,whs3_48,2.37818171939581e-06,156,65596333,WHS3_48,Malaria
+emr,sau,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,sau,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,sau,whs3_53,0.000411917069492113,774,1879019,WHS3_53,Mumps
+emr,sau,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+emr,sau,whs3_56,0.00202136875541438,28,13852,WHS3_56,Neonatal tetanus
+emr,sau,whs3_57,0.000150712517476239,47,311852,WHS3_57,Rubella
+emr,sau,whs3_62,0.000860197933977044,778,904443,WHS3_62,Measles
+emr,sdn,tb_tot_newrel,0.00412661789198295,71480,17321691,TB_tot_newrel,Tuberculosis
+emr,sdn,whs3_40,0.0168676332790847,13681,811080,WHS3_40,Colera
+emr,sdn,whs3_41,0.0199516324062878,198,9924,WHS3_41,Diphtheria
+emr,sdn,whs3_43,0.000872914250639592,347,397519,WHS3_43,Pertussis
+emr,sdn,whs3_45,0.00745381857692269,5200,697629,WHS3_45,Leprosy
+emr,sdn,whs3_46,0.0172009829133093,602,34998,WHS3_46,Total tetanus
+emr,sdn,whs3_47,0.0167271847010409,2764,165240,WHS3_47,Meningitis
+emr,sdn,whs3_48,0.029556911359664,1938825,65596333,WHS3_48,Malaria
+emr,sdn,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,sdn,whs3_56,0.0415824429685244,576,13852,WHS3_56,Neonatal tetanus
+emr,sdn,whs3_57,0.00295011736336467,920,311852,WHS3_57,Rubella
+emr,sdn,whs3_62,0.00703637487381737,6364,904443,WHS3_62,Measles
+emr,som,tb_tot_newrel,0.00189744754135148,32867,17321691,TB_tot_newrel,Tuberculosis
+emr,som,whs3_40,0.0959757360556295,77844,811080,WHS3_40,Colera
+emr,som,whs3_43,0.0113604632734536,4516,397519,WHS3_43,Pertussis
+emr,som,whs3_45,0.000589138352906774,411,697629,WHS3_45,Leprosy
+emr,som,whs3_46,0.00817189553688782,286,34998,WHS3_46,Total tetanus
+emr,som,whs3_48,0.000809587938398935,53106,65596333,WHS3_48,Malaria
+emr,som,whs3_49,0.00479616306954436,8,1668,WHS3_49,Poliomyelitis
+emr,som,whs3_56,0.0259890268553278,360,13852,WHS3_56,Neonatal tetanus
+emr,som,whs3_62,0.0192671069376401,17426,904443,WHS3_62,Measles
+emr,ssd,tb_tot_newrel,0.000416645234001692,7217,17321691,TB_tot_newrel,Tuberculosis
+emr,ssd,whs3_45,0.00257873454228537,1799,697629,WHS3_45,Leprosy
+emr,ssd,whs3_48,0.0154323718065155,1012307,65596333,WHS3_48,Malaria
+emr,ssd,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,ssd,whs3_50,0.0369515011547344,128,3464,WHS3_50,Yellow fever
+emr,ssd,whs3_56,0.00324862835691597,45,13852,WHS3_56,Neonatal tetanus
+emr,ssd,whs3_62,0.00138870000652335,1256,904443,WHS3_62,Measles
+emr,syr,tb_tot_newrel,0.000641450075515145,11111,17321691,TB_tot_newrel,Tuberculosis
+emr,syr,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,syr,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+emr,syr,whs3_43,0.000450292941972585,179,397519,WHS3_43,Pertussis
+emr,syr,whs3_45,1.00339865458575e-05,7,697629,WHS3_45,Leprosy
+emr,syr,whs3_46,0.000400022858449054,14,34998,WHS3_46,Total tetanus
+emr,syr,whs3_48,0,0,65596333,WHS3_48,Malaria
+emr,syr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,syr,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,syr,whs3_53,0.000204361956957327,384,1879019,WHS3_53,Mumps
+emr,syr,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+emr,syr,whs3_56,0.000794109153912792,11,13852,WHS3_56,Neonatal tetanus
+emr,syr,whs3_57,9.29928299321473e-05,29,311852,WHS3_57,Rubella
+emr,syr,whs3_62,6.74448251575832e-05,61,904443,WHS3_62,Measles
+emr,tun,tb_tot_newrel,0.000435176912000104,7538,17321691,TB_tot_newrel,Tuberculosis
+emr,tun,whs3_41,0,0,9924,WHS3_41,Diphtheria
+emr,tun,whs3_43,3.01872363333576e-05,12,397519,WHS3_43,Pertussis
+emr,tun,whs3_45,8.60055989644926e-06,6,697629,WHS3_45,Leprosy
+emr,tun,whs3_46,0.000171438367906738,6,34998,WHS3_46,Total tetanus
+emr,tun,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+emr,tun,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+emr,tun,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+emr,tun,whs3_57,0.00428729012480279,1337,311852,WHS3_57,Rubella
+emr,tun,whs3_62,1.43734873286653e-05,13,904443,WHS3_62,Measles
+emr,yem,tb_tot_newrel,0.00150758953037553,26114,17321691,TB_tot_newrel,Tuberculosis
+emr,yem,whs3_40,0.0392612319376634,31844,811080,WHS3_40,Colera
+emr,yem,whs3_41,0.00090689238210399,9,9924,WHS3_41,Diphtheria
+emr,yem,whs3_43,0.0183991205451815,7314,397519,WHS3_43,Pertussis
+emr,yem,whs3_45,0.00146926231564342,1025,697629,WHS3_45,Leprosy
+emr,yem,whs3_46,0.00460026287216412,161,34998,WHS3_46,Total tetanus
+emr,yem,whs3_48,0.00385010851140109,252553,65596333,WHS3_48,Malaria
+emr,yem,whs3_49,0.00119904076738609,2,1668,WHS3_49,Poliomyelitis
+emr,yem,whs3_50,0,0,3464,WHS3_50,Yellow fever
+emr,yem,whs3_53,0.00704303681868039,13234,1879019,WHS3_53,Mumps
+emr,yem,whs3_56,0.0116228703436327,161,13852,WHS3_56,Neonatal tetanus
+emr,yem,whs3_57,0.0024017803316958,749,311852,WHS3_57,Rubella
+emr,yem,whs3_62,0.00366634492168108,3316,904443,WHS3_62,Measles
+eur,alb,tb_tot_newrel,7.43576363300789e-05,1288,17321691,TB_tot_newrel,Tuberculosis
+eur,alb,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,alb,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,alb,whs3_43,2.5156030277798e-05,10,397519,WHS3_43,Pertussis
+eur,alb,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,alb,whs3_46,2.85730613177896e-05,1,34998,WHS3_46,Total tetanus
+eur,alb,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,alb,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,alb,whs3_53,2.28842816384507e-05,43,1879019,WHS3_53,Mumps
+eur,alb,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,alb,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,alb,whs3_57,1.60332465400254e-05,5,311852,WHS3_57,Rubella
+eur,alb,whs3_62,1.10565287143579e-05,10,904443,WHS3_62,Measles
+eur,and,tb_tot_newrel,1.03915951392967e-06,18,17321691,TB_tot_newrel,Tuberculosis
+eur,and,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,and,whs3_43,1.00624121111192e-05,4,397519,WHS3_43,Pertussis
+eur,and,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,and,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,and,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,and,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,and,whs3_53,0,0,1879019,WHS3_53,Mumps
+eur,and,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,and,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,and,whs3_57,0,0,311852,WHS3_57,Rubella
+eur,and,whs3_62,0,0,904443,WHS3_62,Measles
+eur,arm,tb_tot_newrel,0.00024426021685758,4231,17321691,TB_tot_newrel,Tuberculosis
+eur,arm,whs3_41,0.000100765820233777,1,9924,WHS3_41,Diphtheria
+eur,arm,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,arm,whs3_43,4.02496484444769e-05,16,397519,WHS3_43,Pertussis
+eur,arm,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,arm,whs3_46,8.57191839533688e-05,3,34998,WHS3_46,Total tetanus
+eur,arm,whs3_48,0,0,65596333,WHS3_48,Malaria
+eur,arm,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,arm,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,arm,whs3_53,6.59918819341369e-05,124,1879019,WHS3_53,Mumps
+eur,arm,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,arm,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,arm,whs3_57,1.28265972320203e-05,4,311852,WHS3_57,Rubella
+eur,arm,whs3_62,2.21130574287158e-06,2,904443,WHS3_62,Measles
+eur,aut,tb_tot_newrel,6.92195698445377e-05,1199,17321691,TB_tot_newrel,Tuberculosis
+eur,aut,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,aut,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,aut,whs3_43,0.0022791363431685,906,397519,WHS3_43,Pertussis
+eur,aut,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,aut,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,aut,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,aut,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,aut,whs3_57,0.0008209022228493,256,311852,WHS3_57,Rubella
+eur,aut,whs3_62,0.000186855335272648,169,904443,WHS3_62,Measles
+eur,aze,tb_tot_newrel,0.00116720705847945,20218,17321691,TB_tot_newrel,Tuberculosis
+eur,aze,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,aze,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,aze,whs3_43,0.000118233342305651,47,397519,WHS3_43,Pertussis
+eur,aze,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,aze,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,aze,whs3_48,2.01230760871953e-06,132,65596333,WHS3_48,Malaria
+eur,aze,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,aze,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,aze,whs3_51,0,0,142,WHS3_51,H5N1
+eur,aze,whs3_53,0.000243744209079312,458,1879019,WHS3_53,Mumps
+eur,aze,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,aze,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,aze,whs3_57,3.20664930800508e-06,1,311852,WHS3_57,Rubella
+eur,aze,whs3_62,0,0,904443,WHS3_62,Measles
+eur,bel,tb_tot_newrel,9.35243562536706e-05,1620,17321691,TB_tot_newrel,Tuberculosis
+eur,bel,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,bel,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,bel,whs3_43,0.000593682314556034,236,397519,WHS3_43,Pertussis
+eur,bel,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+eur,bel,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,bel,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,bel,whs3_53,5.58802226055192e-05,105,1879019,WHS3_53,Mumps
+eur,bel,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,bel,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,bel,whs3_62,0.000717568713561828,649,904443,WHS3_62,Measles
+eur,bgr,tb_tot_newrel,0.000419531788207052,7267,17321691,TB_tot_newrel,Tuberculosis
+eur,bgr,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,bgr,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,bgr,whs3_43,0.000882976662750711,351,397519,WHS3_43,Pertussis
+eur,bgr,whs3_46,0.000171438367906738,6,34998,WHS3_46,Total tetanus
+eur,bgr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,bgr,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,bgr,whs3_53,0.000833945798312843,1567,1879019,WHS3_53,Mumps
+eur,bgr,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,bgr,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,bgr,whs3_57,0.00039762451419263,124,311852,WHS3_57,Rubella
+eur,bgr,whs3_62,0.0269889865917476,24410,904443,WHS3_62,Measles
+eur,bih,tb_tot_newrel,0.000254363156576341,4406,17321691,TB_tot_newrel,Tuberculosis
+eur,bih,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,bih,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,bih,whs3_43,0.000213826257361283,85,397519,WHS3_43,Pertussis
+eur,bih,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,bih,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+eur,bih,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,bih,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,bih,whs3_53,0.00473225656579311,8892,1879019,WHS3_53,Mumps
+eur,bih,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,bih,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,bih,whs3_57,0.010703795390121,3338,311852,WHS3_57,Rubella
+eur,bih,whs3_62,8.51352711005558e-05,77,904443,WHS3_62,Measles
+eur,blr,tb_tot_newrel,0.000863079707402701,14950,17321691,TB_tot_newrel,Tuberculosis
+eur,blr,whs3_41,0.000403063280935107,4,9924,WHS3_41,Diphtheria
+eur,blr,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,blr,whs3_43,0.00089555467788961,356,397519,WHS3_43,Pertussis
+eur,blr,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,blr,whs3_46,8.57191839533688e-05,3,34998,WHS3_46,Total tetanus
+eur,blr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,blr,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,blr,whs3_53,0.000163915319642856,308,1879019,WHS3_53,Mumps
+eur,blr,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,blr,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,blr,whs3_57,7.37529340841168e-05,23,311852,WHS3_57,Rubella
+eur,blr,whs3_62,5.63882964432253e-05,51,904443,WHS3_62,Measles
+eur,che,tb_tot_newrel,5.97516720509562e-05,1035,17321691,TB_tot_newrel,Tuberculosis
+eur,che,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,che,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,che,whs3_43,0.0188670227083485,7500,397519,WHS3_43,Pertussis
+eur,che,whs3_46,0.000142865306588948,5,34998,WHS3_46,Total tetanus
+eur,che,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,che,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,che,whs3_53,0.00117082371173469,2200,1879019,WHS3_53,Mumps
+eur,che,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,che,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,che,whs3_57,0.000179572361248284,56,311852,WHS3_57,Rubella
+eur,che,whs3_62,0.00183096115509767,1656,904443,WHS3_62,Measles
+eur,cyp,tb_tot_newrel,4.38756239214751e-06,76,17321691,TB_tot_newrel,Tuberculosis
+eur,cyp,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,cyp,whs3_43,2.5156030277798e-05,10,397519,WHS3_43,Pertussis
+eur,cyp,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,cyp,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,cyp,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,cyp,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,cyp,whs3_53,3.72534817370128e-06,7,1879019,WHS3_53,Mumps
+eur,cyp,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,cyp,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,cyp,whs3_57,0,0,311852,WHS3_57,Rubella
+eur,cyp,whs3_62,1.99017516858442e-05,18,904443,WHS3_62,Measles
+eur,cze,tb_tot_newrel,7.30298213956132e-05,1265,17321691,TB_tot_newrel,Tuberculosis
+eur,cze,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,cze,whs3_42,4.27277388480602e-05,1,23404,WHS3_42,Japanese encephalitis
+eur,cze,whs3_43,0.00488530107994838,1942,397519,WHS3_43,Pertussis
+eur,cze,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,cze,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,cze,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,cze,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,cze,whs3_53,0.0022937500898075,4310,1879019,WHS3_53,Mumps
+eur,cze,whs3_55,0.0024390243902439,1,410,WHS3_55,Congenital Rubella Syndrome
+eur,cze,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,cze,whs3_57,0.000118646024396188,37,311852,WHS3_57,Rubella
+eur,cze,whs3_62,2.43243631715874e-05,22,904443,WHS3_62,Measles
+eur,deu,tb_tot_newrel,0.000618357641872263,10711,17321691,TB_tot_newrel,Tuberculosis
+eur,deu,whs3_40,4.93169601025793e-06,4,811080,WHS3_40,Colera
+eur,deu,whs3_41,0.00161225312374043,16,9924,WHS3_41,Diphtheria
+eur,deu,whs3_45,1.43342664940821e-06,1,697629,WHS3_45,Leprosy
+eur,deu,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,deu,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,deu,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+eur,deu,whs3_62,0.00327383815232137,2961,904443,WHS3_62,Measles
+eur,dnk,tb_tot_newrel,3.50427680530729e-05,607,17321691,TB_tot_newrel,Tuberculosis
+eur,dnk,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,dnk,whs3_43,0.000581104299417135,231,397519,WHS3_43,Pertussis
+eur,dnk,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,dnk,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,dnk,whs3_53,3.29959409670685e-05,62,1879019,WHS3_53,Mumps
+eur,dnk,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,dnk,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,dnk,whs3_57,0,0,311852,WHS3_57,Rubella
+eur,dnk,whs3_62,0.0001050370227864,95,904443,WHS3_62,Measles
+eur,esp,tb_tot_newrel,0.00110312555512046,19108,17321691,TB_tot_newrel,Tuberculosis
+eur,esp,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,esp,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,esp,whs3_43,0.0106158447772308,4220,397519,WHS3_43,Pertussis
+eur,esp,whs3_45,3.87025195340217e-05,27,697629,WHS3_45,Leprosy
+eur,esp,whs3_46,0.00071432653294474,25,34998,WHS3_46,Total tetanus
+eur,esp,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,esp,whs3_50,0.000288683602771363,1,3464,WHS3_50,Yellow fever
+eur,esp,whs3_53,0.00477270320310758,8968,1879019,WHS3_53,Mumps
+eur,esp,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+eur,esp,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,esp,whs3_57,0.0001891923091723,59,311852,WHS3_57,Rubella
+eur,esp,whs3_62,0.00458293115210135,4145,904443,WHS3_62,Measles
+eur,est,tb_tot_newrel,5.42672190607718e-05,940,17321691,TB_tot_newrel,Tuberculosis
+eur,est,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,est,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,est,whs3_43,0.00604247847272709,2402,397519,WHS3_43,Pertussis
+eur,est,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,est,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+eur,est,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,est,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,est,whs3_53,1.70301630797773e-05,32,1879019,WHS3_53,Mumps
+eur,est,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,est,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,est,whs3_57,3.20664930800508e-06,1,311852,WHS3_57,Rubella
+eur,est,whs3_62,7.73957010005053e-06,7,904443,WHS3_62,Measles
+eur,fin,tb_tot_newrel,6.59866291345343e-05,1143,17321691,TB_tot_newrel,Tuberculosis
+eur,fin,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,fin,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,fin,whs3_43,0.00291306830616901,1158,397519,WHS3_43,Pertussis
+eur,fin,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,fin,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,fin,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,fin,whs3_53,4.25754076994432e-06,8,1879019,WHS3_53,Mumps
+eur,fin,whs3_55,0.0024390243902439,1,410,WHS3_55,Congenital Rubella Syndrome
+eur,fin,whs3_57,6.41329861601016e-06,2,311852,WHS3_57,Rubella
+eur,fin,whs3_62,3.75921976288169e-05,34,904443,WHS3_62,Measles
+eur,fra,tb_tot_newrel,0.000325718776532845,5642,17321691,TB_tot_newrel,Tuberculosis
+eur,fra,whs3_40,2.46584800512896e-06,2,811080,WHS3_40,Colera
+eur,fra,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,fra,whs3_46,0.000885764900851477,31,34998,WHS3_46,Total tetanus
+eur,fra,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,fra,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,fra,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,fra,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,fra,whs3_62,0.023813551544984,21538,904443,WHS3_62,Measles
+eur,gbr,tb_tot_newrel,0.00127452914383474,22077,17321691,TB_tot_newrel,Tuberculosis
+eur,gbr,whs3_40,5.91803521230951e-05,48,811080,WHS3_40,Colera
+eur,gbr,whs3_41,0.000503829101168884,5,9924,WHS3_41,Diphtheria
+eur,gbr,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,gbr,whs3_43,0.00655817709342195,2607,397519,WHS3_43,Pertussis
+eur,gbr,whs3_45,1.72011197928985e-05,12,697629,WHS3_45,Leprosy
+eur,gbr,whs3_46,0.000514315103720213,18,34998,WHS3_46,Total tetanus
+eur,gbr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,gbr,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,gbr,whs3_53,0.00846878078401549,15913,1879019,WHS3_53,Mumps
+eur,gbr,whs3_55,0.0024390243902439,1,410,WHS3_55,Congenital Rubella Syndrome
+eur,gbr,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,gbr,whs3_57,0.000185985659864295,58,311852,WHS3_57,Rubella
+eur,gbr,whs3_62,0.00305934149526283,2767,904443,WHS3_62,Measles
+eur,geo,tb_tot_newrel,0.000805521816547819,13953,17321691,TB_tot_newrel,Tuberculosis
+eur,geo,whs3_41,0.000403063280935107,4,9924,WHS3_41,Diphtheria
+eur,geo,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,geo,whs3_43,0.000533307841889318,212,397519,WHS3_43,Pertussis
+eur,geo,whs3_46,0.000428595919766844,15,34998,WHS3_46,Total tetanus
+eur,geo,whs3_48,1.52447546115116e-08,1,65596333,WHS3_48,Malaria
+eur,geo,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,geo,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,geo,whs3_53,9.95200154974484e-05,187,1879019,WHS3_53,Mumps
+eur,geo,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,geo,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,geo,whs3_57,0.000609263368520965,190,311852,WHS3_57,Rubella
+eur,geo,whs3_62,0.000120516162986501,109,904443,WHS3_62,Measles
+eur,grc,tb_tot_newrel,4.73972200520146e-05,821,17321691,TB_tot_newrel,Tuberculosis
+eur,grc,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,grc,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,grc,whs3_43,0.000236466684611302,94,397519,WHS3_43,Pertussis
+eur,grc,whs3_46,0.000514315103720213,18,34998,WHS3_46,Total tetanus
+eur,grc,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,grc,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,grc,whs3_53,1.2772622309833e-05,24,1879019,WHS3_53,Mumps
+eur,grc,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,grc,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,grc,whs3_57,1.28265972320203e-05,4,311852,WHS3_57,Rubella
+eur,grc,whs3_62,0.000211179698444236,191,904443,WHS3_62,Measles
+eur,hrv,tb_tot_newrel,0.00012348678890531,2139,17321691,TB_tot_newrel,Tuberculosis
+eur,hrv,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,hrv,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,hrv,whs3_43,0.000618838344833832,246,397519,WHS3_43,Pertussis
+eur,hrv,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,hrv,whs3_46,0.000428595919766844,15,34998,WHS3_46,Total tetanus
+eur,hrv,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,hrv,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,hrv,whs3_53,9.52624747275041e-05,179,1879019,WHS3_53,Mumps
+eur,hrv,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,hrv,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,hrv,whs3_57,3.20664930800508e-06,1,311852,WHS3_57,Rubella
+eur,hrv,whs3_62,2.32187103001516e-05,21,904443,WHS3_62,Measles
+eur,hun,tb_tot_newrel,0.000164995438378389,2858,17321691,TB_tot_newrel,Tuberculosis
+eur,hun,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,hun,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,hun,whs3_43,0.000168545402861247,67,397519,WHS3_43,Pertussis
+eur,hun,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,hun,whs3_46,0.000285730613177896,10,34998,WHS3_46,Total tetanus
+eur,hun,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,hun,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,hun,whs3_53,5.3219259624304e-06,10,1879019,WHS3_53,Mumps
+eur,hun,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,hun,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,hun,whs3_57,9.61994792401524e-06,3,311852,WHS3_57,Rubella
+eur,hun,whs3_62,6.63391722861474e-06,6,904443,WHS3_62,Measles
+eur,irl,tb_tot_newrel,5.42672190607718e-05,940,17321691,TB_tot_newrel,Tuberculosis
+eur,irl,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,irl,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,irl,whs3_43,0.0010464908595564,416,397519,WHS3_43,Pertussis
+eur,irl,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,irl,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,irl,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,irl,whs3_53,0.0022059383114274,4145,1879019,WHS3_53,Mumps
+eur,irl,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,irl,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,irl,whs3_57,0.000185985659864295,58,311852,WHS3_57,Rubella
+eur,irl,whs3_62,0.000986242361320724,892,904443,WHS3_62,Measles
+eur,isl,tb_tot_newrel,2.36697444839537e-06,41,17321691,TB_tot_newrel,Tuberculosis
+eur,isl,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,isl,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,isl,whs3_43,0,0,397519,WHS3_43,Pertussis
+eur,isl,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,isl,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,isl,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,isl,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,isl,whs3_53,3.19315557745824e-06,6,1879019,WHS3_53,Mumps
+eur,isl,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,isl,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,isl,whs3_57,0,0,311852,WHS3_57,Rubella
+eur,isl,whs3_62,0,0,904443,WHS3_62,Measles
+eur,isr,tb_tot_newrel,6.34464614338173e-05,1099,17321691,TB_tot_newrel,Tuberculosis
+eur,isr,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,isr,whs3_43,0.0120019420455374,4771,397519,WHS3_43,Pertussis
+eur,isr,whs3_45,4.30027994822463e-06,3,697629,WHS3_45,Leprosy
+eur,isr,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,isr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,isr,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,isr,whs3_53,0.00319262338486199,5999,1879019,WHS3_53,Mumps
+eur,isr,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,isr,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,isr,whs3_57,2.56531944640406e-05,8,311852,WHS3_57,Rubella
+eur,isr,whs3_62,0.000108353981400707,98,904443,WHS3_62,Measles
+eur,ita,tb_tot_newrel,0.000340151547559646,5892,17321691,TB_tot_newrel,Tuberculosis
+eur,ita,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,ita,whs3_43,0.00202254483433496,804,397519,WHS3_43,Pertussis
+eur,ita,whs3_45,7.16713324704105e-06,5,697629,WHS3_45,Leprosy
+eur,ita,whs3_46,0.00505743185324876,177,34998,WHS3_46,Total tetanus
+eur,ita,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,ita,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,ita,whs3_53,0.00107769000739216,2025,1879019,WHS3_53,Mumps
+eur,ita,whs3_55,0.0146341463414634,6,410,WHS3_55,Congenital Rubella Syndrome
+eur,ita,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,ita,whs3_57,0.000759975885997204,237,311852,WHS3_57,Rubella
+eur,ita,whs3_62,0.00653661977592839,5912,904443,WHS3_62,Measles
+eur,kaz,tb_tot_newrel,0.00337524783232769,58465,17321691,TB_tot_newrel,Tuberculosis
+eur,kaz,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,kaz,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,kaz,whs3_43,0.000352184423889173,140,397519,WHS3_43,Pertussis
+eur,kaz,whs3_46,0.000171438367906738,6,34998,WHS3_46,Total tetanus
+eur,kaz,whs3_49,0.000599520383693046,1,1668,WHS3_49,Poliomyelitis
+eur,kaz,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,kaz,whs3_53,0.000140498845408162,264,1879019,WHS3_53,Mumps
+eur,kaz,whs3_55,0.0024390243902439,1,410,WHS3_55,Congenital Rubella Syndrome
+eur,kaz,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,kaz,whs3_57,0.0021452483870554,669,311852,WHS3_57,Rubella
+eur,kaz,whs3_62,0.000144840526158088,131,904443,WHS3_62,Measles
+eur,kgz,tb_tot_newrel,0.00097831095128068,16946,17321691,TB_tot_newrel,Tuberculosis
+eur,kgz,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,kgz,whs3_43,0.00103139724138972,410,397519,WHS3_43,Pertussis
+eur,kgz,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,kgz,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,kgz,whs3_48,1.06713282280581e-07,7,65596333,WHS3_48,Malaria
+eur,kgz,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,kgz,whs3_53,0.000455556862384042,856,1879019,WHS3_53,Mumps
+eur,kgz,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,kgz,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,kgz,whs3_57,6.09263368520965e-05,19,311852,WHS3_57,Rubella
+eur,kgz,whs3_62,0.000246560590330181,223,904443,WHS3_62,Measles
+eur,ltu,tb_tot_newrel,0.00031117054333783,5390,17321691,TB_tot_newrel,Tuberculosis
+eur,ltu,whs3_41,0.000100765820233777,1,9924,WHS3_41,Diphtheria
+eur,ltu,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,ltu,whs3_43,0.000709400053833905,282,397519,WHS3_43,Pertussis
+eur,ltu,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,ltu,whs3_46,0.000114292245271158,4,34998,WHS3_46,Total tetanus
+eur,ltu,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,ltu,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,ltu,whs3_53,0.000119743334154684,225,1879019,WHS3_53,Mumps
+eur,ltu,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,ltu,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,ltu,whs3_57,6.41329861601016e-06,2,311852,WHS3_57,Rubella
+eur,ltu,whs3_62,9.95087584292211e-06,9,904443,WHS3_62,Measles
+eur,lux,tb_tot_newrel,2.02058794375214e-06,35,17321691,TB_tot_newrel,Tuberculosis
+eur,lux,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,lux,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,lux,whs3_43,1.2578015138899e-05,5,397519,WHS3_43,Pertussis
+eur,lux,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,lux,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,lux,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,lux,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,lux,whs3_53,1.3304814906076e-05,25,1879019,WHS3_53,Mumps
+eur,lux,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,lux,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,lux,whs3_57,0,0,311852,WHS3_57,Rubella
+eur,lux,whs3_62,6.63391722861474e-06,6,904443,WHS3_62,Measles
+eur,lva,tb_tot_newrel,0.000157490397444453,2728,17321691,TB_tot_newrel,Tuberculosis
+eur,lva,whs3_41,0.00141072148327287,14,9924,WHS3_41,Diphtheria
+eur,lva,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,lva,whs3_43,7.04368847778345e-05,28,397519,WHS3_43,Pertussis
+eur,lva,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,lva,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,lva,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,lva,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,lva,whs3_53,7.45069634740255e-06,14,1879019,WHS3_53,Mumps
+eur,lva,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,lva,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,lva,whs3_57,2.88598437720457e-05,9,311852,WHS3_57,Rubella
+eur,lva,whs3_62,1.10565287143579e-06,1,904443,WHS3_62,Measles
+eur,mco,tb_tot_newrel,5.77310841072041e-08,1,17321691,TB_tot_newrel,Tuberculosis
+eur,mco,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,mda,tb_tot_newrel,0.000731856953227026,12677,17321691,TB_tot_newrel,Tuberculosis
+eur,mda,whs3_41,0.000100765820233777,1,9924,WHS3_41,Diphtheria
+eur,mda,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,mda,whs3_43,0.000452808545000365,180,397519,WHS3_43,Pertussis
+eur,mda,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+eur,mda,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,mda,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,mda,whs3_53,0.00030813951322472,579,1879019,WHS3_53,Mumps
+eur,mda,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,mda,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,mda,whs3_57,3.20664930800508e-06,1,311852,WHS3_57,Rubella
+eur,mda,whs3_62,0,0,904443,WHS3_62,Measles
+eur,mkd,tb_tot_newrel,6.74876373213216e-05,1169,17321691,TB_tot_newrel,Tuberculosis
+eur,mkd,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,mkd,whs3_43,3.77340454166971e-05,15,397519,WHS3_43,Pertussis
+eur,mkd,whs3_46,2.85730613177896e-05,1,34998,WHS3_46,Total tetanus
+eur,mkd,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,mkd,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,mkd,whs3_53,0.00599940713744778,11273,1879019,WHS3_53,Mumps
+eur,mkd,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,mkd,whs3_57,7.05462847761117e-05,22,311852,WHS3_57,Rubella
+eur,mkd,whs3_62,0.00102051760033523,923,904443,WHS3_62,Measles
+eur,mlt,tb_tot_newrel,4.79167998089794e-06,83,17321691,TB_tot_newrel,Tuberculosis
+eur,mlt,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,mlt,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,mlt,whs3_43,2.5156030277798e-05,10,397519,WHS3_43,Pertussis
+eur,mlt,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,mlt,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,mlt,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,mlt,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,mlt,whs3_53,1.59657778872912e-06,3,1879019,WHS3_53,Mumps
+eur,mlt,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,mlt,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,mlt,whs3_57,3.20664930800508e-06,1,311852,WHS3_57,Rubella
+eur,mlt,whs3_62,4.42261148574316e-06,4,904443,WHS3_62,Measles
+eur,mne,tb_tot_newrel,1.9224451007699e-05,333,17321691,TB_tot_newrel,Tuberculosis
+eur,mne,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,mne,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,mne,whs3_43,2.5156030277798e-05,10,397519,WHS3_43,Pertussis
+eur,mne,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,mne,whs3_46,2.85730613177896e-05,1,34998,WHS3_46,Total tetanus
+eur,mne,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,mne,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,mne,whs3_53,4.20432151032001e-05,79,1879019,WHS3_53,Mumps
+eur,mne,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,mne,whs3_57,9.61994792401524e-06,3,311852,WHS3_57,Rubella
+eur,mne,whs3_62,1.10565287143579e-05,10,904443,WHS3_62,Measles
+eur,nld,tb_tot_newrel,0.000179543671573405,3110,17321691,TB_tot_newrel,Tuberculosis
+eur,nld,whs3_41,0.000100765820233777,1,9924,WHS3_41,Diphtheria
+eur,nld,whs3_43,0.0398471519600321,15840,397519,WHS3_43,Pertussis
+eur,nld,whs3_46,0.000171438367906738,6,34998,WHS3_46,Total tetanus
+eur,nld,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,nld,whs3_53,0.000662579782322584,1245,1879019,WHS3_53,Mumps
+eur,nld,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,nld,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,nld,whs3_57,3.20664930800508e-05,10,311852,WHS3_57,Rubella
+eur,nld,whs3_62,8.9557882586299e-05,81,904443,WHS3_62,Measles
+eur,nor,tb_tot_newrel,3.07129367450326e-05,532,17321691,TB_tot_newrel,Tuberculosis
+eur,nor,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,nor,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,nor,whs3_43,0.0322148123737482,12806,397519,WHS3_43,Pertussis
+eur,nor,whs3_45,1.43342664940821e-06,1,697629,WHS3_45,Leprosy
+eur,nor,whs3_46,2.85730613177896e-05,1,34998,WHS3_46,Total tetanus
+eur,nor,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,nor,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,nor,whs3_53,2.12877038497216e-05,40,1879019,WHS3_53,Mumps
+eur,nor,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,nor,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,nor,whs3_57,6.41329861601016e-06,2,311852,WHS3_57,Rubella
+eur,nor,whs3_62,4.86487263431747e-05,44,904443,WHS3_62,Measles
+eur,pol,tb_tot_newrel,0.00130431838323406,22593,17321691,TB_tot_newrel,Tuberculosis
+eur,pol,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,pol,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,pol,whs3_43,0.00919704466956296,3656,397519,WHS3_43,Pertussis
+eur,pol,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,pol,whs3_46,0.00100005714612264,35,34998,WHS3_46,Total tetanus
+eur,pol,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,pol,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,pol,whs3_53,0.00303775533935527,5708,1879019,WHS3_53,Mumps
+eur,pol,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+eur,pol,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,pol,whs3_57,0.0377807421469158,11782,311852,WHS3_57,Rubella
+eur,pol,whs3_62,0.000141523567543781,128,904443,WHS3_62,Measles
+eur,prt,tb_tot_newrel,0.000300778948198533,5210,17321691,TB_tot_newrel,Tuberculosis
+eur,prt,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,prt,whs3_43,0.000286778745166898,114,397519,WHS3_43,Pertussis
+eur,prt,whs3_45,3.4402239585797e-05,24,697629,WHS3_45,Leprosy
+eur,prt,whs3_46,0.000257157551860106,9,34998,WHS3_46,Total tetanus
+eur,prt,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,prt,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,prt,whs3_53,0.000227778431192021,428,1879019,WHS3_53,Mumps
+eur,prt,whs3_55,0.0024390243902439,1,410,WHS3_55,Congenital Rubella Syndrome
+eur,prt,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,prt,whs3_57,9.61994792401524e-06,3,311852,WHS3_57,Rubella
+eur,prt,whs3_62,1.10565287143579e-05,10,904443,WHS3_62,Measles
+eur,rou,tb_tot_newrel,0.00323946432250754,56113,17321691,TB_tot_newrel,Tuberculosis
+eur,rou,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,rou,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,rou,whs3_43,0.000314450378472476,125,397519,WHS3_43,Pertussis
+eur,rou,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,rou,whs3_46,0.001085776330076,38,34998,WHS3_46,Total tetanus
+eur,rou,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,rou,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,rou,whs3_53,0.000756777871857602,1422,1879019,WHS3_53,Mumps
+eur,rou,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+eur,rou,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,rou,whs3_57,0.0134262406526173,4187,311852,WHS3_57,Rubella
+eur,rou,whs3_62,0.00485381610560312,4390,904443,WHS3_62,Measles
+eur,rus,tb_tot_newrel,0.0206549118097073,357778,17321691,TB_tot_newrel,Tuberculosis
+eur,rus,whs3_41,0.00282144296654575,28,9924,WHS3_41,Diphtheria
+eur,rus,whs3_43,0.0341719515293609,13584,397519,WHS3_43,Pertussis
+eur,rus,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,rus,whs3_46,0.000885764900851477,31,34998,WHS3_46,Total tetanus
+eur,rus,whs3_48,0,0,65596333,WHS3_48,Malaria
+eur,rus,whs3_49,0.00839328537170264,14,1668,WHS3_49,Poliomyelitis
+eur,rus,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,rus,whs3_53,0.000979766569683436,1841,1879019,WHS3_53,Mumps
+eur,rus,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+eur,rus,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,rus,whs3_57,0.00801020997139669,2498,311852,WHS3_57,Rubella
+eur,rus,whs3_62,0.000949755816563343,859,904443,WHS3_62,Measles
+eur,smr,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,smr,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,smr,whs3_43,0,0,397519,WHS3_43,Pertussis
+eur,smr,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,smr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,smr,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,smr,whs3_53,1.59657778872912e-06,3,1879019,WHS3_53,Mumps
+eur,smr,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,smr,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,smr,whs3_57,0,0,311852,WHS3_57,Rubella
+eur,smr,whs3_62,0,0,904443,WHS3_62,Measles
+eur,srb,tb_tot_newrel,0.000368093392267533,6376,17321691,TB_tot_newrel,Tuberculosis
+eur,srb,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,srb,whs3_43,7.79836938611739e-05,31,397519,WHS3_43,Pertussis
+eur,srb,whs3_46,0.000428595919766844,15,34998,WHS3_46,Total tetanus
+eur,srb,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,srb,whs3_53,0.000194250297628709,365,1879019,WHS3_53,Mumps
+eur,srb,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,srb,whs3_56,7.21917412647993e-05,1,13852,WHS3_56,Neonatal tetanus
+eur,srb,whs3_57,0.000176365711940279,55,311852,WHS3_57,Rubella
+eur,srb,whs3_62,0.000432310272731394,391,904443,WHS3_62,Measles
+eur,svk,tb_tot_newrel,6.7891754910072e-05,1176,17321691,TB_tot_newrel,Tuberculosis
+eur,svk,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,svk,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,svk,whs3_43,0.00654811468131083,2603,397519,WHS3_43,Pertussis
+eur,svk,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,svk,whs3_46,2.85730613177896e-05,1,34998,WHS3_46,Total tetanus
+eur,svk,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,svk,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,svk,whs3_53,4.78973336618736e-06,9,1879019,WHS3_53,Mumps
+eur,svk,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,svk,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,svk,whs3_57,0,0,311852,WHS3_57,Rubella
+eur,svk,whs3_62,0,0,904443,WHS3_62,Measles
+eur,svn,tb_tot_newrel,3.09438610814614e-05,536,17321691,TB_tot_newrel,Tuberculosis
+eur,svn,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,svn,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,svn,whs3_43,0.00336084564511382,1336,397519,WHS3_43,Pertussis
+eur,svn,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,svn,whs3_46,5.71461226355792e-05,2,34998,WHS3_46,Total tetanus
+eur,svn,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,svn,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,svn,whs3_53,1.91589334647494e-05,36,1879019,WHS3_53,Mumps
+eur,svn,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,svn,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,svn,whs3_57,0,0,311852,WHS3_57,Rubella
+eur,svn,whs3_62,2.6535668914459e-05,24,904443,WHS3_62,Measles
+eur,swe,tb_tot_newrel,8.7982172179379e-05,1524,17321691,TB_tot_newrel,Tuberculosis
+eur,swe,whs3_40,1.23292400256448e-06,1,811080,WHS3_40,Colera
+eur,swe,whs3_41,0.00030229746070133,3,9924,WHS3_41,Diphtheria
+eur,swe,whs3_42,4.27277388480602e-05,1,23404,WHS3_42,Japanese encephalitis
+eur,swe,whs3_43,0.00182129659211258,724,397519,WHS3_43,Pertussis
+eur,swe,whs3_46,0.000171438367906738,6,34998,WHS3_46,Total tetanus
+eur,swe,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,swe,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,swe,whs3_53,5.10904892393318e-05,96,1879019,WHS3_53,Mumps
+eur,swe,whs3_55,0.0024390243902439,1,410,WHS3_55,Congenital Rubella Syndrome
+eur,swe,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,swe,whs3_57,2.56531944640406e-05,8,311852,WHS3_57,Rubella
+eur,swe,whs3_62,3.86978505002526e-05,35,904443,WHS3_62,Measles
+eur,tjk,tb_tot_newrel,0.001080264045814,18712,17321691,TB_tot_newrel,Tuberculosis
+eur,tjk,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,tjk,whs3_43,0.000186154624055706,74,397519,WHS3_43,Pertussis
+eur,tjk,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,tjk,whs3_46,0.000200011429224527,7,34998,WHS3_46,Total tetanus
+eur,tjk,whs3_48,5.18321656791394e-06,340,65596333,WHS3_48,Malaria
+eur,tjk,whs3_49,0.274580335731415,458,1668,WHS3_49,Poliomyelitis
+eur,tjk,whs3_53,0.00223467671162452,4199,1879019,WHS3_53,Mumps
+eur,tjk,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,tjk,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,tjk,whs3_57,0.00059323012198094,185,311852,WHS3_57,Rubella
+eur,tjk,whs3_62,1.10565287143579e-06,1,904443,WHS3_62,Measles
+eur,tkm,tb_tot_newrel,0.000368728434192712,6387,17321691,TB_tot_newrel,Tuberculosis
+eur,tkm,whs3_41,0.00090689238210399,9,9924,WHS3_41,Diphtheria
+eur,tkm,whs3_43,0,0,397519,WHS3_43,Pertussis
+eur,tkm,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,tkm,whs3_48,0,0,65596333,WHS3_48,Malaria
+eur,tkm,whs3_49,0.00179856115107914,3,1668,WHS3_49,Poliomyelitis
+eur,tkm,whs3_53,0.000125065260117114,235,1879019,WHS3_53,Mumps
+eur,tkm,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,tkm,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,tkm,whs3_57,0,0,311852,WHS3_57,Rubella
+eur,tkm,whs3_62,0,0,904443,WHS3_62,Measles
+eur,tur,tb_tot_newrel,0.00275319540107256,47690,17321691,TB_tot_newrel,Tuberculosis
+eur,tur,whs3_41,0.000100765820233777,1,9924,WHS3_41,Diphtheria
+eur,tur,whs3_43,0.000757196511361721,301,397519,WHS3_43,Pertussis
+eur,tur,whs3_45,1.43342664940821e-05,10,697629,WHS3_45,Leprosy
+eur,tur,whs3_46,0.00174295674038516,61,34998,WHS3_46,Total tetanus
+eur,tur,whs3_48,5.79300675237441e-07,38,65596333,WHS3_48,Malaria
+eur,tur,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,tur,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,tur,whs3_51,0,0,142,WHS3_51,H5N1
+eur,tur,whs3_53,0.00282807145643551,5314,1879019,WHS3_53,Mumps
+eur,tur,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+eur,tur,whs3_56,0.000144383482529599,2,13852,WHS3_56,Neonatal tetanus
+eur,tur,whs3_57,0.00607660043866963,1895,311852,WHS3_57,Rubella
+eur,tur,whs3_62,0.000134889650315166,122,904443,WHS3_62,Measles
+eur,ukr,tb_tot_newrel,0.00601378930036334,104169,17321691,TB_tot_newrel,Tuberculosis
+eur,ukr,whs3_40,4.06864920846279e-05,33,811080,WHS3_40,Colera
+eur,ukr,whs3_41,0.00251914550584442,25,9924,WHS3_41,Diphtheria
+eur,ukr,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,ukr,whs3_43,0.0100724745232303,4004,397519,WHS3_43,Pertussis
+eur,ukr,whs3_46,0.00071432653294474,25,34998,WHS3_46,Total tetanus
+eur,ukr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,ukr,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,ukr,whs3_53,0.00101435908843923,1906,1879019,WHS3_53,Mumps
+eur,ukr,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+eur,ukr,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,ukr,whs3_57,0.0192398958480305,6000,311852,WHS3_57,Rubella
+eur,ukr,whs3_62,0.0015169557396099,1372,904443,WHS3_62,Measles
+eur,uzb,tb_tot_newrel,0.00282443555886085,48924,17321691,TB_tot_newrel,Tuberculosis
+eur,uzb,whs3_41,0,0,9924,WHS3_41,Diphtheria
+eur,uzb,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+eur,uzb,whs3_43,0.0002616227148891,104,397519,WHS3_43,Pertussis
+eur,uzb,whs3_45,0,0,697629,WHS3_45,Leprosy
+eur,uzb,whs3_46,0,0,34998,WHS3_46,Total tetanus
+eur,uzb,whs3_48,4.57342638345348e-08,3,65596333,WHS3_48,Malaria
+eur,uzb,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+eur,uzb,whs3_50,0,0,3464,WHS3_50,Yellow fever
+eur,uzb,whs3_53,0.00214580054805194,4032,1879019,WHS3_53,Mumps
+eur,uzb,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+eur,uzb,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+eur,uzb,whs3_57,9.61994792401524e-05,30,311852,WHS3_57,Rubella
+eur,uzb,whs3_62,0.000655652152761423,593,904443,WHS3_62,Measles
+sear,bgd,tb_tot_newrel,0.0268834030118653,465666,17321691,TB_tot_newrel,Tuberculosis
+sear,bgd,whs3_41,0.00614671503426038,61,9924,WHS3_41,Diphtheria
+sear,bgd,whs3_42,0.005682789266792,133,23404,WHS3_42,Japanese encephalitis
+sear,bgd,whs3_43,0.000193701433139045,77,397519,WHS3_43,Pertussis
+sear,bgd,whs3_45,0.018716251761323,13057,697629,WHS3_45,Leprosy
+sear,bgd,whs3_46,0.0612892165266587,2145,34998,WHS3_46,Total tetanus
+sear,bgd,whs3_48,0.00261476506621186,171519,65596333,WHS3_48,Malaria
+sear,bgd,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+sear,bgd,whs3_51,0.0352112676056338,5,142,WHS3_51,H5N1
+sear,bgd,whs3_56,0.0242564250649726,336,13852,WHS3_56,Neonatal tetanus
+sear,bgd,whs3_57,0.101554583584521,31670,311852,WHS3_57,Rubella
+sear,bgd,whs3_62,0.00788441062620862,7131,904443,WHS3_62,Measles
+sear,btn,tb_tot_newrel,0.000211930809757546,3671,17321691,TB_tot_newrel,Tuberculosis
+sear,btn,whs3_41,0,0,9924,WHS3_41,Diphtheria
+sear,btn,whs3_42,0.00012818321654418,3,23404,WHS3_42,Japanese encephalitis
+sear,btn,whs3_43,0,0,397519,WHS3_43,Pertussis
+sear,btn,whs3_45,7.02379058210023e-05,49,697629,WHS3_45,Leprosy
+sear,btn,whs3_46,0.000742899594262529,26,34998,WHS3_46,Total tetanus
+sear,btn,whs3_48,2.44220968876416e-05,1602,65596333,WHS3_48,Malaria
+sear,btn,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+sear,btn,whs3_50,0,0,3464,WHS3_50,Yellow fever
+sear,btn,whs3_53,0.000255452446196659,480,1879019,WHS3_53,Mumps
+sear,btn,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+sear,btn,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+sear,btn,whs3_57,0.000336698177340533,105,311852,WHS3_57,Rubella
+sear,btn,whs3_62,0.000124938774472244,113,904443,WHS3_62,Measles
+sear,idn,tb_tot_newrel,0.0526716473582169,912362,17321691,TB_tot_newrel,Tuberculosis
+sear,idn,whs3_41,0.139056831922612,1380,9924,WHS3_41,Diphtheria
+sear,idn,whs3_43,0.00733046722295035,2914,397519,WHS3_43,Pertussis
+sear,idn,whs3_45,0.0778278999296187,54295,697629,WHS3_45,Leprosy
+sear,idn,whs3_46,0.0165152294416824,578,34998,WHS3_46,Total tetanus
+sear,idn,whs3_48,0.0115692747641854,758902,65596333,WHS3_48,Malaria
+sear,idn,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+sear,idn,whs3_50,0,0,3464,WHS3_50,Yellow fever
+sear,idn,whs3_51,0.211267605633803,30,142,WHS3_51,H5N1
+sear,idn,whs3_56,0.0295264221773029,409,13852,WHS3_56,Neonatal tetanus
+sear,idn,whs3_57,0.0171780203429832,5357,311852,WHS3_57,Rubella
+sear,idn,whs3_62,0.0654988761038562,59240,904443,WHS3_62,Measles
+sear,ind,tb_tot_newrel,0.231832330919654,4015728,17321691,TB_tot_newrel,Tuberculosis
+sear,ind,whs3_41,0.665860540104796,6608,9924,WHS3_41,Diphtheria
+sear,ind,whs3_42,0.573320799863271,13418,23404,WHS3_42,Japanese encephalitis
+sear,ind,whs3_43,0.185425099177649,73710,397519,WHS3_43,Pertussis
+sear,ind,whs3_45,0.555900055760297,387812,697629,WHS3_45,Leprosy
+sear,ind,whs3_46,0.173352763015029,6067,34998,WHS3_46,Total tetanus
+sear,ind,whs3_48,0.0682039192648162,4473927,65596333,WHS3_48,Malaria
+sear,ind,whs3_49,0.026378896882494,44,1668,WHS3_49,Poliomyelitis
+sear,ind,whs3_56,0.0740687265376841,1026,13852,WHS3_56,Neonatal tetanus
+sear,ind,whs3_62,0.0653960503868127,59147,904443,WHS3_62,Measles
+sear,lka,tb_tot_newrel,0.00165203270281175,28616,17321691,TB_tot_newrel,Tuberculosis
+sear,lka,whs3_41,0,0,9924,WHS3_41,Diphtheria
+sear,lka,whs3_42,0.00551187831139976,129,23404,WHS3_42,Japanese encephalitis
+sear,lka,whs3_43,0.000140873769555669,56,397519,WHS3_43,Pertussis
+sear,lka,whs3_45,0.00871523402840192,6080,697629,WHS3_45,Leprosy
+sear,lka,whs3_46,0.00122864163666495,43,34998,WHS3_46,Total tetanus
+sear,lka,whs3_48,1.96199991850154e-05,1287,65596333,WHS3_48,Malaria
+sear,lka,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+sear,lka,whs3_50,0,0,3464,WHS3_50,Yellow fever
+sear,lka,whs3_53,0.0014294693135088,2686,1879019,WHS3_53,Mumps
+sear,lka,whs3_55,0.0341463414634146,14,410,WHS3_55,Congenital Rubella Syndrome
+sear,lka,whs3_56,7.21917412647993e-05,1,13852,WHS3_56,Neonatal tetanus
+sear,lka,whs3_57,0.00201056911611918,627,311852,WHS3_57,Rubella
+sear,lka,whs3_62,0.000176904459429726,160,904443,WHS3_62,Measles
+sear,mdv,tb_tot_newrel,1.62801657182315e-05,282,17321691,TB_tot_newrel,Tuberculosis
+sear,mdv,whs3_41,0,0,9924,WHS3_41,Diphtheria
+sear,mdv,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+sear,mdv,whs3_43,0,0,397519,WHS3_43,Pertussis
+sear,mdv,whs3_45,4.58696527810627e-05,32,697629,WHS3_45,Leprosy
+sear,mdv,whs3_46,8.57191839533688e-05,3,34998,WHS3_46,Total tetanus
+sear,mdv,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+sear,mdv,whs3_50,0,0,3464,WHS3_50,Yellow fever
+sear,mdv,whs3_53,0.000101116593286178,190,1879019,WHS3_53,Mumps
+sear,mdv,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+sear,mdv,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+sear,mdv,whs3_57,1.60332465400254e-05,5,311852,WHS3_57,Rubella
+sear,mdv,whs3_62,6.63391722861474e-06,6,904443,WHS3_62,Measles
+sear,mmr,tb_tot_newrel,0.0229001891328046,396670,17321691,TB_tot_newrel,Tuberculosis
+sear,mmr,whs3_40,1.97267840410317e-05,16,811080,WHS3_40,Colera
+sear,mmr,whs3_41,0.0030229746070133,30,9924,WHS3_41,Diphtheria
+sear,mmr,whs3_42,0.00196547598701077,46,23404,WHS3_42,Japanese encephalitis
+sear,mmr,whs3_43,2.01248242222384e-05,8,397519,WHS3_43,Pertussis
+sear,mmr,whs3_45,0.0131373552418262,9165,697629,WHS3_45,Leprosy
+sear,mmr,whs3_46,0.0143722498428482,503,34998,WHS3_46,Total tetanus
+sear,mmr,whs3_48,0.0201561572047023,1322170,65596333,WHS3_48,Malaria
+sear,mmr,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+sear,mmr,whs3_51,0,0,142,WHS3_51,H5N1
+sear,mmr,whs3_56,0.00613629800750794,85,13852,WHS3_56,Neonatal tetanus
+sear,mmr,whs3_57,0.000407244462116645,127,311852,WHS3_57,Rubella
+sear,mmr,whs3_62,0.00271216649363199,2453,904443,WHS3_62,Measles
+sear,npl,tb_tot_newrel,0.00608693458392717,105436,17321691,TB_tot_newrel,Tuberculosis
+sear,npl,whs3_40,0.000115894856241061,94,811080,WHS3_40,Colera
+sear,npl,whs3_41,0.0520959290608626,517,9924,WHS3_41,Diphtheria
+sear,npl,whs3_42,0.0194411211758674,455,23404,WHS3_42,Japanese encephalitis
+sear,npl,whs3_43,0.0160570941263185,6383,397519,WHS3_43,Pertussis
+sear,npl,whs3_45,0.0153319314420702,10696,697629,WHS3_45,Leprosy
+sear,npl,whs3_46,0.0290302302988742,1016,34998,WHS3_46,Total tetanus
+sear,npl,whs3_48,0.000118985309742848,7805,65596333,WHS3_48,Malaria
+sear,npl,whs3_49,0.00359712230215827,6,1668,WHS3_49,Poliomyelitis
+sear,npl,whs3_53,0.0510505747946136,95925,1879019,WHS3_53,Mumps
+sear,npl,whs3_56,0.00909615939936471,126,13852,WHS3_56,Neonatal tetanus
+sear,npl,whs3_57,0.00949168195169504,2960,311852,WHS3_57,Rubella
+sear,npl,whs3_62,0.00302727756199119,2738,904443,WHS3_62,Measles
+sear,prk,tb_tot_newrel,0.0145723070570881,252417,17321691,TB_tot_newrel,Tuberculosis
+sear,prk,whs3_41,0,0,9924,WHS3_41,Diphtheria
+sear,prk,whs3_42,0.000427277388480602,10,23404,WHS3_42,Japanese encephalitis
+sear,prk,whs3_43,0.00025407590580576,101,397519,WHS3_43,Pertussis
+sear,prk,whs3_45,0,0,697629,WHS3_45,Leprosy
+sear,prk,whs3_46,0,0,34998,WHS3_46,Total tetanus
+sear,prk,whs3_48,0.000665555496829373,43658,65596333,WHS3_48,Malaria
+sear,prk,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+sear,prk,whs3_50,0,0,3464,WHS3_50,Yellow fever
+sear,prk,whs3_53,0.000114421408192254,215,1879019,WHS3_53,Mumps
+sear,prk,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+sear,prk,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+sear,prk,whs3_57,3.20664930800508e-05,10,311852,WHS3_57,Rubella
+sear,prk,whs3_62,0,0,904443,WHS3_62,Measles
+sear,tha,tb_tot_newrel,0.011326607777497,196196,17321691,TB_tot_newrel,Tuberculosis
+sear,tha,whs3_40,0.000732356857523302,594,811080,WHS3_40,Colera
+sear,tha,whs3_41,0.0106811769447803,106,9924,WHS3_41,Diphtheria
+sear,tha,whs3_42,0.00534096735600752,125,23404,WHS3_42,Japanese encephalitis
+sear,tha,whs3_43,0.000115717739277871,46,397519,WHS3_43,Pertussis
+sear,tha,whs3_45,0.00141192524966709,985,697629,WHS3_45,Leprosy
+sear,tha,whs3_46,0.0116292359563404,407,34998,WHS3_46,Total tetanus
+sear,tha,whs3_48,0.00132383924570906,86839,65596333,WHS3_48,Malaria
+sear,tha,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+sear,tha,whs3_50,0,0,3464,WHS3_50,Yellow fever
+sear,tha,whs3_51,0,0,142,WHS3_51,H5N1
+sear,tha,whs3_53,0.0241876213066499,45449,1879019,WHS3_53,Mumps
+sear,tha,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+sear,tha,whs3_56,0.000433150447588796,6,13852,WHS3_56,Neonatal tetanus
+sear,tha,whs3_57,0.0047971473647756,1496,311852,WHS3_57,Rubella
+sear,tha,whs3_62,0.0129040746625271,11671,904443,WHS3_62,Measles
+sear,tls,tb_tot_newrel,0.000527315722235202,9134,17321691,TB_tot_newrel,Tuberculosis
+sear,tls,whs3_41,0,0,9924,WHS3_41,Diphtheria
+sear,tls,whs3_42,0.00012818321654418,3,23404,WHS3_42,Japanese encephalitis
+sear,tls,whs3_43,1.00624121111192e-05,4,397519,WHS3_43,Pertussis
+sear,tls,whs3_45,0.000473030794304709,330,697629,WHS3_45,Leprosy
+sear,tls,whs3_46,0.000600034287673581,21,34998,WHS3_46,Total tetanus
+sear,tls,whs3_48,0.00175929041643227,115403,65596333,WHS3_48,Malaria
+sear,tls,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+sear,tls,whs3_50,0,0,3464,WHS3_50,Yellow fever
+sear,tls,whs3_53,0,0,1879019,WHS3_53,Mumps
+sear,tls,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+sear,tls,whs3_56,0.000794109153912792,11,13852,WHS3_56,Neonatal tetanus
+sear,tls,whs3_57,6.41329861601016e-06,2,311852,WHS3_57,Rubella
+sear,tls,whs3_62,0.000909952313191655,823,904443,WHS3_62,Measles
+wpr,aus,tb_tot_newrel,0.000209332910972722,3626,17321691,TB_tot_newrel,Tuberculosis
+wpr,aus,whs3_40,7.39754401538689e-06,6,811080,WHS3_40,Colera
+wpr,aus,whs3_41,0.000403063280935107,4,9924,WHS3_41,Diphtheria
+wpr,aus,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,aus,whs3_43,0.256264480439929,101870,397519,WHS3_43,Pertussis
+wpr,aus,whs3_45,3.01019596375724e-05,21,697629,WHS3_45,Leprosy
+wpr,aus,whs3_46,0.000228584490542317,8,34998,WHS3_46,Total tetanus
+wpr,aus,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,aus,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,aus,whs3_52,0,0,909,WHS3_52,Plague
+wpr,aus,whs3_53,0.00021181265330473,398,1879019,WHS3_53,Mumps
+wpr,aus,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,aus,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,aus,whs3_57,0.000407244462116645,127,311852,WHS3_57,Rubella
+wpr,aus,whs3_62,0.000402457645202627,364,904443,WHS3_62,Measles
+wpr,brn,tb_tot_newrel,3.92571371928988e-05,680,17321691,TB_tot_newrel,Tuberculosis
+wpr,brn,whs3_40,3.69877200769345e-06,3,811080,WHS3_40,Colera
+wpr,brn,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,brn,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,brn,whs3_43,1.00624121111192e-05,4,397519,WHS3_43,Pertussis
+wpr,brn,whs3_45,7.16713324704105e-06,5,697629,WHS3_45,Leprosy
+wpr,brn,whs3_46,2.85730613177896e-05,1,34998,WHS3_46,Total tetanus
+wpr,brn,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,brn,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,brn,whs3_53,1.70301630797773e-05,32,1879019,WHS3_53,Mumps
+wpr,brn,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,brn,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,brn,whs3_57,1.28265972320203e-05,4,311852,WHS3_57,Rubella
+wpr,brn,whs3_62,6.63391722861474e-06,6,904443,WHS3_62,Measles
+wpr,chn,tb_tot_newrel,0.160107058831612,2773325,17321691,TB_tot_newrel,Tuberculosis
+wpr,chn,whs3_40,0.000136854564284657,111,811080,WHS3_40,Colera
+wpr,chn,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,chn,whs3_42,0.345197402153478,8079,23404,WHS3_42,Japanese encephalitis
+wpr,chn,whs3_43,0.0148244486427064,5893,397519,WHS3_43,Pertussis
+wpr,chn,whs3_45,0.00582687932984437,4065,697629,WHS3_45,Leprosy
+wpr,chn,whs3_48,0.000268978450365511,17644,65596333,WHS3_48,Malaria
+wpr,chn,whs3_49,0.012589928057554,21,1668,WHS3_49,Poliomyelitis
+wpr,chn,whs3_51,0.0352112676056338,5,142,WHS3_51,H5N1
+wpr,chn,whs3_52,0.0066006600660066,6,909,WHS3_52,Plague
+wpr,chn,whs3_53,0.560210407664851,1052646,1879019,WHS3_53,Mumps
+wpr,chn,whs3_56,0.178241409182789,2469,13852,WHS3_56,Neonatal tetanus
+wpr,chn,whs3_57,0.572470274360915,178526,311852,WHS3_57,Rubella
+wpr,chn,whs3_62,0.111187769710197,100563,904443,WHS3_62,Measles
+wpr,cok,tb_tot_newrel,1.73193252321612e-07,3,17321691,TB_tot_newrel,Tuberculosis
+wpr,cok,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,cok,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,cok,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,cok,whs3_45,0,0,697629,WHS3_45,Leprosy
+wpr,cok,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,cok,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,cok,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,cok,whs3_52,0,0,909,WHS3_52,Plague
+wpr,cok,whs3_53,0,0,1879019,WHS3_53,Mumps
+wpr,cok,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,cok,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,cok,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,cok,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,fji,tb_tot_newrel,3.12325165019974e-05,541,17321691,TB_tot_newrel,Tuberculosis
+wpr,fji,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,fji,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,fji,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,fji,whs3_45,5.73370659763284e-06,4,697629,WHS3_45,Leprosy
+wpr,fji,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,fji,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,fji,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,fji,whs3_52,0,0,909,WHS3_52,Plague
+wpr,fji,whs3_53,0,0,1879019,WHS3_53,Mumps
+wpr,fji,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,fji,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,fji,whs3_57,3.20664930800508e-06,1,311852,WHS3_57,Rubella
+wpr,fji,whs3_62,1.10565287143579e-06,1,904443,WHS3_62,Measles
+wpr,fsm,tb_tot_newrel,2.63253743528851e-05,456,17321691,TB_tot_newrel,Tuberculosis
+wpr,fsm,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,fsm,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,fsm,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,fsm,whs3_45,0.000623540592492571,435,697629,WHS3_45,Leprosy
+wpr,fsm,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,fsm,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,fsm,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,fsm,whs3_52,0,0,909,WHS3_52,Plague
+wpr,fsm,whs3_53,0.000364019735830239,684,1879019,WHS3_53,Mumps
+wpr,fsm,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,fsm,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,fsm,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,fsm,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,jpn,tb_tot_newrel,0.00395128858954937,68443,17321691,TB_tot_newrel,Tuberculosis
+wpr,jpn,whs3_40,1.47950880307738e-05,12,811080,WHS3_40,Colera
+wpr,jpn,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,jpn,whs3_42,0.000683643821568963,16,23404,WHS3_42,Japanese encephalitis
+wpr,jpn,whs3_43,0.0377566858439471,15009,397519,WHS3_43,Pertussis
+wpr,jpn,whs3_45,8.60055989644926e-06,6,697629,WHS3_45,Leprosy
+wpr,jpn,whs3_46,0.00937196411223499,328,34998,WHS3_46,Total tetanus
+wpr,jpn,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,jpn,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,jpn,whs3_52,0,0,909,WHS3_52,Plague
+wpr,jpn,whs3_53,0.224193049671132,421263,1879019,WHS3_53,Mumps
+wpr,jpn,whs3_55,0.00731707317073171,3,410,WHS3_55,Congenital Rubella Syndrome
+wpr,jpn,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,jpn,whs3_57,0.00194322948065108,606,311852,WHS3_57,Rubella
+wpr,jpn,whs3_62,0.00179668591608316,1625,904443,WHS3_62,Measles
+wpr,khm,tb_tot_newrel,0.00682479556990134,118217,17321691,TB_tot_newrel,Tuberculosis
+wpr,khm,whs3_40,4.80840361000148e-05,39,811080,WHS3_40,Colera
+wpr,khm,whs3_41,0.00060459492140266,6,9924,WHS3_41,Diphtheria
+wpr,khm,whs3_42,0.0119210391386088,279,23404,WHS3_42,Japanese encephalitis
+wpr,khm,whs3_43,0.00222630867958513,885,397519,WHS3_43,Pertussis
+wpr,khm,whs3_45,0.00132878650400141,927,697629,WHS3_45,Leprosy
+wpr,khm,whs3_46,0.000771472655580319,27,34998,WHS3_46,Total tetanus
+wpr,khm,whs3_48,0.00261255457679319,171374,65596333,WHS3_48,Malaria
+wpr,khm,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,khm,whs3_51,0.0845070422535211,12,142,WHS3_51,H5N1
+wpr,khm,whs3_52,0,0,909,WHS3_52,Plague
+wpr,khm,whs3_55,0.0219512195121951,9,410,WHS3_55,Congenital Rubella Syndrome
+wpr,khm,whs3_56,0.00397054576956396,55,13852,WHS3_56,Neonatal tetanus
+wpr,khm,whs3_57,0.00548016366738068,1709,311852,WHS3_57,Rubella
+wpr,khm,whs3_62,0.00736033116514805,6657,904443,WHS3_62,Measles
+wpr,kir,tb_tot_newrel,5.23620932852341e-05,907,17321691,TB_tot_newrel,Tuberculosis
+wpr,kir,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,kir,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,kir,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,kir,whs3_45,0.000557602966619794,389,697629,WHS3_45,Leprosy
+wpr,kir,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,kir,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,kir,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,kir,whs3_52,0,0,909,WHS3_52,Plague
+wpr,kir,whs3_53,0,0,1879019,WHS3_53,Mumps
+wpr,kir,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,kir,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,kir,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,kir,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,kor,tb_tot_newrel,0.00711356645260558,123219,17321691,TB_tot_newrel,Tuberculosis
+wpr,kor,whs3_40,3.69877200769345e-06,3,811080,WHS3_40,Colera
+wpr,kor,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,kor,whs3_42,0.00136728764313793,32,23404,WHS3_42,Japanese encephalitis
+wpr,kor,whs3_43,0.000394949675361429,157,397519,WHS3_43,Pertussis
+wpr,kor,whs3_45,2.58016796893478e-05,18,697629,WHS3_45,Leprosy
+wpr,kor,whs3_46,0.00142865306588948,50,34998,WHS3_46,Total tetanus
+wpr,kor,whs3_48,5.79148227691325e-05,3799,65596333,WHS3_48,Malaria
+wpr,kor,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,kor,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,kor,whs3_52,0,0,909,WHS3_52,Plague
+wpr,kor,whs3_53,0.0100419420985099,18869,1879019,WHS3_53,Mumps
+wpr,kor,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,kor,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,kor,whs3_57,0.000355938073188564,111,311852,WHS3_57,Rubella
+wpr,kor,whs3_62,0.000184644029529777,167,904443,WHS3_62,Measles
+wpr,lao,tb_tot_newrel,0.000701605865154851,12153,17321691,TB_tot_newrel,Tuberculosis
+wpr,lao,whs3_41,0.00342603788794841,34,9924,WHS3_41,Diphtheria
+wpr,lao,whs3_42,0.00564006152794394,132,23404,WHS3_42,Japanese encephalitis
+wpr,lao,whs3_43,0.000140873769555669,56,397519,WHS3_43,Pertussis
+wpr,lao,whs3_45,0.000401359461834299,280,697629,WHS3_45,Leprosy
+wpr,lao,whs3_46,0.00151437224984285,53,34998,WHS3_46,Total tetanus
+wpr,lao,whs3_48,0.000812682623585071,53309,65596333,WHS3_48,Malaria
+wpr,lao,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,lao,whs3_51,0,0,142,WHS3_51,H5N1
+wpr,lao,whs3_52,0,0,909,WHS3_52,Plague
+wpr,lao,whs3_53,2.87384001971241e-05,54,1879019,WHS3_53,Mumps
+wpr,lao,whs3_56,0.00151602656656079,21,13852,WHS3_56,Neonatal tetanus
+wpr,lao,whs3_57,0.00103895437579365,324,311852,WHS3_57,Rubella
+wpr,lao,whs3_62,0.000380344587773912,344,904443,WHS3_62,Measles
+wpr,mhl,tb_tot_newrel,2.67872230257427e-05,464,17321691,TB_tot_newrel,Tuberculosis
+wpr,mhl,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,mhl,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,mhl,whs3_43,5.03120605555961e-06,2,397519,WHS3_43,Pertussis
+wpr,mhl,whs3_45,0.000387025195340217,270,697629,WHS3_45,Leprosy
+wpr,mhl,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,mhl,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,mhl,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,mhl,whs3_52,0,0,909,WHS3_52,Plague
+wpr,mhl,whs3_53,1.59657778872912e-06,3,1879019,WHS3_53,Mumps
+wpr,mhl,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,mhl,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,mhl,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,mhl,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,mng,tb_tot_newrel,0.000759510142514377,13156,17321691,TB_tot_newrel,Tuberculosis
+wpr,mng,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,mng,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,mng,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,mng,whs3_45,0,0,697629,WHS3_45,Leprosy
+wpr,mng,whs3_46,8.57191839533688e-05,3,34998,WHS3_46,Total tetanus
+wpr,mng,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,mng,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,mng,whs3_52,0.0011001100110011,1,909,WHS3_52,Plague
+wpr,mng,whs3_53,0.00187863986473793,3530,1879019,WHS3_53,Mumps
+wpr,mng,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,mng,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,mng,whs3_57,8.65795313161371e-05,27,311852,WHS3_57,Rubella
+wpr,mng,whs3_62,1.65847930715368e-05,15,904443,WHS3_62,Measles
+wpr,mys,tb_tot_newrel,0.00321365852791162,55666,17321691,TB_tot_newrel,Tuberculosis
+wpr,mys,whs3_40,0.000953050253982344,773,811080,WHS3_40,Colera
+wpr,mys,whs3_41,0.00030229746070133,3,9924,WHS3_41,Diphtheria
+wpr,mys,whs3_42,0.000897282515809263,21,23404,WHS3_42,Japanese encephalitis
+wpr,mys,whs3_43,0.000739587290167262,294,397519,WHS3_43,Pertussis
+wpr,mys,whs3_45,0.000855755709696701,597,697629,WHS3_45,Leprosy
+wpr,mys,whs3_46,0.0016572375564318,58,34998,WHS3_46,Total tetanus
+wpr,mys,whs3_48,0.000250151178420294,16409,65596333,WHS3_48,Malaria
+wpr,mys,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,mys,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,mys,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,mys,whs3_56,0.00129945134276639,18,13852,WHS3_56,Neonatal tetanus
+wpr,mys,whs3_57,0.00153277836922643,478,311852,WHS3_57,Rubella
+wpr,mys,whs3_62,0.00198464690422724,1795,904443,WHS3_62,Measles
+wpr,niu,tb_tot_newrel,5.77310841072041e-08,1,17321691,TB_tot_newrel,Tuberculosis
+wpr,niu,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,niu,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,niu,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,niu,whs3_45,0,0,697629,WHS3_45,Leprosy
+wpr,niu,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,niu,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,niu,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,niu,whs3_52,0,0,909,WHS3_52,Plague
+wpr,niu,whs3_53,5.3219259624304e-07,1,1879019,WHS3_53,Mumps
+wpr,niu,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,niu,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,niu,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,niu,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,nru,tb_tot_newrel,6.92773009286449e-07,12,17321691,TB_tot_newrel,Tuberculosis
+wpr,nru,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,nru,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,nru,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,nru,whs3_45,7.16713324704105e-06,5,697629,WHS3_45,Leprosy
+wpr,nru,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,nru,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,nru,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,nru,whs3_52,0,0,909,WHS3_52,Plague
+wpr,nru,whs3_53,0,0,1879019,WHS3_53,Mumps
+wpr,nru,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,nru,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,nru,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,nru,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,nzl,tb_tot_newrel,5.21889000329125e-05,904,17321691,TB_tot_newrel,Tuberculosis
+wpr,nzl,whs3_41,0.00201531640467553,20,9924,WHS3_41,Diphtheria
+wpr,nzl,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,nzl,whs3_43,0.00782352541639519,3110,397519,WHS3_43,Pertussis
+wpr,nzl,whs3_45,5.73370659763284e-06,4,697629,WHS3_45,Leprosy
+wpr,nzl,whs3_46,0.000200011429224527,7,34998,WHS3_46,Total tetanus
+wpr,nzl,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,nzl,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,nzl,whs3_52,0,0,909,WHS3_52,Plague
+wpr,nzl,whs3_53,4.63007558731444e-05,87,1879019,WHS3_53,Mumps
+wpr,nzl,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,nzl,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,nzl,whs3_57,8.33728820081321e-05,26,311852,WHS3_57,Rubella
+wpr,nzl,whs3_62,0.000926537106263192,838,904443,WHS3_62,Measles
+wpr,phl,tb_tot_newrel,0.0293532542521397,508448,17321691,TB_tot_newrel,Tuberculosis
+wpr,phl,whs3_40,0.000147950880307738,120,811080,WHS3_40,Colera
+wpr,phl,whs3_41,0.0226723095525998,225,9924,WHS3_41,Diphtheria
+wpr,phl,whs3_42,0.00794735942573919,186,23404,WHS3_42,Japanese encephalitis
+wpr,phl,whs3_43,0.000160998593777907,64,397519,WHS3_43,Pertussis
+wpr,phl,whs3_45,0.00810459427575402,5654,697629,WHS3_45,Leprosy
+wpr,phl,whs3_46,0.105691753814504,3699,34998,WHS3_46,Total tetanus
+wpr,phl,whs3_48,0.000723028221714772,47428,65596333,WHS3_48,Malaria
+wpr,phl,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,phl,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,phl,whs3_56,0.0334969679468669,464,13852,WHS3_56,Neonatal tetanus
+wpr,phl,whs3_57,0.00482280055923964,1504,311852,WHS3_57,Rubella
+wpr,phl,whs3_62,0.0158937600268895,14375,904443,WHS3_62,Measles
+wpr,plw,tb_tot_newrel,2.8865542053602e-06,50,17321691,TB_tot_newrel,Tuberculosis
+wpr,plw,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,plw,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,plw,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,plw,whs3_45,1.00339865458575e-05,7,697629,WHS3_45,Leprosy
+wpr,plw,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,plw,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,plw,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,plw,whs3_52,0,0,909,WHS3_52,Plague
+wpr,plw,whs3_53,0,0,1879019,WHS3_53,Mumps
+wpr,plw,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,plw,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,plw,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,plw,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,png,tb_tot_newrel,0.00240911813979363,41730,17321691,TB_tot_newrel,Tuberculosis
+wpr,png,whs3_40,0.00430537061695517,3492,811080,WHS3_40,Colera
+wpr,png,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,png,whs3_43,0.0314601314654142,12506,397519,WHS3_43,Pertussis
+wpr,png,whs3_45,0.00145922832909756,1018,697629,WHS3_45,Leprosy
+wpr,png,whs3_46,0.00608606206068918,213,34998,WHS3_46,Total tetanus
+wpr,png,whs3_48,0.00385146529456151,252642,65596333,WHS3_48,Malaria
+wpr,png,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,png,whs3_52,0,0,909,WHS3_52,Plague
+wpr,png,whs3_56,0.0153768408894023,213,13852,WHS3_56,Neonatal tetanus
+wpr,png,whs3_57,0.000137885920244218,43,311852,WHS3_57,Rubella
+wpr,png,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,sgp,tb_tot_newrel,0.000272837103490647,4726,17321691,TB_tot_newrel,Tuberculosis
+wpr,sgp,whs3_40,2.46584800512896e-06,2,811080,WHS3_40,Colera
+wpr,sgp,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,sgp,whs3_42,4.27277388480602e-05,1,23404,WHS3_42,Japanese encephalitis
+wpr,sgp,whs3_43,0.00012578015138899,50,397519,WHS3_43,Pertussis
+wpr,sgp,whs3_45,4.30027994822463e-05,30,697629,WHS3_45,Leprosy
+wpr,sgp,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,sgp,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,sgp,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,sgp,whs3_53,0.000842993072448975,1584,1879019,WHS3_53,Mumps
+wpr,sgp,whs3_55,0.0048780487804878,2,410,WHS3_55,Congenital Rubella Syndrome
+wpr,sgp,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,sgp,whs3_57,0.00143016559137027,446,311852,WHS3_57,Rubella
+wpr,sgp,whs3_62,0.000236609714487259,214,904443,WHS3_62,Measles
+wpr,slb,tb_tot_newrel,6.36196546861389e-05,1102,17321691,TB_tot_newrel,Tuberculosis
+wpr,slb,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,slb,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,slb,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,slb,whs3_45,6.30707725739612e-05,44,697629,WHS3_45,Leprosy
+wpr,slb,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,slb,whs3_48,0.00151476455246363,99363,65596333,WHS3_48,Malaria
+wpr,slb,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,slb,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,slb,whs3_52,0,0,909,WHS3_52,Plague
+wpr,slb,whs3_53,0,0,1879019,WHS3_53,Mumps
+wpr,slb,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,slb,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,slb,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,slb,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,ton,tb_tot_newrel,1.61647035500171e-06,28,17321691,TB_tot_newrel,Tuberculosis
+wpr,ton,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,ton,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,ton,whs3_43,1.2578015138899e-05,5,397519,WHS3_43,Pertussis
+wpr,ton,whs3_45,0,0,697629,WHS3_45,Leprosy
+wpr,ton,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,ton,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,ton,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,ton,whs3_52,0,0,909,WHS3_52,Plague
+wpr,ton,whs3_53,0,0,1879019,WHS3_53,Mumps
+wpr,ton,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,ton,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,ton,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,ton,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,tuv,tb_tot_newrel,2.54016770071698e-06,44,17321691,TB_tot_newrel,Tuberculosis
+wpr,tuv,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,tuv,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,tuv,whs3_45,0,0,697629,WHS3_45,Leprosy
+wpr,tuv,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,tuv,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,tuv,whs3_52,0,0,909,WHS3_52,Plague
+wpr,tuv,whs3_53,0,0,1879019,WHS3_53,Mumps
+wpr,tuv,whs3_55,0,0,410,WHS3_55,Congenital Rubella Syndrome
+wpr,tuv,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,tuv,whs3_57,0,0,311852,WHS3_57,Rubella
+wpr,tuv,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,vnm,tb_tot_newrel,0.0166673680993386,288707,17321691,TB_tot_newrel,Tuberculosis
+wpr,vnm,whs3_40,0.000584405977215564,474,811080,WHS3_40,Colera
+wpr,vnm,whs3_41,0.00272067714631197,27,9924,WHS3_41,Diphtheria
+wpr,vnm,whs3_42,0.0142710647752521,334,23404,WHS3_42,Japanese encephalitis
+wpr,vnm,whs3_43,0.00077480573255618,308,397519,WHS3_43,Pertussis
+wpr,vnm,whs3_45,0.00217880850710048,1520,697629,WHS3_45,Leprosy
+wpr,vnm,whs3_46,0.0179724555688897,629,34998,WHS3_46,Total tetanus
+wpr,vnm,whs3_48,0.000766155632510738,50257,65596333,WHS3_48,Malaria
+wpr,vnm,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,vnm,whs3_51,0.0774647887323944,11,142,WHS3_51,H5N1
+wpr,vnm,whs3_55,0.460975609756098,189,410,WHS3_55,Congenital Rubella Syndrome
+wpr,vnm,whs3_56,0.00721917412647993,100,13852,WHS3_56,Neonatal tetanus
+wpr,vnm,whs3_57,0.0356964200967125,11132,311852,WHS3_57,Rubella
+wpr,vnm,whs3_62,0.0112124257692303,10141,904443,WHS3_62,Measles
+wpr,vut,tb_tot_newrel,2.07831902785935e-05,360,17321691,TB_tot_newrel,Tuberculosis
+wpr,vut,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,vut,whs3_43,0,0,397519,WHS3_43,Pertussis
+wpr,vut,whs3_45,1.43342664940821e-05,10,697629,WHS3_45,Leprosy
+wpr,vut,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,vut,whs3_48,0.000261874394716546,17178,65596333,WHS3_48,Malaria
+wpr,vut,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,vut,whs3_52,0,0,909,WHS3_52,Plague
+wpr,vut,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,vut,whs3_62,0,0,904443,WHS3_62,Measles
+wpr,wsm,tb_tot_newrel,2.8865542053602e-06,50,17321691,TB_tot_newrel,Tuberculosis
+wpr,wsm,whs3_41,0,0,9924,WHS3_41,Diphtheria
+wpr,wsm,whs3_42,0,0,23404,WHS3_42,Japanese encephalitis
+wpr,wsm,whs3_43,5.53432666111557e-05,22,397519,WHS3_43,Pertussis
+wpr,wsm,whs3_45,2.43682530399396e-05,17,697629,WHS3_45,Leprosy
+wpr,wsm,whs3_46,0,0,34998,WHS3_46,Total tetanus
+wpr,wsm,whs3_49,0,0,1668,WHS3_49,Poliomyelitis
+wpr,wsm,whs3_50,0,0,3464,WHS3_50,Yellow fever
+wpr,wsm,whs3_52,0,0,909,WHS3_52,Plague
+wpr,wsm,whs3_53,5.3219259624304e-07,1,1879019,WHS3_53,Mumps
+wpr,wsm,whs3_55,0.0219512195121951,9,410,WHS3_55,Congenital Rubella Syndrome
+wpr,wsm,whs3_56,0,0,13852,WHS3_56,Neonatal tetanus
+wpr,wsm,whs3_57,3.20664930800508e-06,1,311852,WHS3_57,Rubella
+wpr,wsm,whs3_62,8.84522297148632e-06,8,904443,WHS3_62,Measles
