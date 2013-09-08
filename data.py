@@ -29,3 +29,8 @@ disease_name_map = {}
 reader = csv.DictReader(open('data/disease_code_to_name.csv', 'rb'))
 for row in reader:
   disease_name_map[row['code'].lower()] = row['name']
+
+symptoms_for_disease = {}
+reader = csv.reader(open("data/symptoms.csv", 'r'), delimiter=',', quotechar='"')
+for row in reader:
+  symptoms_for_disease[row[0].lower()] = row[1:]

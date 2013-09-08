@@ -54,4 +54,12 @@ def get_probability_for_disease(disease, country=None):
   else:
     return data.background_disease_probability[disease.lower()]
 
-print get_probability_for_disease("TB_tot_newrel","USA")
+def get_symptom_probability(symptom_search):
+  count = 0
+  for disease, symptoms in data.symptoms_for_disease.iteritems():
+    for symptom in symptoms:
+      if symptom_search == symptom:
+        count += 1
+  return 1/float(count)
+
+print get_symptom_probability("cough")
