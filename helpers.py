@@ -71,8 +71,8 @@ def get_symptom_probability(symptom_search):
 def get_highst_score_symptom(symptom):
   """Gets a symptom based on a user submitted search string"""
   symptoms = []
-  print type(symptom)
   symptom = str(symptom)
+  print type(symptom)
   for symptom_name in data.symptoms:
     symptom_name=str(symptom_name)
     print type(symptom_name)
