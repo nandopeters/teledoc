@@ -45,7 +45,8 @@ def transcription_cb():
   sessions[call_id] = {
     "location": location,
     "symptom_whitelist": [],
-    "symptom_blacklist": []
+    "symptom_blacklist": [],
+    "question_count": 0
   }
   member = Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/service_select", call_id, method="POST")
   return ""
@@ -81,8 +82,9 @@ def ems():
   return str(resp)
 
 @app.route("/diagnose", methods=['GET', 'POST'])
-def ems():
+def diagnose():
   user_session = sessions[request.values.get('CallSid')]
+  sessions[request.values.get('CallSid')]['question_count']+=1
   symptoms = symptomelimination.get_ordered_symptom_list(user_session['location'], user_session['symptom_whitelist'], user_session['symptom_blacklist'])
   resp = twilio.twiml.Response()
   print symptoms[0]['symptom']
@@ -103,13 +105,15 @@ def diagnose_cb():
   user_session = sessions[request.values.get('CallSid')]
   diseases = symptomelimination.calculate_probability_for_disease(user_session['location'], user_session['symptom_whitelist'])
   diseases = sorted(diseases, cmp=lambda x, y: cmp(y['probability'],x['probability']))
-  diseases = filter(lambda x: x['probability'] > 0,diseases)
   for disease in diseases:
     print helpers.get_name_for_disease(disease['disease']), disease['probability']
-  if len(diseases) == 1:
+  if user_session['question_count'] >= 3 and diseases[0]['probability'] > 0.8:
     resp.say("We have determined there is a high probability you have {0}".format(helpers.get_name_for_disease(diseases[0]['disease'])),**default_ops)
     resp.hangup()
     del sessions[request.values.get('CallSid')]
+  elif user_session['question_count'] >= 7:
+    resp.say("Sorry, we are unable to determine what you are sick with."**default_ops)
+    resp.redirect('/ems')
   else:
     resp.redirect('/diagnose')
   return str(resp)
