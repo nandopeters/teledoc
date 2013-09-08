@@ -77,6 +77,7 @@ def location_check_cb():
 
 @app.route("/service_select", methods=['GET', 'POST'])
 def service_select():
+  resp = twilio.twiml.Response()
   with resp.gather(numDigits=1, action="/service_select_cb", method="POST") as g:
     g.say("If you're in need of immediate medical attention please press 0 to get information about local medical services. Otherwise press 1 to be diagnosed.", **default_ops)
   return str(resp)
