@@ -51,7 +51,7 @@ def queue():
   resp.say("Please hold while we look up your location.",**default_ops)
   resp.enqueue("pending") #Put the user in the pending queue.
   q = { 'call_id':request.values.get('CallSid'), 'file' : request.values.get('RecordingUrl')}
-  requests.get('http://rocky-retreat-4375.herokuapp.com/?{0}'.format(urllib.urlencode(q)))
+  requests.get('http://enigmatic-cliffs-8074.herokuapp.com/?{0}'.format(urllib.urlencode(q)))
   return str(resp)
 
 @app.route("/transcription-callback", methods=['GET', 'POST'])
