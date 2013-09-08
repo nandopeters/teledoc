@@ -62,7 +62,7 @@ def location_check():
   location_name = helpers.get_country_for_code(sessions[request.values.get('CallSid')]['location'])
   with resp.gather(numDigits=1, action="/location_check_cb", method="POST") as g:
     print location_name
-    resp.say("You are in {0}. Is that correct? Press 1 for yes, 0 for no.".format(location_name),**default_ops)
+    g.say("You are in {0}. Is that correct? Press 1 for yes, 0 for no.".format(location_name),**default_ops)
   return str(resp)
 
 @app.route("/location_check_cb", methods=['GET', 'POST'])
