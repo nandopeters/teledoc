@@ -9,9 +9,12 @@ def calculate_probability_for_disease(country, user_symptom_list):
   normalizing_term = 0
   for disease in diseases_in_country:
     prob = 0
-    for symptom in user_symptom_list:
-      if symptom in data.symptoms_for_disease[disease['disease']]:
-        prob += disease["probability"] * helpers.get_symptom_probability(symptom)
+    if len(user_symptom_list) == 0:
+      prob = 0
+    else:
+      for symptom in user_symptom_list:
+        if symptom in data.symptoms_for_disease[disease['disease']]:
+          prob += disease["probability"] * helpers.get_symptom_probability(symptom)
     normalizing_term += prob
     disease_probabilty.append({ 'disease': disease["disease"], 'probability': prob })
   for disease in disease_probabilty:
