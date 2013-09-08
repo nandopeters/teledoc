@@ -2,6 +2,8 @@ from flask import Flask, request
 import twilio.twiml
 from twilio.rest import TwilioRestClient
 from time import sleep
+import symptomelimination
+import urllib
 
 import helpers
 
@@ -76,6 +78,38 @@ def ems():
   resp.say("To get emergency medical attention in your country hang up and dial {0}".format(" ".join(list(str(number)))),**default_ops)
   resp.hangup()
   return str(resp)
+
+@app.route("/diagnose", methods=['GET', 'POST'])
+def ems():
+  user_session = sessions[request.values.get('CallSid')]
+  symptoms = symptomelimination.get_ordered_symptom_list(user_session['location'], user_session['symptom_whitelist'], user_session['symptom_blacklist'])
+  resp = twilio.twiml.Response()
+  print symptoms[0]['symptom']
+  with resp.gather(numDigits=1, action="/diagnose_cb?symptom={0}".format(urllib.quote(symptoms[0]['symptom'])), method="POST") as g:
+    g.say("Do you have {0}? Press 1 for yes, 0 for no.".format(symptoms[0]['symptom']), **default_ops)
+  return str(resp)
+
+@app.route("/diagnose_cb", methods=['GET', 'POST'])
+def diagnose_cb():
+  symptom = urllib.unquote(request.args.get('symptom'))
+  print symptom
+  resp = twilio.twiml.Response()
+  digit_pressed = request.values.get('Digits', None)
+  if digit_pressed == "1":
+    sessions[request.values.get('CallSid')]['symptom_whitelist'].append(symptom)
+  else:
+    sessions[request.values.get('CallSid')]['symptom_blacklist'].append(symptom)
+  user_session = sessions[request.values.get('CallSid')]
+  diseases = symptomelimination.calculate_probability_for_disease(user_session['location'], user_session['symptom_whitelist'])
+  diseases = sorted(diseases, cmp=lambda x, y: cmp(y['probability'],x['probability']))
+  diseases = filter(lambda x: x['probability'] > 0,diseases)
+  if len(diseases) == 1:
+    resp.say("We have determined there is a high probability you have {0}".format(diseases[0]['disease']),**default_ops)
+  else:
+    resp.redirect('/diagnose')
+  return str(resp)
+
+
 
 ###### SMS stuff
 
