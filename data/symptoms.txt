@@ -1,14 +1,14 @@
-cholera,diarrhea,vomiting,"low blood pressure","sunken eyes","rapid pusle"
-diphteria,fever,chills,fatigue,"bluish skin","sore throat","cough",headache,"difficulty swallowing","painful swallowing","difficulty breathing","rapid breathing"
-H5N1,diarrhea,coma,cough
-japanese encephalitis,fever,headache,malaise
-malaria,headache,fever,fatigue,"back pain",chills,sweating,cough,nausea,vomiting
-measles,fever,cough,"red eyes","head cold",rashes
-meningitis,headache,neck stiffness,confusion,vomiting,"sensitivity to light","sensitivity to noise"
-mumps,"swelled testicles",rashes,fever,headache,malaise
-pertussis,cough,fainting,vomiting
-plague,chills,fever,cramps,seizures,pain,"change of skin colour",bleeding,diarrhea,"low blood pressure",nausea,vomiting
-rubella,"swollen hands","swollen lymphnodes",fever,rashes,
-tetanus,spasms,sweating,fever
-tuberculosis,fever,chills,sweating,"loss of appetite",fatigue,"finger clubbing"
-"yellow fever",fever,headache,chills,"back pain","loss of appetite",nausea,vomiting
+WHS3_40,cholera,diarrhea,vomiting,"low blood pressure","sunken eyes","rapid pusle"
+WHS3_41,diphteria,fever,chills,fatigue,"bluish skin","sore throat","cough",headache,"difficulty swallowing","painful swallowing","difficulty breathing","rapid breathing"
+WHS3_51,H5N1,diarrhea,coma,cough
+WHS3_42,japanese encephalitis,fever,headache,malaise
+WHS3_48,malaria,headache,fever,fatigue,"back pain",chills,sweating,cough,nausea,vomiting
+WHS3_62,measles,fever,cough,"red eyes","head cold",rashes
+WHS3_47,meningitis,headache,neck stiffness,confusion,vomiting,"sensitivity to light","sensitivity to noise"
+WHS3_53,mumps,"swelled testicles",rashes,fever,headache,malaise
+WHS3_43,pertussis,cough,fainting,vomiting
+WHS3_52,plague,chills,fever,cramps,seizures,pain,"change of skin colour",bleeding,diarrhea,"low blood pressure",nausea,vomiting
+WHS3_57,rubella,"swollen hands","swollen lymphnodes",fever,rashes,
+WHS3_56,tetanus,spasms,sweating,fever
+TB_tot_newrel,tuberculosis,fever,chills,sweating,"loss of appetite",fatigue,"finger clubbing"
+WHS3_50,"yellow fever",fever,headache,chills,"back pain","loss of appetite",nausea,vomiting
