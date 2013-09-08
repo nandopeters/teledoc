@@ -59,7 +59,7 @@ def ems_country_transcription():
   print number
   print call_id
   sleep(5) #fml
-  member = client.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number=111", call_id, method="POST")
+  member = Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number=111", call_id, method="POST")
   print member.wait_time
   return ""
 
