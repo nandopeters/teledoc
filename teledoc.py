@@ -60,8 +60,7 @@ def transcription_cb():
   print str(request.args.get('location'))
   location = helpers.get_code_for_country(str(request.values.get('location')))
   call_id = request.values.get('CallSid')
-  print request.values.get('TranscriptionText')
-  print location
+  print location, call_id
   user_session = {
     "location": location,
     "symptom_whitelist": [],
