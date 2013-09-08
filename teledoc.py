@@ -57,10 +57,7 @@ def ems_country_transcription():
   call_id = request.values.get('CallSid')
   print request.values.get('TranscriptionStatus'), request.values.get('TranscriptionText')
   print number
-  print call_id
-  sleep(5) #fml
-  member = Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number=111", call_id, method="POST")
-  print member.wait_time
+  member = Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/ems-finish?ems_number={0}".format(number), call_id, method="POST")
   return ""
 
 @app.route("/ems-finish", methods=['GET', 'POST'])
@@ -69,7 +66,7 @@ def ems_finish():
   print "Showing number to user"
   print number
   resp = twilio.twiml.Response()
-  resp.say("To get emergency medical attention in your country hang up and dial {0}".format(number))
+  resp.say("To get emergency medical attention in your country hang up and dial {0}".format(" ".join(list(str(number)))))
   resp.hangup()
   return str(resp)
 
