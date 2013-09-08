@@ -77,6 +77,7 @@ def ems():
   resp = twilio.twiml.Response()
   resp.say("To get emergency medical attention in your country hang up and dial {0}".format(" ".join(list(str(number)))),**default_ops)
   resp.hangup()
+  del sessions[request.values.get('CallSid')]
   return str(resp)
 
 @app.route("/diagnose", methods=['GET', 'POST'])
@@ -103,8 +104,12 @@ def diagnose_cb():
   diseases = symptomelimination.calculate_probability_for_disease(user_session['location'], user_session['symptom_whitelist'])
   diseases = sorted(diseases, cmp=lambda x, y: cmp(y['probability'],x['probability']))
   diseases = filter(lambda x: x['probability'] > 0,diseases)
+  for disease in diseases:
+    print helpers.get_name_for_disease(disease['disease']), disease['probability']
   if len(diseases) == 1:
     resp.say("We have determined there is a high probability you have {0}".format(helpers.get_name_for_disease(diseases[0]['disease'])),**default_ops)
+    resp.hangup()
+    del sessions[request.values.get('CallSid')]
   else:
     resp.redirect('/diagnose')
   return str(resp)
