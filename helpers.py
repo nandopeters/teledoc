@@ -71,7 +71,9 @@ def get_symptom_probability(symptom_search):
 def get_highst_score_symptom(symptom):
   """Gets a symptom based on a user submitted search string"""
   symptoms = []
+  symptom = str(symptom)
   for symptom_name in data.symptoms:
+    symptom_name=str(symptom_name)
     min_lev = __levenshtein(symptom.lower(), symptom_name.lower()) 
     symptoms.append({"symptom_name": symptom_name, "distance": min_lev})
 
