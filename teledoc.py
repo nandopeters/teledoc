@@ -15,8 +15,8 @@ redis_url = os.getenv('REDISTOGO_URL', 'redis://localhost:6379')
 redis = redis.from_url(redis_url)
 
 #Twilio
-account_sid = "***REMOVED***"
-auth_token  = "***REMOVED***"
+account_sid = ""
+auth_token  = ""
 Tclient = TwilioRestClient(account_sid, auth_token)
 
 #Session
@@ -69,7 +69,7 @@ def transcription_cb():
   }
   set_session(redis, call_id, user_session)
   sleep(2)
-  member = Tclient.members('***REMOVED***').dequeue("http://teledoc.herokuapp.com/location_check", call_id, method="POST")
+  member = Tclient.members('').dequeue("http://teledoc.herokuapp.com/location_check", call_id, method="POST")
   return ""
 
 @app.route("/location_check", methods=['GET', 'POST'])
